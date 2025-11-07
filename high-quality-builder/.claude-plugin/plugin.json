@@ -1,0 +1,8 @@
+{
+  "name": "high-quality-builder",
+  "description": "Adaptive quality pipeline system that learns your standards and ensures high-quality deliverables for any project type",
+  "version": "1.0.0",
+  "author": {
+    "name": "Abe at Acadio"
+  }
+}
