@@ -1,7 +1,3 @@
-# Claude Code Installation Directory
-# This contains the installed plugin and per-machine configuration
-.claude/
-
 # Operating System Files
 .DS_Store
 .DS_Store?

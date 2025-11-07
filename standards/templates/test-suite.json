@@ -1,0 +1,45 @@
+{
+  "projectType": "test-suite",
+  "description": "Writing unit tests, integration tests, E2E tests, and test coverage improvements",
+  "principles": [
+    "Tests should verify actual behavior, not implementation details",
+    "Tests should be deterministic and not flaky",
+    "Test names should clearly describe what is being tested",
+    "Tests should be maintainable and follow established patterns",
+    "Good test coverage reduces bugs and increases confidence in refactoring"
+  ],
+  "validationRules": {
+    "input": [
+      "Code that needs testing or test coverage to improve",
+      "Clear description of what should be tested",
+      "Expected behaviors or scenarios to cover",
+      "Any existing tests or patterns to follow"
+    ]
+  },
+  "qualityCriteria": {
+    "completeness": "Happy path tested, edge cases covered, error cases covered, adequate coverage",
+    "correctness": "Tests verify actual behavior, no false positives, assertions are correct",
+    "consistency": "Test structure consistent, naming consistent, setup/teardown patterns consistent",
+    "performance": "Tests run quickly, no unnecessary delays, can run in parallel if needed",
+    "reliability": "Tests don't flake, not dependent on timing, isolated from each other",
+    "maintainability": "Easy to understand what each test does, clear test data, easy to modify"
+  },
+  "commonPatterns": [
+    "Test both happy path and edge cases",
+    "Use descriptive test names that explain what's being tested",
+    "Use arrange-act-assert pattern",
+    "Mock external dependencies",
+    "Include setup and teardown when needed",
+    "Test error handling and invalid inputs",
+    "Aim for reasonable coverage (70-90% is good)"
+  ],
+  "antiPatterns": [
+    "Testing implementation details instead of behavior",
+    "Flaky tests that sometimes pass and sometimes fail",
+    "Poor test names that don't explain what's tested",
+    "Tests that depend on test execution order",
+    "Not testing error cases",
+    "Over-mocking making tests brittle",
+    "Tests that are slower than the code they test"
+  ]
+}

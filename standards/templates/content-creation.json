@@ -1,0 +1,47 @@
+{
+  "projectType": "content-creation",
+  "description": "Writing articles, blog posts, tutorials, guides, and technical content for audiences",
+  "principles": [
+    "Content should be engaging and hold the reader's interest",
+    "Information should be accurate and well-researched",
+    "Writing should be clear and appropriate for the audience",
+    "Structure should guide the reader from start to finish",
+    "Practical examples and takeaways should be provided"
+  ],
+  "validationRules": {
+    "input": [
+      "Clear topic or subject for the content",
+      "Target audience identified",
+      "Content format (article, tutorial, guide, etc.)",
+      "Key points or sections to cover",
+      "Tone or style preferences"
+    ]
+  },
+  "qualityCriteria": {
+    "completeness": "All main points covered, includes examples, has clear conclusion or takeaway",
+    "correctness": "Information is accurate, facts are verified, quotes properly attributed",
+    "consistency": "Tone consistent throughout, terminology consistent, formatting consistent",
+    "clarity": "Easy to understand, explains concepts clearly, appropriate for target audience",
+    "engagement": "Compelling introduction, maintains reader interest, practical and actionable",
+    "maintainability": "Easy to update or expand, well-organized sections, clear structure"
+  },
+  "commonPatterns": [
+    "Start with compelling introduction that hooks the reader",
+    "Use clear section headers to guide readers",
+    "Include practical examples and use cases",
+    "Break up text with lists, code blocks, or visuals when helpful",
+    "End with key takeaways or conclusions",
+    "Link to related resources",
+    "Proofread carefully for grammar and style"
+  ],
+  "antiPatterns": [
+    "Boring or unclear introduction",
+    "Too theoretical without practical examples",
+    "Poor organization that's hard to follow",
+    "Inconsistent tone or voice",
+    "Grammar and spelling errors",
+    "Unsupported claims or misinformation",
+    "Too long or unfocused on the main topic",
+    "No clear takeaway or conclusion"
+  ]
+}
