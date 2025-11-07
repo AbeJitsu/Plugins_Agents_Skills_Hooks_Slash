@@ -48,9 +48,9 @@ When the user describes what they want to do, match to a type:
 
 Once you identify the project type:
 
-1. Check if standards exist in `standards/standards.json` for that type
+1. Check if standards exist in `high-quality-builder/standards/standards.json` for that type
 2. If YES: Load and display their saved standards
-3. If NO: Offer the default template from `standards/templates/`
+3. If NO: Offer the default template from `high-quality-builder/standards/templates/`
 4. Ask: "Should I use these standards, or would you like to define new ones?"
 
 ## Handling Hybrid Projects

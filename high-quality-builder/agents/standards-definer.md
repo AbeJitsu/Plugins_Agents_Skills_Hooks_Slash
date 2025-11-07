@@ -46,7 +46,7 @@ When `/define-standards <project-type>` is called:
 7. **Summary & Save**
    - Review what you've captured
    - Ask: "Does this capture your standards?"
-   - Save to standards/standards.json under the project type
+   - Save to high-quality-builder/standards/standards.json under the project type
 
 ## Output Format
 
@@ -98,7 +98,7 @@ Structure their answers into this format for saving:
 ## Saving Standards
 
 After the interview, save the structured standards to:
-`standards/standards.json` under the appropriate project type key
+`high-quality-builder/standards/standards.json` under the appropriate project type key
 
 If standards.json doesn't exist yet, create it. If the project type already exists, update it.
 
