@@ -306,7 +306,7 @@ def main():
         pdf_indices = list(range(start, end + 1))
         title = f"Chapter {args.chapter}: {chapter_title}"
         if not args.output:
-            args.output = f"../output/chapter_{args.chapter:02d}.html"
+            args.output = f"../output/chapter_{args.chapter:02d}/chapter_{args.chapter:02d}.html"
 
     elif args.pages:
         try:
@@ -320,7 +320,16 @@ def main():
             print("Error: --pages format should be 'start-end' (PDF indices, 0-based)")
             sys.exit(1)
         if not args.output:
-            args.output = f"../output/pages_{start_idx}_{end_idx}.html"
+            # Determine chapter from pdf indices to store in correct chapter folder
+            chapter_num = None
+            for ch, (ch_start, ch_end, _, _) in CHAPTER_BOUNDARIES.items():
+                if start_idx >= ch_start and end_idx <= ch_end:
+                    chapter_num = ch
+                    break
+            if chapter_num is not None:
+                args.output = f"../output/chapter_{chapter_num:02d}/pages/pages_{start_idx}_{end_idx}.html"
+            else:
+                args.output = f"../output/pages_{start_idx}_{end_idx}.html"
 
     elif args.page is not None:
         pdf_indices = [args.page]
@@ -328,7 +337,16 @@ def main():
         # Display both PDF index and book page in title for clarity
         title = f"Page {book_page or args.page}"
         if not args.output:
-            args.output = f"../output/page_{args.page}.html"
+            # Determine chapter from pdf index to store in correct chapter folder
+            chapter_num = None
+            for ch, (ch_start, ch_end, _, _) in CHAPTER_BOUNDARIES.items():
+                if args.page >= ch_start and args.page <= ch_end:
+                    chapter_num = ch
+                    break
+            if chapter_num is not None:
+                args.output = f"../output/chapter_{chapter_num:02d}/pages/page_{args.page}.html"
+            else:
+                args.output = f"../output/page_{args.page}.html"
 
     else:
         parser.print_help()

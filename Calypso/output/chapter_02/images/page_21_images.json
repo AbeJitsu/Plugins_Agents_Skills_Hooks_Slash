@@ -1,0 +1,14 @@
+{
+  "book_page": 21,
+  "chapter": 2,
+  "image_count": 1,
+  "images": [
+    {
+      "file_path": "images/chapter_02/page_21_image_1.png",
+      "width": 751,
+      "height": 514,
+      "image_index": 1,
+      "image_xref": 851
+    }
+  ]
+}

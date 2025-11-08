@@ -1,0 +1,21 @@
+{
+  "book_page": 22,
+  "chapter": 2,
+  "image_count": 2,
+  "images": [
+    {
+      "file_path": "images/chapter_02/page_22_image_1.png",
+      "width": 1729,
+      "height": 1413,
+      "image_index": 1,
+      "image_xref": 854
+    },
+    {
+      "file_path": "images/chapter_02/page_22_image_2.png",
+      "width": 962,
+      "height": 787,
+      "image_index": 2,
+      "image_xref": 856
+    }
+  ]
+}

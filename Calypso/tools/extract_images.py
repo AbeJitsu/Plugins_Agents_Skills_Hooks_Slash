@@ -11,7 +11,7 @@ import sys
 from pathlib import Path
 
 
-def extract_images_from_page(pdf_path, page_index, output_base_dir="../output"):
+def extract_images_from_page(pdf_path, page_index, output_base_dir="../output", mapping_file=None):
     """
     Extract all embedded images from a PDF page.
 
@@ -19,6 +19,7 @@ def extract_images_from_page(pdf_path, page_index, output_base_dir="../output"):
         pdf_path: Path to PDF file
         page_index: 0-based PDF page index (e.g., 16 for book page 17)
         output_base_dir: Base output directory
+        mapping_file: Path to page_mapping.json for accurate book page lookup
 
     Returns:
         List of extracted image metadata dicts
@@ -37,15 +38,28 @@ def extract_images_from_page(pdf_path, page_index, output_base_dir="../output"):
     else:
         chapter = 0
 
-    # Create output directory
-    output_dir = os.path.join(output_base_dir, f"images", f"chapter_{chapter:02d}")
+    # Create output directory (following chapter-based structure)
+    output_dir = os.path.join(output_base_dir, f"chapter_{chapter:02d}", "images")
     os.makedirs(output_dir, exist_ok=True)
 
     # Get all images on page
     image_list = page.get_images(full=True)
 
     extracted_images = []
-    book_page = page_index + 1 if page_index >= 6 else None
+    # Look up accurate book page from mapping file, fall back to formula
+    book_page = None
+    if mapping_file and os.path.exists(mapping_file):
+        try:
+            with open(mapping_file, 'r') as f:
+                mapping = json.load(f)
+            if str(page_index) in mapping:
+                book_page = mapping[str(page_index)]["book_page"]
+        except:
+            pass
+
+    # Fallback to formula if not in mapping
+    if book_page is None:
+        book_page = page_index + 1 if page_index >= 6 else None
 
     if not image_list:
         print(f"No images found on PDF page {page_index}" +
@@ -131,6 +145,11 @@ def main():
         default='../output',
         help='Base output directory for images'
     )
+    parser.add_argument(
+        '--mapping',
+        default='../analysis/page_mapping.json',
+        help='Path to page_mapping.json for accurate book page lookup'
+    )
 
     args = parser.parse_args()
 
@@ -141,7 +160,7 @@ def main():
 
     # Extract images
     try:
-        images = extract_images_from_page(args.pdf, args.page, args.output)
+        images = extract_images_from_page(args.pdf, args.page, args.output, args.mapping)
 
         if images:
             print(f"\n{'='*60}")

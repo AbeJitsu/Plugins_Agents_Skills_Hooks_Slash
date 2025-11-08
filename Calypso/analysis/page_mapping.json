@@ -1,42 +1,54 @@
 {
-  "14": {
-    "book_page": 15,
-    "chapter": 1
-  },
   "15": {
-    "book_page": 16,
-    "chapter": 2
+    "chapter": 1,
+    "pdf_index": 14
   },
   "16": {
-    "book_page": 17,
-    "chapter": 2
+    "chapter": 2,
+    "pdf_index": 15
   },
   "17": {
-    "book_page": 18,
-    "chapter": 2
+    "chapter": 2,
+    "pdf_index": 16
+  },
+  "18": {
+    "chapter": 2,
+    "pdf_index": 17
   },
   "19": {
-    "book_page": 20,
-    "chapter": 2
+    "chapter": 2,
+    "pdf_index": 18
+  },
+  "20": {
+    "chapter": 2,
+    "pdf_index": 19
   },
   "21": {
-    "book_page": 22,
-    "chapter": 2
+    "chapter": 2,
+    "pdf_index": 20
+  },
+  "22": {
+    "chapter": 2,
+    "pdf_index": 21
   },
   "23": {
-    "book_page": 24,
-    "chapter": 2
+    "chapter": 2,
+    "pdf_index": 22
   },
   "24": {
-    "book_page": 25,
-    "chapter": 2
+    "chapter": 2,
+    "pdf_index": 23
   },
   "25": {
-    "book_page": 26,
-    "chapter": 2
+    "chapter": 2,
+    "pdf_index": 24
   },
   "26": {
-    "book_page": 27,
-    "chapter": 2
+    "chapter": 2,
+    "pdf_index": 25
+  },
+  "27": {
+    "chapter": 2,
+    "pdf_index": 26
   }
 }
