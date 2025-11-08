@@ -217,14 +217,16 @@ class HTMLValidator:
         ul_matches = re.findall(ul_pattern, self.html, re.IGNORECASE | re.DOTALL)
         if ul_matches:
             for i, content in enumerate(ul_matches):
-                li_count = len(re.findall(r'<li', content, re.IGNORECASE))
+                # Match <li followed by whitespace or > to avoid catching <link> tags
+                li_count = len(re.findall(r'<li[\s>]', content, re.IGNORECASE))
                 self.info.append(f"Unordered list {i+1}: {li_count} items")
 
                 if li_count == 0:
                     self.errors.append(f"<ul> element {i+1} has no <li> items")
 
-        # Check for unclosed <li> tags (simple check)
-        li_open = len(re.findall(r'<li', self.html, re.IGNORECASE))
+        # Check for unclosed <li> tags using proper regex patterns
+        # <li must be followed by whitespace or > to avoid matching <link>
+        li_open = len(re.findall(r'<li[\s>]', self.html, re.IGNORECASE))
         li_close = len(re.findall(r'</li>', self.html, re.IGNORECASE))
         if li_open != li_close:
             self.warnings.append(f"Unmatched <li> tags: {li_open} opened, {li_close} closed")
