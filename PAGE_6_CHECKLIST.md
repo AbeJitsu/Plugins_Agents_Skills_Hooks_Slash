@@ -1,8 +1,10 @@
-# Page 6 (Book Page 7) Implementation Checklist
+# PDF Index 6 (Book Page 7) Implementation Checklist
+
+**IMPORTANT: PDF indices are 0-based. PDF index 6 = Book page 7**
 
 ## Reference Files Created:
-- ✅ `output/page_6_reference.html` - Semantic HTML structure based on PDF visual
-- ✅ `output/page_06_reference.png` - Visual reference from PDF
+- ✅ `output/page_6_reference.html` - Semantic HTML structure (PDF index 6, book page 7)
+- ✅ `output/page_06_reference.png` - Visual reference from PDF (book page 7)
 - ✅ `CALYPSO_STRUCTURE.md` - Complete structure documentation
 - ✅ `output/styles/main.css` - Updated with section-divider and sidebar-label styles
 

@@ -2,6 +2,13 @@
 """
 Semantic HTML generator using rich formatting data.
 Combines font information, sizes, and styles to generate high-quality HTML.
+
+PDF Page Mapping:
+  - PDF indices are 0-based (0, 1, 2, ...)
+  - Book pages are 1-based
+  - PDF index 0-5 = Front matter (no book page number)
+  - PDF index 6+ = Book page = PDF index + 1
+  - Example: PDF index 6 = Book page 7 (footer shows "7")
 """
 
 import json
@@ -10,10 +17,11 @@ import sys
 import argparse
 from html import escape
 
-# Chapter boundaries (PDF indices are 0-based)
+# Chapter boundaries (all values are PDF indices, 0-based)
+# Format: chapter_num: (pdf_start_index, pdf_end_index, title, description)
 CHAPTER_BOUNDARIES = {
     0: (0, 5, "Front Matter", ""),
-    1: (6, 14, "The Real Estate Business", ""),
+    1: (6, 14, "The Real Estate Business", ""),  # PDF 6-14 = Book pages 7-15
     2: (15, 28, "Rights in Real Estate", ""),
     3: (29, 42, "Interests and Estates", ""),
     4: (43, 54, "Ownership", ""),
@@ -25,7 +33,22 @@ CHAPTER_BOUNDARIES = {
 
 
 def pdf_index_to_book_page(pdf_index):
-    """Convert PDF index (0-based) to book page number."""
+    """
+    Convert PDF index (0-based) to book page number (1-based).
+
+    PDF index 0-5 have no book page (front matter).
+    PDF index 6+ maps to book page = PDF index + 1.
+
+    Args:
+        pdf_index: 0-based PDF page index
+
+    Returns:
+        Book page number for indices >= 6, None otherwise
+
+    Example:
+        pdf_index_to_book_page(6) -> 7 (footer shows "Page 7")
+        pdf_index_to_book_page(14) -> 15 (footer shows "Page 15")
+    """
     if pdf_index < 6:
         return None
     return pdf_index + 1
@@ -207,11 +230,27 @@ def build_html_from_elements(elements):
 
 
 def generate_html(pages_data, title="Content"):
-    """Generate complete HTML document from pages data."""
+    """
+    Generate complete HTML document from pages data.
+
+    Args:
+        pages_data: Dict of {pdf_index_str: page_data} pairs
+        title: Title for the HTML document
+
+    Returns:
+        Complete HTML document as string
+    """
+    # pages_data keys are PDF indices (strings)
     page_nums = sorted([int(k) for k in pages_data.keys()])
+
     if page_nums:
-        start_book_page = page_nums[0] + 1 if page_nums[0] >= 6 else page_nums[0]
-        end_book_page = page_nums[-1] + 1 if page_nums[-1] >= 6 else page_nums[-1]
+        # Convert PDF indices to book page numbers
+        # PDF index 0-5 = no book page (front matter)
+        # PDF index 6+ = book page = PDF index + 1
+        start_pdf_idx = page_nums[0]
+        end_pdf_idx = page_nums[-1]
+        start_book_page = pdf_index_to_book_page(start_pdf_idx) or start_pdf_idx
+        end_book_page = pdf_index_to_book_page(end_pdf_idx) or end_pdf_idx
         page_range = f"Pages {start_book_page}-{end_book_page}"
     else:
         page_range = ""
@@ -248,11 +287,11 @@ def generate_html(pages_data, title="Content"):
 
 def main():
     parser = argparse.ArgumentParser(description='Generate semantic HTML from rich PDF data')
-    parser.add_argument('--chapter', type=int, help='Chapter number')
-    parser.add_argument('--pages', type=str, help='Page range (e.g., 6-14)')
-    parser.add_argument('--page', type=int, help='Single page')
-    parser.add_argument('--output', type=str, help='Output file')
-    parser.add_argument('--rich-data', default='../analysis/rich_extraction.json', help='Rich extraction JSON')
+    parser.add_argument('--chapter', type=int, help='Chapter number (generates all pages in that chapter)')
+    parser.add_argument('--pages', type=str, help='PDF page range by index (e.g., 6-14). Note: PDF indices are 0-based, so index 6 = book page 7')
+    parser.add_argument('--page', type=int, help='Single PDF page index (0-based). Note: index 6 = book page 7')
+    parser.add_argument('--output', type=str, help='Output file path')
+    parser.add_argument('--rich-data', default='../analysis/rich_extraction.json', help='Rich extraction JSON file path')
 
     args = parser.parse_args()
 
@@ -271,18 +310,22 @@ def main():
 
     elif args.pages:
         try:
-            start, end = map(int, args.pages.split('-'))
-            pdf_indices = list(range(start, end + 1))
-            title = f"Pages {start}-{end}"
+            start_idx, end_idx = map(int, args.pages.split('-'))
+            pdf_indices = list(range(start_idx, end_idx + 1))
+            # Convert PDF indices to book pages for title
+            start_book = pdf_index_to_book_page(start_idx) or start_idx
+            end_book = pdf_index_to_book_page(end_idx) or end_idx
+            title = f"Pages {start_book}-{end_book}"
         except ValueError:
-            print("Error: --pages format should be 'start-end'")
+            print("Error: --pages format should be 'start-end' (PDF indices, 0-based)")
             sys.exit(1)
         if not args.output:
-            args.output = f"../output/pages_{start}_{end}.html"
+            args.output = f"../output/pages_{start_idx}_{end_idx}.html"
 
     elif args.page is not None:
         pdf_indices = [args.page]
         book_page = pdf_index_to_book_page(args.page)
+        # Display both PDF index and book page in title for clarity
         title = f"Page {book_page or args.page}"
         if not args.output:
             args.output = f"../output/page_{args.page}.html"

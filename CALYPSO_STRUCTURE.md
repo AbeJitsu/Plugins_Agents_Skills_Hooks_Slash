@@ -1,6 +1,16 @@
 # Calypso PDF to HTML - Page Structure & CSS Classes
 
-## Page 6 (Book Page 7) Reference Structure
+## PDF Index Mapping
+
+**PDF indices are 0-based, book page numbers start at 1:**
+- PDF index 0-5 = Front matter (no book page numbers)
+- PDF index 6 = Book page 7 (first content page of Chapter 1)
+- PDF index 7 = Book page 8
+- PDF index 14 = Book page 15
+
+**Footer Rule:** Book page = PDF index + 1 (for indices >= 6)
+
+## PDF Index 6 (Book Page 7) Reference Structure
 
 Based on visual analysis of the actual PDF, here's the semantic HTML structure needed:
 

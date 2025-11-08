@@ -3,6 +3,13 @@
 Rich data extractor combining PyMuPDF, pdfplumber, and pattern analysis.
 Extracts complete formatting information: fonts, sizes, styles, positioning, tables.
 Output: rich_extraction.json with full semantic markup information.
+
+PDF Index Mapping:
+  - PDF pages are indexed 0-based (0, 1, 2, ...)
+  - Book pages are numbered 1-based
+  - PDF index 0-5 = Front matter (no book page number)
+  - PDF index 6+ = Book page = PDF index + 1
+  - Example: PDF index 6 extracts to book_page: 7 (footer shows "7")
 """
 
 import json
@@ -22,9 +29,18 @@ def extract_rich_page_data(pdf_path, page_num):
     """
     Extract rich formatting data from a single page.
     Combines PyMuPDF dict (fonts/styles) with pdfplumber (text/tables).
+
+    Args:
+        pdf_path: Path to PDF file
+        page_num: 0-based PDF page index (not book page number)
+                  Example: page_num=6 extracts PDF index 6, which is book page 7
+
+    Returns:
+        Dict with page_number (PDF index), book_page (book number if applicable),
+        text_spans with font metadata, tables, images, and structure analysis
     """
 
-    # Open PDF with PyMuPDF
+    # Open PDF with PyMuPDF (page_num is 0-based index)
     pdf_fitz = fitz.open(pdf_path)
     page_fitz = pdf_fitz[page_num]
     text_dict = page_fitz.get_text("dict")
@@ -34,9 +50,11 @@ def extract_rich_page_data(pdf_path, page_num):
     page_plumber = pdf_plumber.pages[page_num]
 
     # Initialize output
+    # page_number = PDF index (0-based)
+    # book_page = Book page number (1-based), only for PDF indices >= 6
     page_data = {
         "page_number": page_num,
-        "book_page": page_num + 1 if page_num >= 6 else None,
+        "book_page": page_num + 1 if page_num >= 6 else None,  # Book page = PDF index + 1
         "dimensions": {
             "width": page_fitz.rect.width,
             "height": page_fitz.rect.height,
