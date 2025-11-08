@@ -1,0 +1,300 @@
+#!/usr/bin/env python3
+"""
+HTML validation script for Calypso generated pages.
+
+Checks:
+- Valid HTML5 structure
+- Required CSS classes for semantic styling
+- Proper heading hierarchy
+- Structural requirements (nav, footer, sections)
+"""
+
+import sys
+import re
+from pathlib import Path
+
+try:
+    from html.parser import HTMLParser
+except ImportError:
+    print("Error: Could not import html.parser")
+    sys.exit(1)
+
+
+class HTMLValidator:
+    """Validates Calypso HTML pages for structure and semantics."""
+
+    def __init__(self, html_content):
+        """Initialize with HTML content to validate."""
+        self.html = html_content
+        self.errors = []
+        self.warnings = []
+        self.info = []
+
+        # Track state during parsing
+        self.tags = []
+        self.has_charset = False
+        self.has_viewport = False
+        self.has_title = False
+        self.has_css_link = False
+        self.has_page_container = False
+        self.has_page_content = False
+        self.has_chapter_header = False
+        self.has_section_navigation = False
+        self.has_section_heading = False
+        self.has_footer = False
+        self.heading_levels = []
+        self.open_tags_stack = []
+        self.classes_found = set()
+        self.ids_found = set()
+        self.p_count = 0
+        self.ul_stack = []
+        self.current_li_parent = None
+
+    def validate(self):
+        """Run all validations and return results."""
+        self._check_html_structure()
+        self._check_head_section()
+        self._check_required_elements()
+        self._check_heading_hierarchy()
+        self._check_semantic_classes()
+        self._check_lists()
+        self._check_paragraphs()
+
+        return {
+            "valid": len(self.errors) == 0,
+            "errors": self.errors,
+            "warnings": self.warnings,
+            "info": self.info,
+        }
+
+    def _check_html_structure(self):
+        """Check basic HTML structure."""
+        if not self.html.strip().startswith('<!DOCTYPE html>'):
+            self.warnings.append("Missing or incorrect DOCTYPE declaration")
+
+        if '<html' not in self.html.lower():
+            self.errors.append("Missing <html> tag")
+
+        if '</html>' not in self.html.lower():
+            self.errors.append("Missing closing </html> tag")
+
+        # Check for basic tag closure
+        required_tags = [
+            ('<body', '</body>'),
+            ('<head', '</head>'),
+            ('<main', '</main>')
+        ]
+
+        for open_tag, close_tag in required_tags:
+            if open_tag in self.html.lower():
+                if close_tag not in self.html.lower():
+                    self.errors.append(f"Missing closing {close_tag} tag")
+
+    def _check_head_section(self):
+        """Check for required <head> elements."""
+        # Check charset
+        if 'charset' in self.html:
+            self.has_charset = True
+        else:
+            self.warnings.append("Missing charset declaration in <meta>")
+
+        # Check viewport
+        if 'viewport' in self.html:
+            self.has_viewport = True
+        else:
+            self.warnings.append("Missing viewport meta tag (mobile responsiveness)")
+
+        # Check title
+        if '<title>' in self.html and '</title>' in self.html:
+            self.has_title = True
+            title_match = re.search(r'<title>(.+?)</title>', self.html)
+            if title_match:
+                self.info.append(f"Page title: '{title_match.group(1)}'")
+        else:
+            self.errors.append("Missing <title> tag")
+
+        # Check CSS link
+        if 'href=' in self.html and ('.css' in self.html or 'styles' in self.html):
+            self.has_css_link = True
+        else:
+            self.errors.append("Missing CSS stylesheet link")
+
+    def _check_required_elements(self):
+        """Check for required page structure elements."""
+        if 'class="page-container"' in self.html:
+            self.has_page_container = True
+        else:
+            self.errors.append("Missing .page-container element")
+
+        if 'class="page-content"' in self.html:
+            self.has_page_content = True
+        else:
+            self.errors.append("Missing .page-content element")
+
+        if 'class="chapter-header"' in self.html:
+            self.has_chapter_header = True
+        else:
+            self.warnings.append("Missing .chapter-header element")
+
+        if 'class="section-navigation"' in self.html:
+            self.has_section_navigation = True
+        else:
+            self.warnings.append("Missing .section-navigation element")
+
+        if 'class="section-heading"' in self.html:
+            self.has_section_heading = True
+        else:
+            self.warnings.append("Missing .section-heading element (main section heading)")
+
+        if '<footer' in self.html or 'class="page-footer"' in self.html:
+            self.has_footer = True
+        else:
+            self.warnings.append("Missing footer element")
+
+    def _check_heading_hierarchy(self):
+        """Check heading tags and hierarchy."""
+        h_pattern = r'<h([1-6])[^>]*>(.+?)</h\1>'
+        headings = re.findall(h_pattern, self.html, re.IGNORECASE)
+
+        if not headings:
+            self.warnings.append("No headings found on page")
+
+        for level, text in headings:
+            self.heading_levels.append(int(level))
+            self.info.append(f"  h{level}: {text[:50]}...")
+
+        # Check heading hierarchy (shouldn't jump levels drastically)
+        if self.heading_levels:
+            # First heading should ideally be h1
+            if self.heading_levels[0] != 1:
+                self.warnings.append(f"First heading is h{self.heading_levels[0]}, expected h1")
+
+            # Check for large jumps (e.g., h1 directly to h4)
+            for i in range(len(self.heading_levels) - 1):
+                jump = self.heading_levels[i + 1] - self.heading_levels[i]
+                if jump > 1:
+                    self.warnings.append(f"Heading hierarchy jump: h{self.heading_levels[i]} → h{self.heading_levels[i+1]}")
+
+    def _check_semantic_classes(self):
+        """Check for proper semantic CSS classes."""
+        required_classes = {
+            'chapter-header': 'Chapter header container',
+            'chapter-number': 'Chapter number',
+            'chapter-title': 'Chapter title heading',
+            'section-navigation': 'Navigation list',
+            'section-divider': 'Horizontal divider',
+            'section-heading': 'Main section heading',
+            'subsection-label': 'Subsection label',
+            'paragraph': 'Body paragraph',
+            'page-footer': 'Page footer',
+        }
+
+        found_classes = set()
+        class_pattern = r'class="([^"]*)"'
+        for match in re.finditer(class_pattern, self.html):
+            classes = match.group(1).split()
+            found_classes.update(classes)
+
+        self.classes_found = found_classes
+
+        # Check for key semantic classes
+        key_classes = ['page-container', 'page-content', 'section-heading', 'paragraph']
+        missing = [c for c in key_classes if c not in found_classes]
+        if missing:
+            self.warnings.append(f"Missing key semantic classes: {', '.join(missing)}")
+
+        # Info about found classes
+        self.info.append(f"Semantic classes used: {', '.join(sorted(found_classes))}")
+
+    def _check_lists(self):
+        """Check for proper list structure."""
+        # Check for ul/ol without proper li children
+        ul_pattern = r'<ul[^>]*>(.+?)</ul>'
+        ol_pattern = r'<ol[^>]*>(.+?)</ol>'
+
+        ul_matches = re.findall(ul_pattern, self.html, re.IGNORECASE | re.DOTALL)
+        if ul_matches:
+            for i, content in enumerate(ul_matches):
+                li_count = len(re.findall(r'<li', content, re.IGNORECASE))
+                self.info.append(f"Unordered list {i+1}: {li_count} items")
+
+                if li_count == 0:
+                    self.errors.append(f"<ul> element {i+1} has no <li> items")
+
+        # Check for unclosed <li> tags (simple check)
+        li_open = len(re.findall(r'<li', self.html, re.IGNORECASE))
+        li_close = len(re.findall(r'</li>', self.html, re.IGNORECASE))
+        if li_open != li_close:
+            self.warnings.append(f"Unmatched <li> tags: {li_open} opened, {li_close} closed")
+
+    def _check_paragraphs(self):
+        """Check paragraph elements."""
+        p_count = len(re.findall(r'<p[^>]*>', self.html, re.IGNORECASE))
+        self.info.append(f"Total paragraphs: {p_count}")
+
+        # Check for empty paragraphs
+        empty_p_pattern = r'<p[^>]*>\s*</p>'
+        empty_p = re.findall(empty_p_pattern, self.html, re.IGNORECASE)
+        if empty_p:
+            self.warnings.append(f"Found {len(empty_p)} empty paragraph tags")
+
+    def report(self):
+        """Print validation report."""
+        results = self.validate()
+
+        print("\n" + "=" * 70)
+        print("HTML VALIDATION REPORT")
+        print("=" * 70)
+
+        # Status
+        status = "✓ VALID" if results['valid'] else "✗ INVALID"
+        print(f"\nStatus: {status}")
+
+        # Errors
+        if results['errors']:
+            print(f"\n❌ ERRORS ({len(results['errors'])}):")
+            for error in results['errors']:
+                print(f"   • {error}")
+
+        # Warnings
+        if results['warnings']:
+            print(f"\n⚠️  WARNINGS ({len(results['warnings'])}):")
+            for warning in results['warnings']:
+                print(f"   • {warning}")
+
+        # Info
+        if results['info']:
+            print(f"\nℹ️  INFO:")
+            for info in results['info']:
+                print(f"   • {info}")
+
+        print("\n" + "=" * 70)
+        return results['valid']
+
+
+def main():
+    """Main entry point."""
+    if len(sys.argv) < 2:
+        print("Usage: python3 validate_html.py <html_file>")
+        sys.exit(1)
+
+    html_file = sys.argv[1]
+
+    try:
+        with open(html_file, 'r') as f:
+            html_content = f.read()
+    except FileNotFoundError:
+        print(f"Error: File '{html_file}' not found")
+        sys.exit(1)
+    except IOError as e:
+        print(f"Error reading file: {e}")
+        sys.exit(1)
+
+    validator = HTMLValidator(html_content)
+    is_valid = validator.report()
+
+    sys.exit(0 if is_valid else 1)
+
+
+if __name__ == '__main__':
+    main()
