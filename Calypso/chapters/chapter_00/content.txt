@@ -1,0 +1,187 @@
+PRINCIPLES OF
+REAL ESTATE PRACTICE
+IN ALABAMA
+4th Edition
+Stephen Mettling
+David Cusic
+Ryan Mettling
+PERFORMANCE PROGRAMS COMPANY
+---PAGE_BREAK---
+Material in this book is not intended to represent legal advice and should not be so
+construed. Readers should consult legal counsel for advice regarding points of law.
+© 2025 by Performance Programs Company
+6810 190th St E, Bradenton, FL 34211
+info@performanceprogramscompany.com
+www.performanceprogramscompany.com
+All rights reserved. No part of this book may be reproduced in any form by any means without the
+express written consent of the publisher.
+ISBN: 978-1965482322
+---PAGE_BREAK---
+Table of Contents
+Section I : National Principles, Practices And
+Laws
+1 The Real Estate Business 7 9 Legal Descriptions 120
+Real Estate Professions 7 Methods Of Legal Description 120
+Real Estate Brokerage 10 Metes And Bounds 121
+Professional Organizations 12 The Rectangular Survey System 123
+Regulation And Licensing 14 Recorded Plat Method 126
+Describing Elevation 127
+2 Rights In Real Estate 16
+Real Estate As Property 16 10 Fundamentals Of Contract Law 130
+Real Versus Personal Property 23 Contract Validity And Enforceability 130
+Regulation Of Real Property Interests 25 Contract Creation 135
+Classifications Of Contracts 138
+3 Interests And Estates 29
+Contract Termination 139
+Interests And Estates In Land 29
+Freehold Estates 31 11 National Agency 142
+Leasehold Estates 36 The Agency Relationship 142
+Fiduciary Duties 144
+4 Ownership 39
+Forms Of Real Estate Agency 148
+Sole Ownership 39 Agency Disclosure Rules 153
+Co-Ownership 39
+Estates In Trust 45 12 Listing Agreements: An Overview 157
+Ownership By Business Entities 47 Review Of Legal Foundations 157
+Condominiums 48 Types Of Listing Agreement 159
+Cooperatives 51 Fulfillment And Termination 162
+Time-Shares 53 Listing Agreement Clauses 165
+5 Encumbrances And Liens 55 13 General Brokerage Practices 174
+Encumbrances 55 Function And Organization 174
+Easements 56 The Broker-Salesperson Relationship 180
+Encroachments 61 Operating A Real Estate Brokerage 184
+Licenses 61 Business Brokerage 192
+Deed Restrictions 61
+Liens 62
+14 Overview Of Conveyance
+Foreclosure 68 Contracts 198
+Contract For Sale 198
+6 Transferring & Recording Title To Sale Contract Provisions 201
+Real Estate 73 Option-To-Buy Contract 205
+Title To Real Estate 73 Contract For Deed 207
+Deeds Of Conveyance 75
+Wills 80
+15 Real Estate Market Economics 211
+Involuntary Title Transfer 83
+The Market System 211
+Title Records 84
+Real Estate Market Dynamics 215
+7 Leasing Essentials 90
+16 Appraising And Estimating
+The Lease Contract 90 Market Value 223
+Types Of Lease 94 Real Estate Value 223
+Default And Termination 96 Appraising Market Value 227
+Uniform Residential Landlord And Tenant The Sales Comparison Approach 230
+Act 98 The Cost Approach 237
+The Income Capitalization Approach 241
+8 Land Use Planning And Control 101 Regulation Of Appraisal Practice 246
+Real Estate Planning 101
+Public Land Use Control 104 17 Real Estate Finance 249
+Private Land Use Control 111 Anatomy Of Mortgage Lending 249
+Environmental Controls 112 Initiating A Mortgage Loan 255
+Qualifying For A Mortgage Loan 257
+Closing A Loan 265
+Laws Affecting Mortgage Lending 265
+The Mortgage Market 267
+Types Of Real Estate Loans 272
+---PAGE_BREAK---
+18 Real Estate Investment 281 28 Alabama Agency 481
+Investment Fundamentals 281 RECAD 481
+Real Estate As An Investment 284 Brokerage Disclosure 484
+Real Estate Investment Entities 285 Misrepresentation 489
+Taxation Of Real Estate Investments 286 Listings 491
+Investment Analysis Of A Residence 288
+29 Alabama License Law Violations 496
+Investment Analysis Of An Income
+Property 291
+General Issues 496
+Honesty And Good Faith Issues 498
+19 Real Estate Taxation 297 Accountability And Reporting Issues 503
+Taxing Entities 297 Representation Issues 509
+Ad Valorem Taxation 298
+Chapter Tests 517
+Special Assessments 301
+Tax Lien Enforcement 302 Chapter Tests Answer Key 559
+20 Professional Practices 305
+Practice Examination 566
+Fair Housing Laws 305
+Property Disclosures 311 Practice Examination Answer Key 575
+Other Professional Practices 323
+Glossary Of General Real Estate Terms 577
+21 Closings 329
+The Closing Event 329
+Index 588
+Real Estate Settlement Procedures Act 332
+Financial Settlement Of The Transaction 334
+Computing Prorations 338
+Taxes Due At Closing 340
+Closing Cost Itemization: Case Illustration 341
+Tila/Respa Integrated Disclosure Rule 344
+Reporting Requirements 355
+22 Risk Management 358
+Risk Management Strategies 358
+Risk Management Procedures 360
+Primary Areas Of Risk 364
+23 Property Management 380
+Management Functions 380
+The Management Agreement 388
+Leasing Considerations 392
+The Management Business 397
+24 Real Estate Mathematics 401
+Basic Formulas And Functions 401
+Real Estate Applications 406
+Section II : Alabama Principles, Practices
+And Laws
+25 The Alabama Regulatory
+Environment 428
+The Real Estate Commission 428
+Disciplinary Actions And Process 432
+Recovery Fund 436
+26 Alabama Licensing Regulation 442
+Licensing Requirements 442
+License Status 453
+27 Alabama Brokerage Regulation 460
+Broker And Company Licenses 460
+Trust Funds 466
+Estimated Closing Statement 471
+Advertising 474
+Recordkeeping 475
+---PAGE_BREAK---
+Preface
+About
+the text
+the text Principles of Real Estate Practice in Alabama contains the essentials of the national and
+Alabama real estate law, principles, and practices necessary for basic competence as a real
+estate professional and as mandated by Alabama license law. It is based on our highly
+successful and popular national publication, Principles of Real Estate Practice, which is
+in use in real estate schools nationwide.
+The text is tailored to the needs of the pre-license student. It is designed to
+• make it easy for students to learn the material
+• prepare students for numerous career applications
+• stress practical, as well as theoretical, skills and knowledge.
+It is streamlined, direct and to-the-point. It includes multiple learning reinforcements. It has
+a student-oriented organization, both within each chapter and from chapter to chapter. Its
+examples and exercises are grounded in the authors’ many years in real estate education.
+Inside
+the cover Each chapter begins with an overview of the main section heads covered in the chapter. As
+each of these heads is expanded, the subheads are displayed in the margin. Key terms are
+printed in bold type the first time they are used and defined. The chapters conclude with a
+study aid called the "Snapshot Review," which compresses the main points of the chapter
+into one or two pages. At the end of the chapter section are tests on each chapter. The
+answer key following the tests refers to the page in the text that explains the correct
+answer. The book is also provided with a special section on real estate math, a practice
+exam covering national and state topics reflecting the content of the state licensing
+examination, and two glossaries of real estate terminology.
+About the
+authors For over forty years, Stephen Mettling and David Cusic have operated one of the nation's
+most successful custom training organizations specializing in real estate program
+development. Mr. Mettling has also served as vice president and author for a major real
+estate training and publishing organization. In addition, he has managed the acquisition,
+development, and sale of national real estate textbooks and publications, as well as directed
+the country's largest affiliated group of real estate schools.
+Mr. Cusic has been engaged in vocation-oriented education since 1966. Specializing in
+real estate training since 1983, he has developed numerous real estate training programs for
+corporate and institutional clients around the country.
+Ryan Mettling, partner and publisher of Performance Programs, is an accomplished online
+curriculum designer, author, and course developer.
+---PAGE_BREAK---

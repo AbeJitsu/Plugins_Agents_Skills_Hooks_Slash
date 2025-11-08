@@ -1,0 +1,598 @@
+5
+Encumbrances and Liens
+Encumbrances
+Easements
+Encroachments
+Licenses
+Deed Restrictions
+Liens
+Foreclosure
+ENCUMBRANCES
+An encumbrance is an interest in and right to real property that limits the legal
+owner's freehold interest. In effect, an encumbrance is another's right to use or
+take possession of a legal owner's property, or to prevent the legal owner from
+enjoying the full bundle of rights in the estate.
+An encumbrance does not include the right of possession and is therefore a
+lesser interest than the owner's freehold interest. For that reason,
+encumbrances are not considered estates. However, an encumbrance can lead
+to the owner's loss of ownership of the property.
+Easements and liens are the most common types of encumbrance. An
+easement, such as a utility easement, enables others to use the property,
+regardless of the owner's desires. A lien, such as a tax lien, can be placed on
+the property's title, thereby restricting the owner's ability to transfer clear title
+to another party.
+The two general types of encumbrance are those that affect the property's use
+and those that affect legal ownership, value and transfer.
+Chapter 5: Encumbrances and Liens 55
+---PAGE_BREAK---
+Exhibit 5.1 General Types of Encumbrance
+Restrictions on Owner's Use Restrictions on Ownership,
+by Others' Rights to Use Value and Transfer
+easements liens
+encroachments deed conditions
+licenses
+deed restrictions
+EASEMENTS
+Easement appurtenant
+Easement in gross
+Easement creation
+Easement termination
+An easement is an interest in real property that gives the holder the right to
+use portions of the legal owner's real property in a defined way. Easement
+rights may apply to a property's surface, subsurface, or airspace, but the
+affected area must be defined.
+The receiver of the easement right is the benefited party; the giver of the
+easement right is the burdened party.
+Essential characteristics of easements include the following:
+ An easement must involve the owner of the land over which
+the easement runs, and another, non-owning party. One cannot
+own an easement over one's own property.
+ an easement pertains to a specified physical area within the
+property boundaries
+ an easement may be affirmative, allowing a use, such as a right-
+of-way, or negative, prohibiting a use, such as an airspace
+easement that prohibits one property owner from obstructing
+another's ocean view
+The two basic types of easement are appurtenant and gross.
+Easement
+appurtenant An easement appurtenant gives a property owner a right of usage to portions of
+an adjoining property owned by another party. The property enjoying the usage
+right is called the dominant tenement, or dominant estate. The property
+containing the physical easement itself is the servient tenement, since it must
+serve the easement use.
+56 Principles of Real Estate Practice in Alabama
+---PAGE_BREAK---
+The term appurtenant means "attaching to." An easement appurtenant attaches to
+the estate and transfers with it unless specifically stated otherwise in the
+transaction documents. More specifically, the easement attaches as a beneficial
+interest to the dominant estate, and as an encumbrance to the servient estate. The
+easement appurtenant then becomes part of the dominant estate's bundle of
+rights and the servient estate's obligation, or encumbrance.
+Transfer. Easement appurtenant rights and obligations automatically transfer
+with the property upon transfer of either the dominant or servient estate,
+whether mentioned in the deed or not. For example, John grants Mary the right
+to share his driveway at any time over a five-year period, and the grant is duly
+recorded. If Mary sells her property in two years, the easement right transfers to
+the buyer as part of the estate.
+Non-exclusive use. The servient tenement, as well as the dominant tenement,
+may use the easement area, provided the use does not unreasonably obstruct the
+dominant use.
+Exhibit 5.2 Easements appurtenant
+The exhibit shows a conventional easement appurtenant. The driveway marked
+A belongs to parcel #2. An easement appurtenant, marked B, allows parcel #3 to
+use #2's driveway. Parcel #3 is the dominant tenement, and #2 is the servient
+tenement.
+Easement by necessity. An easement by necessity is an easement appurtenant
+granted by a court of law to a property owner because of a circumstance of
+necessity, most commonly the need for access to a property. Since property
+cannot be legally landlocked, or without legal access to a public thoroughfare, a
+court will grant an owner of a landlocked property an easement by necessity
+Chapter 5: Encumbrances and Liens 57
+---PAGE_BREAK---
+over an adjoining property that has access to a thoroughfare. The landlocked
+party becomes the dominant tenement, and the property containing the easement
+is the servient tenement.
+In the exhibit, parcel #1, which is landlocked, owns an easement by
+necessity, marked C, across parcel #2.
+Party wall easement. A party wall is a common wall shared by two
+separate structures along a property boundary.
+Party wall agreements generally provide for severalty ownership of half of the
+wall by each owner, or at least some fraction of the width of the wall. In
+addition, the agreement grants a negative easement appurtenant to each owner in
+the other's wall. This is to prevent unlimited use of the wall, in particular a
+destructive use that would jeopardize the adjacent property owner's building.
+The agreement also establishes responsibilities and obligations for maintenance
+and repair of the wall.
+For example, Helen and Troy are adjacent neighbors in an urban housing
+complex having party walls on property lines. They both agree that they
+separately own the portion of the party wall on their property. They also grant
+each other an easement appurtenant in their owned portion of the wall. The
+easement restricts any use of the wall that would impair its condition. They also
+agree to split any repairs or maintenance evenly.
+Other structures that are subject to party agreements are common fences,
+driveways, and walkways.
+Easement in gross An easement in gross is a personal right that one party grants to another to use
+the grantor's real property. The right does not attach to the grantor's estate. It
+involves only one property, and, consequently, does not benefit any property
+owned by the easement owner. There are no dominant or servient estates in an
+easement in gross. An easement in gross may be personal or commercial.
+58 Principles of Real Estate Practice in Alabama
+---PAGE_BREAK---
+Exhibit 5.3 Easements in Gross
+Personal. A personal easement in gross is granted for the grantee's lifetime. The
+right is irrevocable during this period, but terminates on the grantee's death. It
+may not be sold, assigned, transferred, or willed. A personal gross easement
+differs from a license in that the grantor of a license may revoke the usage right.
+The exhibit shows that a beachfront property owner (A) has granted a neighbor
+(B) across the street the right to cross A's property to reach the beach.
+Commercial. A commercial easement in gross is granted to a business entity
+rather than a private party. The duration of the commercial easement is not tied to
+anyone's
+lifetime. The right may by assigned, transferred, or willed.
+Examples of commercial gross easements include:
+ a marina's right-of-way to a boat ramp
+ a utility company's right-of-way across a lot owners' property to
+install and maintain telephone lines (as illustrated in the exhibit).
+Easement creation An easement may be created by voluntary action, by necessary or
+prescriptive operation of law, and by government power of eminent
+domain.
+Voluntary. A property owner may create a voluntary easement by express grant
+in a sale contract, or as a reserved right expressed in a deed.
+Necessity. A court decree creates an easement by necessity to provide access
+to a landlocked property. Easement by prescription. If someone uses
+another's property as an easement without permission for a statutory period of
+time and under certain conditions, a court order may give the user the easement
+right by prescription, regardless of the owner's desires.
+Chapter 5: Encumbrances and Liens 59
+---PAGE_BREAK---
+For a prescriptive easement order to be granted, the following circumstances
+must be true:
+ Adverse and hostile use
+the use has been occurring without permission or license
+ Open and notorious use
+the owner knows or is presumed to have known of the use
+ Continuous use
+the use has been generally uninterrupted over the statutory
+prescriptive period
+For example, a subdivision owns an access road, which is also used by other
+neighborhoods to access a grocery store. One day, the subdivision blocks off
+the road, claiming it has never granted the neighbors permission to use the
+road. If the neighbors have been using the road for the prescribed period, they
+may sue for an easement by prescription, since the subdivision owners can be
+assumed to have known of the usage.
+Eminent domain. Government entities can create easements through the
+exercise of eminent domain, wherein they condemn a portion of a property and
+cause it to be sold "for the greater good." A typical example is a town's
+condemnation of private land to create a new municipal sewer system.
+Easement
+termination Easements terminate by:
+ express release of the right by the easement holder
+ merger, as when a dominant tenement acquires the servient
+property, or vice versa
+ purposeful abandonment by the dominant tenement
+ condemnation through eminent domain
+ change or cessation of the purpose for the easement
+ destruction of an easement structure, such as a party fence
+ non-use of an easement by prescription
+60 Principles of Real Estate Practice in Alabama
+---PAGE_BREAK---
+ENCROACHMENTS
+An encroachment is the unauthorized, physical intrusion of one owner's real
+property into that of another.
+Examples of encroachments are:
+ a tree limb extending into the neighbor's property, violating his
+or her airspace
+ a driveway extending beyond the lot line onto the neighbor's land
+ a fence built beyond the property line
+Encroachments cause infringements on the rights of the trespassed owner, and
+may diminish the property's value, particularly when the property is to be sold.
+Encroachments often do not appear on a property's title records. A survey may
+be required to detect or demonstrate the existence of an encroachment.
+An owner may sue for removal of an encroachment or for compensation for
+damages. If an encroached owner takes no remedial action over a prescribed
+number of years, the encroachment may become an easement by prescription.
+LICENSES
+A license, much like a personal easement in gross, is a personal right that a
+property owner grants to another to use the property for a specific purpose.
+Licenses are not transferrable and do not attach to the land. They cease on the
+death of either party, or on the sale of the property.
+Unlike a personal easement in gross, a license is revocable at any time. Licenses
+are often granted informally, as a verbal statement of permission.
+A farmer granting a neighbor permission to cross his land to reach and fish in
+his pond is an example of a license.
+DEED RESTRICTIONS
+A deed restriction is a limitation imposed on a buyer's use of a
+property by stipulation in the deed of conveyance or recorded
+subdivision plat.
+Chapter 5: Encumbrances and Liens 61
+---PAGE_BREAK---
+A deed restriction may apply to a single property or to an entire subdivision. A
+developer may place restrictions on all properties within a recorded subdivision
+plat. Subsequent re-sales of properties within the subdivision are thereby subject
+to the plat's covenants and conditions.
+A private party who wants to control the quality and standards of a property
+can establish a deed restriction. Deed restrictions take precedence over
+zoning ordinances if they are more restrictive.
+Deed restrictions typically apply to:
+ the land use
+ the size and type of structures that may be placed on the property
+ minimum costs of structures
+ engineering, architectural, and aesthetic standards, such as
+setbacks or specific standards of construction
+Deed restrictions in a subdivision, for example, might include a minimum size
+for the residential structure, setback requirements for the home, and prohibitions
+against secondary structures such as sheds or cottages.
+Deed restrictions are either covenants or conditions. A condition can only
+be created within a transfer of ownership. If a condition is later violated, a
+suit can force the owner to forfeit ownership to the previous owner. A
+covenant can be created by mutual agreement. If a covenant is breached, an
+injunction can force compliance or payment of compensatory damages.
+LIENS
+Lien types
+Lien priority
+Superior liens
+Junior liens
+A lien is a creditor's claim against personal or real property as security for a debt
+of the property owner. If the owner defaults, the lien gives the creditor the right
+to force the sale of the property to satisfy the debt.
+For example, a homeowner borrows $5,000 to pay for a new roof. The lender
+funds the loan in exchange for the borrower's promissory note to repay the loan.
+At the same time, the lender places a lien on the property for $5,000 as security
+for the debt. If the borrower defaults, the lien allows the lender to force the sale
+of the house to satisfy the debt.
+The example illustrates that a lien is an encumbrance that restricts free and clear
+ownership by securing the liened property as collateral for a debt. If the owner
+sells the property, the lienholder is entitled to that portion of the sales proceeds
+needed to pay off the debt. In addition, a defaulting owner may lose ownership
+altogether if the creditor forecloses.
+62 Principles of Real Estate Practice in Alabama
+---PAGE_BREAK---
+In addition to restricting the owner's bundle of rights, a recorded lien
+effectively reduces the owner's equity in the property to the extent of the lien
+amount.
+The creditor who places a lien on a property is called the lienor, and the debtor
+who owns the property is the lienee.
+Liens have the following legal features:
+ a lien does not convey ownership, with one exception
+A lienor generally has an equitable interest in the property, but
+not legal ownership. The exception is a mortgage lien on a
+property in a title-theory state. In these states, the mortgage
+transaction conveys legal title to the lender, who holds it until the
+mortgage obligations are satisfied. During the mortgage loan
+period, the borrower has equitable title to the property.
+ a lien attaches to the property
+If the property is transferred, the new owner acquires the lien
+securing the payment of the debt. In addition, the creditor may
+take foreclosure action against the new owner for satisfaction of
+the debt.
+ a property may be subject to multiple liens
+There may be numerous liens against a particular property. The
+more liens there are recorded against property, the less secure the
+collateral is for a creditor, since the total value of all liens may
+approach or exceed the total value of the property.
+ a lien terminates on payment of the debt and
+recording of documents
+Payment of the debt and recording of the appropriate satisfaction
+documents ordinarily terminate a lien. If a default occurs, a suit
+for judgment or foreclosure enforces the lien. These actions force
+the sale of the property.
+Lien types Liens may be voluntary or involuntary, general or specific, and superior or inferior.
+Voluntary and involuntary. A property owner may create a voluntary lien to
+borrow money or some other asset secured by a mortgage. An involuntary lien
+is one that a legal process places against a property regardless of the owner's
+desires.
+If statutory law imposes an involuntary lien, the lien is a statutory lien. A real
+estate tax lien is a common example. If court action imposes an involuntary lien,
+Chapter 5: Encumbrances and Liens 63
+---PAGE_BREAK---
+the lien is an equitable lien. An example is a judgment lien placed on a property
+as security for a money judgment.
+General and specific. A general lien is one placed against any and all real and
+personal property owned by a particular debtor. An example is an inheritance
+tax lien placed against all property owned by the heir. A specific lien attaches to
+a single item of real or personal property, and does not affect other property
+owned by the debtor. A conventional mortgage lien is an example, where the
+property is the only asset attached by the lien.
+Superior and inferior lien. The category of superior, or senior, liens ranks
+above the category of inferior, or junior, liens, meaning that superior liens
+receive first payment from the proceeds of a foreclosure. The superior category
+includes liens for real estate tax, special assessments, and inheritance tax.
+Other liens, including income tax liens, are inferior.
+Lien priority Within the superior and inferior categories, a ranking of lien priority determines
+the order of the liens' claims on the security underlying the debt. The highest
+ranking lien is first to receive proceeds from the foreclosed and liquidated
+security. The lien with lowest priority is last in line. The owner receives any sale
+proceeds that remain after all lienors receive their due.
+Lien priority is of paramount concern to the creditor, since it establishes the
+level of risk in recovering loaned assets in the event of default.
+Establishment of priority. Two factors primarily determine lien priority:
+ the lien's categorization as superior or junior
+ the date of recordation of the lien
+64 Principles of Real Estate Practice in Alabama
+---PAGE_BREAK---
+Exhibit 5.4 Priority of Real Estate Liens
+Superior liens in rank order
+1. Real estate tax liens
+2. Special assessment liens
+3. Federal estate tax liens
+4. State inheritance tax liens
+Junior liens: priority by date of recording
+Federal income tax liens
+State corporate income tax liens
+State intangible tax liens
+Judgment liens
+Mortgage liens
+Vendor's liens
+Mechanic's liens (by date work was performed)
+Broker’s liens
+All superior liens take precedence over all junior liens regardless of recording
+date, since they are considered to be matters of public record not requiring
+further constructive notice. Thus, a real estate tax lien (senior) recorded on June
+15 has priority over an income tax lien (junior) recorded on June 1.
+A junior lien is automatically inferior, or subordinate, to a superior lien.
+Among junior liens, date of recording determines priority. The rule is: the
+earlier the recording date of the lien, the higher its priority. For example, if a
+judgment lien is recorded against a property on Friday, and a mortgage lien is
+recorded on the following Tuesday, the judgment lien has priority and must be
+satisfied in a foreclosure ahead of the mortgage lien.
+The mechanic's lien is an exception to the recording rule. Its priority dates from
+the point in time when the work commenced or ended, as state law determines,
+rather than from when it was recorded.
+The following example illustrates how lien priority works in paying off secured
+debts. A homeowner is foreclosed on a second mortgage taken out in 2018 for
+$25,000. The first mortgage, taken in 2016, has a balance of $150,000. Unpaid
+real estate taxes for the current year are $1,000. There is a $3,000 mechanic's
+lien on the property for work performed in 2017. The home sells for $183,000.
+Chapter 5: Encumbrances and Liens 65
+---PAGE_BREAK---
+The proceeds are distributed in the following order:
+1. $1,000 real estate taxes
+2. $150,000 first mortgage
+3. $3,000 mechanic's lien
+4. $25,000 second mortgage
+5. $4,000 balance to the homeowner
+Note the risky position of the second mortgage holder: the property had to sell
+for at least $179,000 for the lender to recover the $25,000.
+Subordination. A lienor can change the priority of a junior lien by voluntarily
+agreeing to subordinate, or lower, the lien's position in the hierarchy. This
+change is often necessary when working with a mortgage lender who will not
+originate a mortgage loan unless it is senior to all other junior liens on the
+property. The lender may require the borrower to obtain agreements from other
+lien holders to subordinate their liens to the new mortgage.
+For example, interest rates fall from 8% to 6.5% on first mortgages for principal
+residences. A homeowner wants to refinance her mortgage, but she also has a
+separate home-equity loan on the house. Since the first-mortgage lender will not
+accept a lien priority inferior to a home equity loan, the homeowner must
+persuade the home equity lender to subordinate the home equity lien to the new
+first-mortgage lien.
+Superior liens Real estate tax lien. The local legal taxing authority annually places a real
+estate tax lien, also called an ad valorem tax lien, against properties as security
+for payment of the annual property tax. The amount of a particular lien is based
+on the taxed property's assessed value and the local tax rate.
+Special assessment lien. Local government entities place assessment liens
+against certain properties to ensure payment for local improvement projects
+such as new roads, schools, sewers, or libraries. An assessment lien applies only
+to properties that are expected to benefit from the municipal improvement.
+Federal and state inheritance tax liens. Inheritance tax liens arise from
+taxes owed by a decedent's estate. The lien amount is determined through
+probate and attaches to both real and personal property.
+Junior liens Tax liens. All tax liens other than those for ad valorem, assessment, and estate
+tax are junior liens. They include:
+ federal income tax lien
+placed on a taxpayer's real and personal property for failure to
+pay income taxes
+66 Principles of Real Estate Practice in Alabama
+---PAGE_BREAK---
+ state corporate income tax lien
+filed against corporate property for failure to pay taxes
+ state intangible tax lien
+filed for non-payment of taxes on intangible property
+ state corporation franchise tax lien
+filed to ensure collection of fees to do business within a state
+Judgment lien. A judgment lien attaches to real and personal property as a
+result of a money judgment issued by a court in favor of a creditor. The creditor
+may obtain a writ of execution to force the sale of attached property and collect
+the debt. After paying the debt from the sale proceeds, the debtor may obtain a
+satisfaction of judgment to clear the title records on other real property that
+remains unsold.
+During the course of a lawsuit, the plaintiff creditor may secure a writ of
+attachment to prevent the debtor from selling or concealing property. In such a
+case, there must be a clear likelihood that the debt is valid and that the defendant
+has made attempts to sell or hide property.
+Certain properties are exempt from judgment liens, such as homestead property
+and joint tenancy estates.
+Mortgage and trust deed lien. In lien-theory states, mortgages and trust deeds
+secure loans made on real property. In these states, the lender records a lien as
+soon as possible after disbursing the funds in order to establish lien priority.
+Vendor's lien. A vendor's lien, also called a seller's lien, secures a purchase
+money mortgage, a seller's loan to a buyer to finance the sale of a property.
+Municipal utility lien. A municipality may place a utility lien against a
+resident's real property for failure to pay utility bills.
+Mechanic's lien. A mechanic's lien secures the costs of labor, materials, and
+supplies incurred in the repair or construction of real property improvements. If
+a property owner fails to pay for work performed or materials supplied, a worker
+or supplier can file a lien to force the sale of the property and collect the debt.
+Any individual who performs approved work may place a mechanic's lien on the
+property to the extent of the direct costs incurred. Note that unpaid
+subcontractors may record mechanic's liens whether the general contractor has
+been paid or not. Thus it is possible for an owner to have to double-pay a bill in
+order to eliminate the mechanic's lien if the general contractor neglects to pay
+the subcontractors. The mechanic's lienor must enforce the lien within a certain
+time period, or the lien expires.
+Chapter 5: Encumbrances and Liens 67
+---PAGE_BREAK---
+In contrast to other junior liens, the priority of a mechanic's lien dates from the
+time when the work was begun or completed. For example, a carpenter finishes a
+job on May 15. The owner refuses to pay the carpenter in spite of the carpenter's
+two-month collection effort. Finally, on August 1, the carpenter places a
+mechanic's lien on the property. The effective date of the lien for purposes of
+lien priority is May 15, not August 1.
+Broker’s lien. Many states allow a broker in specified circumstances to file a
+broker’s lien against a property in a transaction in case the party obligated to pay
+the broker a commission refuses to pay. The lien attaches to the real estate
+interest owned by the obligated party.
+FORECLOSURE
+Mortgage lien foreclosure
+Judicial foreclosure
+Non-judicial foreclosure
+Strict foreclosure
+Deed in lieu of foreclosure
+Short sale
+All liens can be enforced by the sale or other transfer of title of the secured
+property, whether by court action, operation of law, or through powers granted in
+the original loan agreement. The enforcement proceedings are referred to as
+foreclosure.
+State law governs the foreclosure process. Broadly, a statutory or court-ordered
+sale enforces a general lien, including a judgment lien. A lawsuit or loan
+provision authorizing the sale or direct transfer of the attached property enforces
+a specific lien, such as a mortgage. Real estate tax liens are enforced through tax
+foreclosure sales, or tax sales.
+Mortgage lien
+foreclosure Three types of foreclosure process enforce mortgage liens:
+ judicial foreclosure
+ non-judicial foreclosure
+ strict foreclosure
+68 Principles of Real Estate Practice in Alabama
+---PAGE_BREAK---
+Exhibit 5.5 Foreclosure Processes
+Judicial foreclosure Judicial foreclosure occurs in states that use a two-party mortgage document
+(borrower and lender) that does not contain a "power of sale" provision.
+Lacking this provision, a lender must file a foreclosure suit and undertake a
+court proceeding to enforce the lien.
+Acceleration and filing. If a borrower has failed to meet loan obligations in spite
+of proper notice and applicable grace periods, the lender can accelerate the loan,
+or declare that the loan balance and all other sums due on the loan are payable
+immediately.
+If the borrower does not pay off the loan in full, the lender then files a
+foreclosure suit, naming the borrower as defendant. The suit asks the court
+to:
+ terminate the defendant's interests in the property
+ order the property sold publicly to the highest bidder
+ order the proceeds applied to the debt
+Lis Pendens. In the foreclosure suit, a lis pendens gives public notice that the
+mortgaged property may soon have a judgment issued against it. This notice
+enables other lienholders to join in the suit against the defendant.
+Writ of execution. If the defendant fails to meet the demands of the suit during
+a prescribed period, the court orders the termination of interests of any and all
+parties in the property, and orders the property to be sold. The court's writ of
+execution authorizes an official, such as the county sheriff, to seize and sell the
+foreclosed property.
+Public sale and sale proceeds. After public notice of the sale, the property is
+auctioned to the highest bidder. The new owner receives title free and clear of
+all previous liens, whether the lienholders have been paid or not. Proceeds of
+the sale are applied to payment of liens according to priority. After payment of
+Chapter 5: Encumbrances and Liens 69
+---PAGE_BREAK---
+real estate taxes, lienholders' claims and costs of the sale, any remaining funds
+go to the mortgagor (borrower).
+Deficiency judgment. If the sale does not yield sufficient funds to cover the
+amounts owed, the mortgagee may ask the court for a deficiency judgment.
+This enables the lender to attach and foreclose a judgment lien on other real or
+personal property the borrower owns.
+Right of redemption. The borrower's right of redemption, also called equity of
+redemption, is the right to reclaim a property that has been foreclosed by paying
+off amounts owed to creditors, including interest and costs. Redemption is
+possible within a redemption period. Some states allow redemption during the
+foreclosure proceeding at any time "until the gavel drops" at the sale. Other states
+have statutory periods of up to a year following the sale for the owner of a
+foreclosed property to redeem the estate. Also see right to reinstate on page 255
+in Chapter 17.
+Non-judicial
+foreclosure When there is a "power of sale" provision in the mortgage or trust deed
+document, a non-judicial foreclosure can force the sale of the liened property
+without a foreclosure suit. The "power of sale" clause in effect enables the
+mortgagee to order a public sale without court decree.
+Foreclosure process. On default, the foreclosing mortgagee records and
+delivers notice to the borrower and other lienholders. After the proper period, a
+"notice of sale" is published, the sale is conducted, and all liens are
+extinguished. The highest bidder then receives unencumbered title to the
+property.
+Deficiency suit. The lender does not obtain a deficiency judgment or lien in a
+non-judicial foreclosure action. The lender instead must file a new deficiency
+suit against the borrower.
+Re-instatement and redemption. During the notice of default and notice of
+sale periods, the borrower may pay the lender and terminate the proceedings.
+Exact re-instatement periods vary from state to state. There is no redemption
+right in non-judicial foreclosure.
+Strict foreclosure Strict foreclosure is a court proceeding that gives the lender title directly, by
+court order, instead of giving cash proceeds from a public sale.
+On default, the lender gives the borrower official notice. After a prescribed
+period, the lender files suit in court, whereupon the court establishes a period
+within which the defaulting party must repay the amounts owed. If the defaulter
+does not repay the funds, the court orders transfer of full, legal title to the
+lender.
+Deed in lieu of
+foreclosure A defaulting borrower who faces foreclosure may avoid court actions and costs
+by voluntarily deeding the property to the mortgagee. This is accomplished with
+a deed in lieu of foreclosure , which transfers legal title to the lienholder. The
+transfer, however, does not terminate any existing liens on the property.
+70 Principles of Real Estate Practice in Alabama
+---PAGE_BREAK---
+Short sale A short sale occurs when a property owner owes more than resale value and loan
+pay-off for a property and agrees to let the lender sell the property in exchange
+for release from the lien. The lender may or may not agree to accept the deficient
+price as satisfaction and may require the seller to pay the deficiency by way of a
+deficiency judgment. There may also be tax consequences for the seller. To
+avoid the deficiency, the seller must make sure that the agreements include a full
+release of the underlying debt and a statement that it was fully satisfied.
+After the property is retaken by foreclosure or short sale, it becomes “bank
+owned.” Forbearance or a loan modification allows the borrower to avoid
+legal action and keep the property under a new agreement with the lender.
+The parties to a short sale are the buyer and seller. The lender is a third party
+contingency who must approve the sale. The process is generally as follows.
+Short sale procedure
+1. The borrower or borrower’s agents contact the lender to discuss the short
+sale option.
+2. If willing, the lender sets the required terms of the short sale.
+3. The real estate agent provides the lender a Broker’s Price Opinion (BPO).
+4. The agent lists the property for sale at the price that will cover the
+mortgage.
+5. The agent places a note in the Multiple Listing Service (MLS) stating that
+the lender will consider a short sale.
+6. A buyer submits an offer.
+7. The owner agrees to the contract
+8. The lender approves the short sale.
+9. The transaction closes.
+10. The lender may take action to recover the deficiency.
+Chapter 5: Encumbrances and Liens 71
+---PAGE_BREAK---
+5
+Encumbrances and Liens
+Snapshot Review
+ENCUMBRANCES ● non-possessory interests limiting the legal owner's rights
+EASEMENTS ● a right to use portions of another's property
+Easement appurtenant ● dominant tenement's right to use or restrict adjacent servient tenement; attaches to
+the real estate
+● easement by necessity: granted by necessity, e.g. to landlocked owners
+● party wall: negative easement in a shared structure
+Easement in gross ● a right to use property that does not attach to the real estate
+● personal: not revocable or transferrable; ends upon death of easement holder
+● commercial: granted to businesses; transferrable
+Easement creation ● voluntary grant, court decree by necessity or prescription, eminent domain
+● by prescription: obtainable through continuous, open, adverse use over a period
+Easement termination ● release; merger; abandonment; condemnation; change of purpose; destruction;
+non-use
+ENCROACHMENTS ● intrusions of real estate into adjoining property; can become easements
+LICENSES ● personal rights to use a property; do not attach; non-transferrable; revocable
+DEED RESTRICTIONS ● conditions and covenants imposed on a property by deed or subdivision plat
+LIENS ● claims attaching to real and personal property as security for debt
+Lien types ● voluntary and involuntary; general and specific; superior and junior
+Lien priority ● rank ordering of claims established by lien classification and date of recording;
+determines who gets paid first if lienee defaults
+Superior liens ● rank over junior liens; not ranked by recording date; real estate tax and
+assessment liens and inheritance taxes
+Junior liens ● rank by recording date: judgment; mortgage, vendor's, utility, mechanic's,
+broker’s, other tax liens; mechanic's lien priority "dates back" to when work or
+sale transpired
+FORECLOSURE ● enforcement of liens through liquidation or transfer of encumbered property
+Mortgage lien
+foreclosure ● liquidation or transfer of collateral property by judicial, non-judicial, or strict
+foreclosure
+Judicial foreclosure ● lawsuit and court-ordered public sale; deficiency judgments, redemption rights
+Non-judicial foreclosure ● "power of sale" granted to lender; no suit; no deficiency judgment; no redemption
+period after sale
+Strict foreclosure ● court orders legal transfer of title directly to lender without public sale
+Deed in lieu of
+foreclosure ● defaulted borrower deeds property to lender to avoid foreclosure
+Short sale ● sale at a price that does not cover a borrower’s loan balance
+72 Principles of Real Estate Practice in Alabama
