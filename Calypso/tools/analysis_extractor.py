@@ -137,7 +137,7 @@ def save_page_images(pdf_path, page_nums, output_dir):
 
 def main():
     # Get PDF path from parent directory
-    pdf_path = "../PREP-AL 4th Ed 9-26-25.pdf"
+    pdf_path = "../../PREP-AL 4th Ed 9-26-25.pdf"
     output_dir = "../analysis"
 
     if not os.path.exists(pdf_path):

@@ -141,7 +141,7 @@ def text_to_html(text_content, rules, chapter_num):
                 in_list = True
 
             # Remove list markers
-            item_text = re.sub(r"^[-•*]\s+|^\\d+\\)\\s+", "", stripped)
+            item_text = re.sub(r"^[-•*]\s+|^\d+\)\s+", "", stripped)
             html_parts.append(f"<li class='list-item'>{escape(item_text)}</li>\n")
 
         elif line_class == "code":

@@ -92,7 +92,7 @@ def load_chapter_map(analysis_dir):
 
 
 def main():
-    pdf_path = "../PREP-AL 4th Ed 9-26-25.pdf"
+    pdf_path = "../../PREP-AL 4th Ed 9-26-25.pdf"
     analysis_dir = "../analysis"
     chapters_dir = "../chapters"
 
