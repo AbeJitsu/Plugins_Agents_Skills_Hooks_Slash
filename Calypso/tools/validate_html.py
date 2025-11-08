@@ -1,12 +1,20 @@
 #!/usr/bin/env python3
 """
-HTML validation script for Calypso generated pages.
+HTML validation script for Calypso generated chapters.
 
-Checks:
+Validates continuous document format (single page, flowing content):
 - Valid HTML5 structure
+- Single page-container with page-content wrapper
 - Required CSS classes for semantic styling
-- Proper heading hierarchy
-- Structural requirements (nav, footer, sections)
+- Proper heading hierarchy (h1-h6)
+- Structural requirements (chapter header, navigation, sections, exhibits)
+- List integrity and paragraph validation
+
+Document Format (v2):
+- Single <div class="page-container"> wrapping <main class="page-content">
+- Continuous flowing content (no page breaks/footers)
+- Multiple sections with semantic classes
+- Support for exhibits/tables with proper styling
 """
 
 import sys
@@ -121,35 +129,40 @@ class HTMLValidator:
 
     def _check_required_elements(self):
         """Check for required page structure elements."""
-        if 'class="page-container"' in self.html:
+        # Single page-container (continuous document format)
+        # Check for page-container class (exact or as part of class list)
+        if re.search(r'class="[^"]*page-container[^"]*"', self.html):
             self.has_page_container = True
         else:
             self.errors.append("Missing .page-container element")
 
-        if 'class="page-content"' in self.html:
+        # Check for page-content class (exact or as part of class list)
+        if re.search(r'class="[^"]*page-content[^"]*"', self.html):
             self.has_page_content = True
         else:
             self.errors.append("Missing .page-content element")
 
-        if 'class="chapter-header"' in self.html:
+        if re.search(r'class="[^"]*chapter-header[^"]*"', self.html):
             self.has_chapter_header = True
         else:
             self.warnings.append("Missing .chapter-header element")
 
-        if 'class="section-navigation"' in self.html:
+        if re.search(r'class="[^"]*section-navigation[^"]*"', self.html):
             self.has_section_navigation = True
         else:
-            self.warnings.append("Missing .section-navigation element")
+            self.warnings.append("Missing .section-navigation element (chapter navigation)")
 
-        if 'class="section-heading"' in self.html:
+        if re.search(r'class="[^"]*section-heading[^"]*"', self.html):
             self.has_section_heading = True
         else:
             self.warnings.append("Missing .section-heading element (main section heading)")
 
+        # Footer is optional in continuous document format
         if '<footer' in self.html or 'class="page-footer"' in self.html:
             self.has_footer = True
+            self.info.append("Document format: Paginated (contains footers)")
         else:
-            self.warnings.append("Missing footer element")
+            self.info.append("Document format: Continuous (no page footers)")
 
     def _check_heading_hierarchy(self):
         """Check heading tags and hierarchy."""
@@ -177,18 +190,6 @@ class HTMLValidator:
 
     def _check_semantic_classes(self):
         """Check for proper semantic CSS classes."""
-        required_classes = {
-            'chapter-header': 'Chapter header container',
-            'chapter-number': 'Chapter number',
-            'chapter-title': 'Chapter title heading',
-            'section-navigation': 'Navigation list',
-            'section-divider': 'Horizontal divider',
-            'section-heading': 'Main section heading',
-            'subsection-label': 'Subsection label',
-            'paragraph': 'Body paragraph',
-            'page-footer': 'Page footer',
-        }
-
         found_classes = set()
         class_pattern = r'class="([^"]*)"'
         for match in re.finditer(class_pattern, self.html):
@@ -197,8 +198,9 @@ class HTMLValidator:
 
         self.classes_found = found_classes
 
-        # Check for key semantic classes
-        key_classes = ['page-container', 'page-content', 'section-heading', 'paragraph']
+        # Check for key semantic classes (required for document structure)
+        # Continuous document format: single chapter with flowing content
+        key_classes = ['page-container', 'page-content', 'section-heading', 'paragraph', 'bullet-list']
         missing = [c for c in key_classes if c not in found_classes]
         if missing:
             self.warnings.append(f"Missing key semantic classes: {', '.join(missing)}")
