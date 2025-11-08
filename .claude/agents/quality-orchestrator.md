@@ -17,8 +17,14 @@ This is the main orchestrator that runs the 4-step quality pipeline. It adapts t
 
 When the user wants to run the quality pipeline:
 
-1. Ask what type of project they're working on (code features, documentation, refactoring, test suite, content creation)
-2. Load their saved standards for that project type (or offer a default template if new)
+1. Ask what type of project they're working on by loading types from ProjectTypeRegistry:
+   - Call `projectTypeRegistry.getActiveTypes()` to get available types
+   - Present these options clearly to the user
+   - Validate user's selection using `projectTypeRegistry.exists(projectType)`
+2. Load their saved standards using StandardsRepository:
+   - Call `StandardsRepository.exists(projectType)` to check for custom standards
+   - If yes: load via `StandardsRepository.getStandards(projectType)`
+   - If no: use `StandardsRepository.getDefaultTemplate(projectType)`
 3. Ask them to describe what they want to build/refactor/document
 4. Run the validate-requirements skill on their input against their standards
 5. If validation passes, run the generate-output skill
@@ -56,6 +62,19 @@ Agent: ✓ Quality verified: 100% - All criteria met!
 Agent: Here's your dropdown component, ready to use.
 ```
 
-## Standards Integration
+## Standards and Project Type Integration
 
-This agent references the standards.json file to understand your project type's requirements. If standards don't exist for a type, it uses default templates.
+This agent uses two key abstractions:
+
+**ProjectTypeRegistry**: Manages all available project types
+- Provides `getActiveTypes()` to list available types
+- Provides `exists(id)` to validate user selection
+- Provides `getType(id)` to get type metadata
+- See `.claude/lib/project-type-registry.md`
+
+**StandardsRepository**: Manages standards access and loading
+- Manages access to `standards/standards.json`
+- Validates all standards against the schema
+- Provides fallback to default templates
+- Handles all file I/O transparently
+- See `.claude/lib/standards-repository.md`

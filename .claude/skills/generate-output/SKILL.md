@@ -68,11 +68,29 @@ Transforms validated requirements into actual deliverables (code, documentation,
 ## Process
 
 1. Review requirements
-2. Load their standards
+2. Load their standards using StandardsRepository
 3. Identify their common patterns for this type
 4. Generate the output
 5. Do a self-check against their principles
 6. Present the output with brief summary
+
+## Loading Standards
+
+Use StandardsRepository to access standards:
+
+```javascript
+const standards = standardsRepository.getStandards(context.projectType)
+if (standards) {
+  // Use their principles and patterns
+  const principles = standards.principles
+  const patterns = standards.commonPatterns
+  // Generate output following their standards
+} else {
+  // Generate following best practices
+}
+```
+
+See `.claude/lib/standards-repository.md` for interface details.
 
 ## Output Format
 

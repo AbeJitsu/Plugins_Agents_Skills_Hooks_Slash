@@ -67,7 +67,7 @@ Ensures the generated deliverable follows consistent formatting, style, and stru
 ## Process
 
 1. Take the generated deliverable
-2. Load their saved standards (look for formatting preferences)
+2. Load their saved standards using StandardsRepository (look for formatting preferences)
 3. Apply standardization rules
 4. Format code/text with appropriate tools:
    - Code: ESLint, Prettier, or manual formatting
@@ -75,6 +75,23 @@ Ensures the generated deliverable follows consistent formatting, style, and stru
    - Content: Style guide consistency
 5. Do a final pass for consistency
 6. Return the formatted output
+
+## Loading Standards
+
+Use StandardsRepository to access formatting preferences:
+
+```javascript
+const standards = standardsRepository.getStandards(context.projectType)
+if (standards && standards.commonPatterns) {
+  // Apply their formatting preferences from commonPatterns
+  standards.commonPatterns.forEach(pattern => {
+    // Example: "Use 2-space indentation", "Sort imports alphabetically"
+    applyFormattingPattern(pattern)
+  })
+}
+```
+
+See `.claude/lib/standards-repository.md` for interface details.
 
 ## Output Format
 

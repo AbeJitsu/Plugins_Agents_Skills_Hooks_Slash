@@ -1,0 +1,119 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Project Standards Schema",
+  "description": "Schema for validating quality standards for different project types",
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "required": ["projectType", "description", "qualityCriteria"],
+    "properties": {
+      "projectType": {
+        "type": "string",
+        "description": "Unique identifier for the project type in kebab-case",
+        "pattern": "^[a-z0-9]([a-z0-9-]*[a-z0-9])?$",
+        "minLength": 1,
+        "maxLength": 50
+      },
+      "description": {
+        "type": "string",
+        "description": "Human-readable description of what this project type represents",
+        "minLength": 10,
+        "maxLength": 500
+      },
+      "principles": {
+        "type": "array",
+        "description": "Core development principles guiding this project type",
+        "items": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 200
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "validationRules": {
+        "type": "object",
+        "description": "Rules for validating inputs and deliverables",
+        "properties": {
+          "input": {
+            "type": "array",
+            "description": "Requirements that inputs must satisfy",
+            "items": {
+              "type": "string",
+              "minLength": 5
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "deliverable": {
+            "type": "array",
+            "description": "Requirements that deliverables must satisfy",
+            "items": {
+              "type": "string",
+              "minLength": 5
+            },
+            "minItems": 0,
+            "uniqueItems": true
+          }
+        }
+      },
+      "qualityCriteria": {
+        "type": "object",
+        "description": "The 6 dimensions of quality and how they apply to this project type",
+        "required": ["completeness", "correctness", "consistency", "performance", "security", "maintainability"],
+        "properties": {
+          "completeness": {
+            "type": "string",
+            "description": "How complete the deliverable should be",
+            "minLength": 5
+          },
+          "correctness": {
+            "type": "string",
+            "description": "How correct or accurate the deliverable should be",
+            "minLength": 5
+          },
+          "consistency": {
+            "type": "string",
+            "description": "How consistent the deliverable should be with standards",
+            "minLength": 5
+          },
+          "performance": {
+            "type": "string",
+            "description": "Performance expectations for this project type",
+            "minLength": 5
+          },
+          "security": {
+            "type": "string",
+            "description": "Security considerations for this project type",
+            "minLength": 5
+          },
+          "maintainability": {
+            "type": "string",
+            "description": "How maintainable or extensible the deliverable should be",
+            "minLength": 5
+          }
+        },
+        "additionalProperties": false
+      },
+      "commonPatterns": {
+        "type": "array",
+        "description": "Common patterns and best practices for this project type",
+        "items": {
+          "type": "string",
+          "minLength": 5
+        },
+        "uniqueItems": true
+      },
+      "antiPatterns": {
+        "type": "array",
+        "description": "Patterns to avoid in this project type",
+        "items": {
+          "type": "string",
+          "minLength": 5
+        },
+        "uniqueItems": true
+      }
+    },
+    "additionalProperties": false
+  }
+}

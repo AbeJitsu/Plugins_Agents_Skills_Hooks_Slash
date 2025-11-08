@@ -1,0 +1,44 @@
+{
+  "projectTypes": [
+    {
+      "id": "code-features",
+      "name": "Code Features",
+      "description": "Writing new functions, components, modules, and APIs. Includes classes, methods, React components, utility functions, and API endpoints.",
+      "keywords": ["component", "function", "module", "api", "feature", "class", "method", "react", "endpoint", "service"],
+      "defaultTemplate": "standards/templates/code-features.json",
+      "isActive": true
+    },
+    {
+      "id": "documentation",
+      "name": "Documentation",
+      "description": "Writing docs, guides, tutorials, specifications, and README files. Includes API documentation, user guides, implementation guides, and architecture docs.",
+      "keywords": ["docs", "documentation", "guide", "tutorial", "specification", "readme", "manual", "guide", "api-docs", "user-guide"],
+      "defaultTemplate": "standards/templates/documentation.json",
+      "isActive": true
+    },
+    {
+      "id": "refactoring",
+      "name": "Refactoring",
+      "description": "Improving existing code structure, readability, and performance. Includes simplifying complex functions, renaming variables, extracting methods, and code cleanup.",
+      "keywords": ["refactor", "refactoring", "improve", "clean", "optimize", "restructure", "simplify", "extract", "cleanup"],
+      "defaultTemplate": "standards/templates/refactoring.json",
+      "isActive": true
+    },
+    {
+      "id": "test-suite",
+      "name": "Test Suite",
+      "description": "Writing automated tests, test frameworks, and testing infrastructure. Includes unit tests, integration tests, E2E tests, and test coverage improvements.",
+      "keywords": ["test", "testing", "unit test", "integration test", "spec", "jest", "pytest", "mocha", "e2e", "coverage"],
+      "defaultTemplate": "standards/templates/test-suite.json",
+      "isActive": true
+    },
+    {
+      "id": "content-creation",
+      "name": "Content Creation",
+      "description": "Writing articles, tutorials, blog posts, guides, and educational content. Includes blog posts, technical articles, tutorials, and educational materials.",
+      "keywords": ["article", "blog", "tutorial", "content", "post", "guide", "educational", "writing", "learn"],
+      "defaultTemplate": "standards/templates/content-creation.json",
+      "isActive": true
+    }
+  ]
+}

@@ -76,12 +76,31 @@ Final Score = Base score - deductions
 ## Process
 
 1. Review the formatted deliverable
-2. Load user's standards to understand what "good" means for this type
+2. Load user's standards using StandardsRepository to understand what "good" means for this type
 3. Evaluate against each quality dimension
 4. Score each dimension
 5. Calculate overall quality score
 6. Identify any issues found
 7. Provide detailed feedback
+
+## Loading Standards
+
+Use StandardsRepository to access quality criteria:
+
+```javascript
+const standards = standardsRepository.getStandards(context.projectType)
+if (standards && standards.qualityCriteria) {
+  // Check against their quality criteria definitions
+  const criteria = standards.qualityCriteria
+  // Verify deliverable meets: completeness, correctness, consistency, etc.
+  verifyAgainstCriteria(deliverable, criteria)
+} else {
+  // Use general quality best practices
+  verifyAgainstBestPractices(deliverable)
+}
+```
+
+See `.claude/lib/standards-repository.md` for interface details.
 
 ## Output Format
 

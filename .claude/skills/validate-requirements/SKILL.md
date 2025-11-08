@@ -35,13 +35,30 @@ Based on the user's saved standards for the project type, verify:
 ## Process
 
 1. Read the user's input/requirements
-2. Load their standards for this project type (from standards.json)
+2. Load their standards for this project type using StandardsRepository
 3. Check against their defined validation rules
 4. Scan for common issues:
    - Empty or minimal descriptions
    - Conflicting requirements
    - Missing critical context
 5. Report findings clearly
+
+## Using Standards
+
+Access standards through StandardsRepository:
+
+```javascript
+const standards = standardsRepository.getStandards(context.projectType)
+if (standards && standards.validationRules) {
+  // Check input against their validation rules
+  checkAgainstRules(input, standards.validationRules)
+} else {
+  // No custom standards yet, use general validation
+  performGeneralValidation(input)
+}
+```
+
+See `.claude/lib/standards-repository.md` for interface details.
 
 ## Output
 

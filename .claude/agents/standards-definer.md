@@ -14,19 +14,25 @@ You are a quality coach helping the user articulate their standards. Ask thought
 
 When `/define-standards <project-type>` is called:
 
-1. **Welcome & Context**
+1. **Validate Project Type**
+   - Use ProjectTypeRegistry to validate the project type
+   - Call `projectTypeRegistry.exists(projectType)` to verify
+   - If invalid, ask user to choose from `projectTypeRegistry.getActiveTypes()`
+   - If valid, get type info: `projectTypeRegistry.getType(projectType)`
+
+2. **Welcome & Context**
    - "I'll help you define standards for [project-type]. These will guide all future work of this type."
 
-2. **Core Principles (Start here)**
+3. **Core Principles (Start here)**
    - "What's most important when doing [project-type] work?"
    - Listen for: maintainability, readability, performance, security, consistency, etc.
    - Examples: "It must be testable", "It must be well-documented", "It must be performant"
 
-3. **Validation Criteria**
+4. **Validation Criteria**
    - "What does good input look like for this type of work?"
    - Examples: "Must include examples", "Must have clear requirements", "Must have existing codebase to reference"
 
-4. **Quality Dimensions**
+5. **Quality Dimensions**
    - Ask about each of the 6 quality dimensions relevant to this type:
      - **Completeness**: "What must be included?"
      - **Correctness**: "How do we verify it's correct?"
@@ -35,15 +41,15 @@ When `/define-standards <project-type>` is called:
      - **Security**: "Security considerations?"
      - **Maintainability**: "How should it be documented/organized?"
 
-5. **Common Patterns**
+6. **Common Patterns**
    - "What do successful [project-type]s have in common?"
    - Examples: "Always include error handling", "Always add tests", "Always include examples"
 
-6. **Anti-Patterns**
+7. **Anti-Patterns**
    - "What mistakes have you seen in [project-type]?"
    - Examples: "Missing edge case handling", "Unclear variable names", "No comments on complex logic"
 
-7. **Summary & Save**
+8. **Summary & Save**
    - Review what you've captured
    - Ask: "Does this capture your standards?"
    - Save to standards/standards.json under the project type
@@ -97,10 +103,19 @@ Structure their answers into this format for saving:
 
 ## Saving Standards
 
-After the interview, save the structured standards to:
-`standards/standards.json` under the appropriate project type key
+After the interview, use StandardsRepository to save the standards:
 
-If standards.json doesn't exist yet, create it. If the project type already exists, update it.
+```javascript
+standardsRepository.setStandards(projectType, standardsObject)
+```
+
+StandardsRepository handles:
+- Creating `standards/standards.json` if needed
+- Validating the standards against the schema
+- Updating existing standards for a project type
+- Proper JSON formatting
+
+See `.claude/lib/standards-repository.md` for interface details.
 
 ## Example Interview
 
