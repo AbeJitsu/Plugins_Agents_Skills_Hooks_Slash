@@ -617,3 +617,23 @@ em, i {
         font-size: 0.75rem;
     }
 }
+
+/* Section Dividers */
+.section-divider {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: var(--space-lg) 0;
+    padding: 0;
+    height: 0;
+}
+
+/* Sidebar Labels */
+.sidebar-label {
+    font-family: var(--font-arial-bold);
+    font-weight: bold;
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    margin: var(--space-lg) 0 var(--space-md) 0;
+    padding-left: var(--space-md);
+    border-left: 2px solid var(--color-accent);
+}

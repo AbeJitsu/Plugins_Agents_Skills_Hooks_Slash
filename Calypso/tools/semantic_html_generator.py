@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
-Flexible semantic HTML generator for PDF to HTML conversion.
-Supports generating single pages, page ranges, or complete chapters.
-Intelligently parses text into semantic HTML structure.
+Semantic HTML generator using rich formatting data.
+Combines font information, sizes, and styles to generate high-quality HTML.
 """
 
 import json
@@ -28,160 +27,204 @@ CHAPTER_BOUNDARIES = {
 def pdf_index_to_book_page(pdf_index):
     """Convert PDF index (0-based) to book page number."""
     if pdf_index < 6:
-        return None  # Front matter has no book page numbers
+        return None
     return pdf_index + 1
 
 
-def load_pdf_text(pdf_indices):
-    """Load text from pdfplumber_output.json for given PDF indices."""
-    json_file = "../analysis/pdfplumber_output.json"
-
+def load_rich_extraction(json_file):
+    """Load rich extraction data from JSON."""
     if not os.path.exists(json_file):
         print(f"Error: {json_file} not found")
         sys.exit(1)
 
     with open(json_file) as f:
-        all_pages = json.load(f)
-
-    # Extract text for requested pages
-    pages = []
-    for idx in pdf_indices:
-        page_key = str(idx)
-        if page_key in all_pages:
-            pages.append({
-                "pdf_index": idx,
-                "book_page": pdf_index_to_book_page(idx),
-                "text": all_pages[page_key].get("text", "")
-            })
-
-    return pages
+        return json.load(f)
 
 
-def parse_text_into_sections(text):
-    """
-    Parse raw text into semantic sections.
-    Returns list of dicts: {type: 'heading'|'paragraph'|'list', content: str, level: int}
-    """
-    sections = []
-    lines = text.strip().split('\n')
+def group_text_spans_into_elements(text_spans):
+    """Group text spans into logical elements (headings, paragraphs)."""
+    if not text_spans:
+        return []
 
-    current_paragraph = []
+    elements = []
+    current_group = []
+    current_heading_parts = []
+    current_heading_level = None
 
-    for line in lines:
-        stripped = line.strip()
-
-        if not stripped:
-            # Empty line - end current paragraph
-            if current_paragraph:
-                sections.append({
-                    'type': 'paragraph',
-                    'content': ' '.join(current_paragraph)
-                })
-                current_paragraph = []
+    for span in text_spans:
+        text = span["text"].strip()
+        if not text:
             continue
 
-        # Detect heading patterns
-        if stripped.isupper() and len(stripped) > 3 and stripped.count(' ') > 0:
-            # All caps = section heading (h2)
-            if current_paragraph:
-                sections.append({
-                    'type': 'paragraph',
-                    'content': ' '.join(current_paragraph)
+        font_size = span["size"]
+        is_bold = span["bold"]
+        is_italic = span["italic"]
+
+        # Is this text all-caps? (must be > 2 chars, all uppercase letters/spaces/hyphens)
+        is_all_caps = text.isupper() and len(text) > 2
+
+        # Filter out page numbers and noise
+        # Skip: single characters, or just spaces/bullets
+        if len(text) < 2 or text in ['●', '○', '*']:
+            continue
+
+        # Determine if this span should be part of a heading
+        is_heading_candidate = (
+            (font_size > 50 and len(text) > 1) or  # Very large titles
+            (font_size > 20 and is_bold) or  # Large bold
+            (is_bold and (is_all_caps or font_size > 11.5))  # Bold heading
+        )
+
+        if is_heading_candidate:
+            # Determine heading level
+            if font_size > 50 and len(text) > 1:
+                heading_level = 1
+            elif font_size > 20 and is_bold:
+                heading_level = 2
+            else:
+                heading_level = 3 if is_all_caps else 4
+
+            # If this is a different heading level than what we're accumulating, flush previous
+            if current_heading_level is not None and heading_level != current_heading_level:
+                if current_heading_parts:
+                    heading_text = " ".join(current_heading_parts)
+                    elements.append({
+                        "type": "heading",
+                        "level": current_heading_level,
+                        "text": heading_text,
+                    })
+                current_heading_parts = []
+            elif current_group:
+                # If we were accumulating paragraph text, flush it first
+                elements.append(flush_group(current_group))
+                current_group = []
+
+            # Only accumulate adjacent headings if they're h3+ (all-caps or very large)
+            # Don't accumulate h4 - they should be separate items
+            if heading_level <= 3:
+                current_heading_parts.append(text)
+                current_heading_level = heading_level
+            else:
+                # For h4, treat each span as a separate heading
+                if current_heading_parts:
+                    heading_text = " ".join(current_heading_parts)
+                    elements.append({
+                        "type": "heading",
+                        "level": current_heading_level,
+                        "text": heading_text,
+                    })
+                    current_heading_parts = []
+                    current_heading_level = None
+
+                elements.append({
+                    "type": "heading",
+                    "level": heading_level,
+                    "text": text,
                 })
-                current_paragraph = []
 
-            sections.append({
-                'type': 'heading',
-                'level': 2,
-                'content': stripped
-            })
-
-        # Detect bullet points (check for bullet character or common patterns)
-        elif stripped.startswith('•') or stripped.startswith('- ') or stripped.startswith('* '):
-            if current_paragraph:
-                sections.append({
-                    'type': 'paragraph',
-                    'content': ' '.join(current_paragraph)
-                })
-                current_paragraph = []
-
-            # Remove bullet character
-            item_text = stripped.lstrip('•- *').strip()
-            sections.append({
-                'type': 'list_item',
-                'content': item_text
-            })
-
-        # Regular paragraph text
         else:
-            current_paragraph.append(stripped)
+            # Regular text
+            # If we were accumulating heading parts, flush them first
+            if current_heading_parts:
+                heading_text = " ".join(current_heading_parts)
+                elements.append({
+                    "type": "heading",
+                    "level": current_heading_level,
+                    "text": heading_text,
+                })
+                current_heading_parts = []
+                current_heading_level = None
 
-    # Add remaining paragraph
-    if current_paragraph:
-        sections.append({
-            'type': 'paragraph',
-            'content': ' '.join(current_paragraph)
+            # Add to paragraph group
+            current_group.append({
+                "text": text,
+                "italic": is_italic,
+                "bold": is_bold,
+            })
+
+    # Flush remaining heading parts
+    if current_heading_parts:
+        heading_text = " ".join(current_heading_parts)
+        elements.append({
+            "type": "heading",
+            "level": current_heading_level,
+            "text": heading_text,
         })
 
-    return sections
+    # Flush remaining group
+    if current_group:
+        elements.append(flush_group(current_group))
+
+    return elements
 
 
-def build_html_content(pages):
-    """Build semantic HTML content from parsed pages."""
-    html_sections = []
+def flush_group(group):
+    """Convert grouped spans into a single element."""
+    if not group:
+        return None
 
-    for page_num, page in enumerate(pages):
-        book_page = page['book_page']
-        text = page['text']
+    combined_text = " ".join(s["text"] for s in group)
+    has_italic = any(s["italic"] for s in group)
 
-        # Parse text into sections
-        sections = parse_text_into_sections(text)
-
-        for section in sections:
-            if section['type'] == 'heading' and section['level'] == 2:
-                html_sections.append(f'''            <section class="content-section">
-                <h2 class="section-heading">{escape(section['content'])}</h2>''')
-
-            elif section['type'] == 'paragraph':
-                html_sections.append(f'''                <p class="paragraph">{escape(section['content'])}</p>''')
-
-            elif section['type'] == 'list_item':
-                # Group consecutive list items
-                if not html_sections or '</ul>' in html_sections[-1]:
-                    html_sections.append(f'''                <ul class="bullet-list">
-                    <li class="bullet-item">{escape(section['content'])}</li>''')
-                else:
-                    html_sections.append(f'''                    <li class="bullet-item">{escape(section['content'])}</li>''')
-
-        # Close last section
-        if html_sections and '</section>' not in html_sections[-1]:
-            html_sections.append('''            </section>''')
-
-    # Close any open lists
-    html_content = '\n'.join(html_sections)
-    html_content = html_content.replace('</ul>', '').replace('</li>', '')
-    html_content += '''
-                </ul>
-            </section>'''
-
-    return html_content
+    return {
+        "type": "paragraph",
+        "text": combined_text,
+        "italic": has_italic,
+    }
 
 
-def generate_html(pages, title="Content"):
-    """Generate complete HTML document."""
+def build_html_from_elements(elements):
+    """Build HTML from grouped elements."""
+    html_parts = []
 
-    # Get page range for document title
-    if pages:
-        start_book_page = pages[0].get('book_page') or pages[0]['pdf_index'] + 1
-        end_book_page = pages[-1].get('book_page') or pages[-1]['pdf_index'] + 1
+    # Mapping of heading levels to semantic CSS classes
+    heading_classes = {
+        1: "chapter-title",
+        2: "section-heading",
+        3: "subsection-title",
+        4: "subsection-heading",
+    }
+
+    for elem in elements:
+        if elem["type"] == "heading":
+            level = elem["level"]
+            tag = f"h{level}"
+            css_class = heading_classes.get(level, "subsection-heading")
+            html_parts.append(
+                f'            <{tag} class="{css_class}">{escape(elem["text"])}</{tag}>'
+            )
+
+        elif elem["type"] == "paragraph":
+            classes = ["paragraph"]
+            if elem.get("italic"):
+                classes.append("paragraph-italic")
+            class_str = " ".join(classes)
+            html_parts.append(
+                f'            <p class="{class_str}">{escape(elem["text"])}</p>'
+            )
+
+    return "\n".join(html_parts)
+
+
+def generate_html(pages_data, title="Content"):
+    """Generate complete HTML document from pages data."""
+    page_nums = sorted([int(k) for k in pages_data.keys()])
+    if page_nums:
+        start_book_page = page_nums[0] + 1 if page_nums[0] >= 6 else page_nums[0]
+        end_book_page = page_nums[-1] + 1 if page_nums[-1] >= 6 else page_nums[-1]
         page_range = f"Pages {start_book_page}-{end_book_page}"
     else:
         page_range = ""
 
-    # Build content
-    html_content = build_html_content(pages)
+    content_parts = []
+    for page_num_str in sorted(pages_data.keys(), key=lambda x: int(x)):
+        page_data = pages_data[page_num_str]
+        elements = group_text_spans_into_elements(page_data.get("text_spans", []))
+        page_content = build_html_from_elements(elements)
+        content_parts.append(page_content)
 
-    # Generate complete HTML
+    full_content = "\n".join(content_parts)
+
     html = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -192,9 +235,8 @@ def generate_html(pages, title="Content"):
 </head>
 <body>
     <div class="page-container">
-        <!-- Content -->
         <main class="page-content">
-{html_content}
+{full_content}
         </main>
     </div>
 </body>
@@ -205,36 +247,25 @@ def generate_html(pages, title="Content"):
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description='Generate semantic HTML from PDF pages',
-        formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog='''Examples:
-  python3 semantic_html_generator.py --chapter 1
-  python3 semantic_html_generator.py --pages 6-14 --output chapter_1.html
-  python3 semantic_html_generator.py --page 7
-        '''
-    )
-
-    parser.add_argument('--chapter', type=int, help='Chapter number (1-29)')
+    parser = argparse.ArgumentParser(description='Generate semantic HTML from rich PDF data')
+    parser.add_argument('--chapter', type=int, help='Chapter number')
     parser.add_argument('--pages', type=str, help='Page range (e.g., 6-14)')
-    parser.add_argument('--page', type=int, help='Single page (PDF index)')
-    parser.add_argument('--output', type=str, help='Output file path')
+    parser.add_argument('--page', type=int, help='Single page')
+    parser.add_argument('--output', type=str, help='Output file')
+    parser.add_argument('--rich-data', default='../analysis/rich_extraction.json', help='Rich extraction JSON')
 
     args = parser.parse_args()
 
-    # Determine PDF indices to process
     pdf_indices = []
-    title = "Generated Content"
+    title = "Content"
 
     if args.chapter:
         if args.chapter not in CHAPTER_BOUNDARIES:
-            print(f"Error: Chapter {args.chapter} not found in CHAPTER_BOUNDARIES")
+            print(f"Error: Chapter {args.chapter} not found")
             sys.exit(1)
-
         start, end, chapter_title, _ = CHAPTER_BOUNDARIES[args.chapter]
         pdf_indices = list(range(start, end + 1))
         title = f"Chapter {args.chapter}: {chapter_title}"
-
         if not args.output:
             args.output = f"../output/chapter_{args.chapter:02d}.html"
 
@@ -244,9 +275,8 @@ def main():
             pdf_indices = list(range(start, end + 1))
             title = f"Pages {start}-{end}"
         except ValueError:
-            print("Error: --pages format should be 'start-end' (e.g., 6-14)")
+            print("Error: --pages format should be 'start-end'")
             sys.exit(1)
-
         if not args.output:
             args.output = f"../output/pages_{start}_{end}.html"
 
@@ -254,7 +284,6 @@ def main():
         pdf_indices = [args.page]
         book_page = pdf_index_to_book_page(args.page)
         title = f"Page {book_page or args.page}"
-
         if not args.output:
             args.output = f"../output/page_{args.page}.html"
 
@@ -266,28 +295,33 @@ def main():
         print("Error: No pages specified")
         sys.exit(1)
 
-    # Load and process pages
     print(f"\n{'='*60}")
     print(f"GENERATING: {title}")
     print(f"PDF indices: {pdf_indices}")
     print(f"{'='*60}\n")
 
-    print("Loading text from pdfplumber_output.json...")
-    pages = load_pdf_text(pdf_indices)
-    print(f"✓ Loaded {len(pages)} pages")
+    print("Loading rich extraction data...")
+    rich_data = load_rich_extraction(args.rich_data)
 
-    print("Parsing text into semantic HTML...")
-    html = generate_html(pages, title)
+    pages_data = {}
+    for idx in pdf_indices:
+        idx_str = str(idx)
+        if idx_str in rich_data.get("pages", {}):
+            pages_data[idx_str] = rich_data["pages"][idx_str]
 
-    print(f"Writing to {args.output}...")
+    if not pages_data:
+        print("Error: No pages found in rich extraction")
+        sys.exit(1)
+
+    print(f"✓ Loaded {len(pages_data)} pages")
+    print("Generating semantic HTML...")
+    html = generate_html(pages_data, title)
+
     os.makedirs(os.path.dirname(args.output), exist_ok=True)
     with open(args.output, 'w') as f:
         f.write(html)
     print(f"✓ Saved: {args.output}")
-
-    print(f"\n✓ HTML generation complete!")
-    print(f"✓ CSS file: styles/main.css")
-    print(f"\nOpen in browser to view the generated content.")
+    print(f"\n✓ Complete! CSS: styles/main.css")
     print("="*60 + "\n")
 
 
