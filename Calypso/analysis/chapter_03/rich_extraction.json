@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "PREP-AL 4th Ed 9-26-25.pdf",
-    "total_pages_extracted": 14,
-    "page_range": "29-42"
+    "total_pages_extracted": 10,
+    "page_range": "28-37"
   },
   "pages": {
     "29": {
@@ -9101,9 +9101,9 @@
         "likely_paragraphs": []
       }
     },
-    "38": {
-      "page_number": 38,
-      "book_page": 39,
+    "28": {
+      "page_number": 28,
+      "book_page": 29,
       "dimensions": {
         "width": 612.0,
         "height": 792.0
@@ -9125,7 +9125,7 @@
           "flags": 4
         },
         {
-          "text": "Chapter 4: Ownership 39 ",
+          "text": "Chapter 3: Interests and Estates 29 ",
           "font": "TimesNewRomanPSMT",
           "size": 10.0,
           "bold": false,
@@ -9140,9 +9140,9 @@
           "flags": 4
         },
         {
-          "text": "4",
+          "text": "3",
           "font": "TimesNewRomanPS-BoldItal",
-          "size": 74.35269927978516,
+          "size": 72.95358276367188,
           "bold": true,
           "italic": false,
           "color": 0,
@@ -9157,7 +9157,7 @@
         {
           "text": " ",
           "font": "Arial-BoldMT",
-          "size": 74.49164581298828,
+          "size": 72.88377380371094,
           "bold": true,
           "italic": false,
           "color": 0,
@@ -9170,7 +9170,7 @@
           "flags": 16
         },
         {
-          "text": "Ownership",
+          "text": "Interests and Estates",
           "font": "Arial-BoldMT",
           "size": 26.222200393676758,
           "bold": true,
@@ -9187,7 +9187,7 @@
         {
           "text": " ",
           "font": "Arial-BoldMT",
-          "size": 74.49164581298828,
+          "size": 72.88377380371094,
           "bold": true,
           "italic": false,
           "color": 0,
@@ -9200,7 +9200,7 @@
           "flags": 16
         },
         {
-          "text": "Sole Ownership  ",
+          "text": "Interests and Estates in Land ",
           "font": "Arial-BoldMT",
           "size": 12.0,
           "bold": true,
@@ -9215,7 +9215,7 @@
           "flags": 16
         },
         {
-          "text": "Co-Ownership  ",
+          "text": "Freehold Estates ",
           "font": "Arial-BoldMT",
           "size": 12.0,
           "bold": true,
@@ -9230,7 +9230,7 @@
           "flags": 16
         },
         {
-          "text": "Estates in Trust  ",
+          "text": "Leasehold Estates ",
           "font": "Arial-BoldMT",
           "size": 12.0,
           "bold": true,
@@ -9245,9 +9245,9 @@
           "flags": 16
         },
         {
-          "text": "Ownership by Business Entities ",
+          "text": "INTERESTS AND ESTATES IN LAND ",
           "font": "Arial-BoldMT",
-          "size": 12.0,
+          "size": 11.0,
           "bold": true,
           "italic": false,
           "color": 0,
@@ -9260,9 +9260,9 @@
           "flags": 16
         },
         {
-          "text": "Condominiums  ",
+          "text": "Interests ",
           "font": "Arial-BoldMT",
-          "size": 12.0,
+          "size": 11.0,
           "bold": true,
           "italic": false,
           "color": 0,
@@ -9275,9 +9275,9 @@
           "flags": 16
         },
         {
-          "text": "Cooperatives  ",
+          "text": "Estates in land ",
           "font": "Arial-BoldMT",
-          "size": 12.0,
+          "size": 11.0,
           "bold": true,
           "italic": false,
           "color": 0,
@@ -9290,9 +9290,9 @@
           "flags": 16
         },
         {
-          "text": "Time-Shares ",
+          "text": "Interests ",
           "font": "Arial-BoldMT",
-          "size": 12.0,
+          "size": 11.0,
           "bold": true,
           "italic": false,
           "color": 0,
@@ -9305,7 +9305,7 @@
           "flags": 16
         },
         {
-          "text": "There are numerous ways of holding ownership of a freehold estate ",
+          "text": "An interest in real estate is ",
           "font": "TimesNewRomanPSMT",
           "size": 11.0,
           "bold": false,
@@ -9320,157 +9320,7 @@
           "flags": 4
         },
         {
-          "text": "according to how many parties (tenants) share the ownership and how they ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "share it. The primary distinction is between ownership by a single party, and ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "ownership by multiple parties. Various trust structures enable an owner to ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "employ a trustee to hold and manage an estate. Condominiums, cooperatives ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "and time-shares are hybrids that combine several forms of ownership. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "SOLE OWNERSHIP  ",
-          "font": "Arial-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 16
-        },
-        {
-          "text": "Tenancy in severalty ",
-          "font": "Arial-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 16
-        },
-        {
-          "text": " ",
-          "font": "Arial-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 16
-        },
-        {
-          "text": "Tenancy in severalty  ",
-          "font": "Arial-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 16
-        },
-        {
-          "text": "If ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "a single party owns ",
+          "text": "ownership of any combination of the bundle of rights ",
           "font": "TimesNewRomanPS-ItalicMT",
           "size": 11.0,
           "bold": false,
@@ -9485,7 +9335,7 @@
           "flags": 6
         },
         {
-          "text": "the fee or life estate, the ownership is a ",
+          "text": "to real property, including the rights to ",
           "font": "TimesNewRomanPSMT",
           "size": 11.0,
           "bold": false,
@@ -9500,10 +9350,10 @@
           "flags": 4
         },
         {
-          "text": "tenancy in ",
-          "font": "TimesNewRomanPS-BoldMT",
+          "text": "\uf034",
+          "font": "Webdings",
           "size": 11.0,
-          "bold": true,
+          "bold": false,
           "italic": false,
           "color": 0,
           "bbox": {
@@ -9512,13 +9362,13 @@
             "x1": 0,
             "y1": 0
           },
-          "flags": 20
+          "flags": 0
         },
         {
-          "text": "severalty",
-          "font": "TimesNewRomanPS-BoldMT",
+          "text": " ",
+          "font": "ArialMT",
           "size": 11.0,
-          "bold": true,
+          "bold": false,
           "italic": false,
           "color": 0,
           "bbox": {
@@ -9527,10 +9377,10 @@
             "x1": 0,
             "y1": 0
           },
-          "flags": 20
+          "flags": 0
         },
         {
-          "text": ". Synonyms are ",
+          "text": "possess ",
           "font": "TimesNewRomanPSMT",
           "size": 11.0,
           "bold": false,
@@ -9545,10 +9395,10 @@
           "flags": 4
         },
         {
-          "text": "sole ownership",
-          "font": "TimesNewRomanPS-BoldMT",
+          "text": "\uf034",
+          "font": "Webdings",
           "size": 11.0,
-          "bold": true,
+          "bold": false,
           "italic": false,
           "color": 0,
           "bbox": {
@@ -9557,10 +9407,25 @@
             "x1": 0,
             "y1": 0
           },
-          "flags": 20
+          "flags": 0
         },
         {
-          "text": ", ",
+          "text": " ",
+          "font": "ArialMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": "use ",
           "font": "TimesNewRomanPSMT",
           "size": 11.0,
           "bold": false,
@@ -9575,10 +9440,10 @@
           "flags": 4
         },
         {
-          "text": "ownership in severalty",
-          "font": "TimesNewRomanPS-BoldMT",
+          "text": "\uf034",
+          "font": "Webdings",
           "size": 11.0,
-          "bold": true,
+          "bold": false,
           "italic": false,
           "color": 0,
           "bbox": {
@@ -9587,10 +9452,25 @@
             "x1": 0,
             "y1": 0
           },
-          "flags": 20
+          "flags": 0
         },
         {
-          "text": ", and ",
+          "text": " ",
+          "font": "ArialMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": "transfer ",
           "font": "TimesNewRomanPSMT",
           "size": 11.0,
           "bold": false,
@@ -9605,10 +9485,10 @@
           "flags": 4
         },
         {
-          "text": "estate in ",
-          "font": "TimesNewRomanPS-BoldMT",
+          "text": "\uf034",
+          "font": "Webdings",
           "size": 11.0,
-          "bold": true,
+          "bold": false,
           "italic": false,
           "color": 0,
           "bbox": {
@@ -9617,13 +9497,13 @@
             "x1": 0,
             "y1": 0
           },
-          "flags": 20
+          "flags": 0
         },
         {
-          "text": "severalty",
-          "font": "TimesNewRomanPS-BoldMT",
+          "text": " ",
+          "font": "ArialMT",
           "size": 11.0,
-          "bold": true,
+          "bold": false,
           "italic": false,
           "color": 0,
           "bbox": {
@@ -9632,10 +9512,10 @@
             "x1": 0,
             "y1": 0
           },
-          "flags": 20
+          "flags": 0
         },
         {
-          "text": ". When the would-be sole owner is a husband or wife, state laws may ",
+          "text": "encumber ",
           "font": "TimesNewRomanPSMT",
           "size": 11.0,
           "bold": false,
@@ -9650,7 +9530,37 @@
           "flags": 4
         },
         {
-          "text": "require homestead, dower or elective share rights to be released to allow ",
+          "text": "\uf034",
+          "font": "Webdings",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": " ",
+          "font": "ArialMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": "exclude ",
           "font": "TimesNewRomanPSMT",
           "size": 11.0,
           "bold": false,
@@ -9665,7 +9575,97 @@
           "flags": 4
         },
         {
-          "text": "ownership free and clear of any marriage-related claims.",
+          "text": "Undivided interest. ",
+          "font": "TimesNewRomanPS-BoldMT",
+          "size": 11.0,
+          "bold": true,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 20
+        },
+        {
+          "text": "An undivided interest is an owner's interest in a property in ",
+          "font": "TimesNewRomanPSMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 4
+        },
+        {
+          "text": "which two or more parties share ownership. The terms \"undivided\" and ",
+          "font": "TimesNewRomanPSMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 4
+        },
+        {
+          "text": "\"indivisible\" signify that the owner's interest is in a fractional part of the entire ",
+          "font": "TimesNewRomanPSMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 4
+        },
+        {
+          "text": "estate, not in a physical portion of the real property itself. If two co-owners have ",
+          "font": "TimesNewRomanPSMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 4
+        },
+        {
+          "text": "an undivided equal interest, one owner may not lay claim to the northern half of ",
+          "font": "TimesNewRomanPSMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 4
+        },
+        {
+          "text": "the property for his or her exclusive use.",
           "font": "TimesNewRomanPSMT",
           "size": 11.0,
           "bold": false,
@@ -9681,171 +9681,6 @@
         },
         {
           "text": " ",
-          "font": "Arial-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 16
-        },
-        {
-          "text": "The estate of a deceased tenant in severalty passes to heirs by probate. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "CO-OWNERSHIP ",
-          "font": "Arial-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 16
-        },
-        {
-          "text": "Tenancy in common  ",
-          "font": "Arial-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 16
-        },
-        {
-          "text": "Joint tenancy ",
-          "font": "Arial-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 16
-        },
-        {
-          "text": "Tenancy by the entireties  ",
-          "font": "Arial-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 16
-        },
-        {
-          "text": "Community property  ",
-          "font": "Arial-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 16
-        },
-        {
-          "text": "Tenancy in partnership ",
-          "font": "Arial-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 16
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "If more than one person, or a legal entity such as a corporation, owns an estate in ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "land, the estate is held in some form of co-ownership. Co-owners are also called ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "cotenants",
           "font": "TimesNewRomanPS-BoldMT",
           "size": 11.0,
           "bold": true,
@@ -9860,7 +9695,457 @@
           "flags": 20
         },
         {
-          "text": ".",
+          "text": "Examples of interests include: ",
+          "font": "TimesNewRomanPSMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 4
+        },
+        {
+          "text": "\uf034",
+          "font": "Webdings",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": " ",
+          "font": "ArialMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": "an owner who enjoys the complete bundle of rights ",
+          "font": "TimesNewRomanPSMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 4
+        },
+        {
+          "text": "\uf034",
+          "font": "Webdings",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": " ",
+          "font": "ArialMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": "a tenant who temporarily enjoys the right to use and exclude ",
+          "font": "TimesNewRomanPSMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 4
+        },
+        {
+          "text": "\uf034",
+          "font": "Webdings",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": " ",
+          "font": "ArialMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": "a lender who enjoys the right to encumber the property over the ",
+          "font": "TimesNewRomanPSMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 4
+        },
+        {
+          "text": "life of a mortgage loan ",
+          "font": "TimesNewRomanPSMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 4
+        },
+        {
+          "text": "\uf034",
+          "font": "Webdings",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": " ",
+          "font": "ArialMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": "a repairman who encumbers the property when the owner fails to ",
+          "font": "TimesNewRomanPSMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 4
+        },
+        {
+          "text": "pay for services ",
+          "font": "TimesNewRomanPSMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 4
+        },
+        {
+          "text": "\uf034",
+          "font": "Webdings",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": " ",
+          "font": "ArialMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": "a buyer who prevents an owner from selling the property to ",
+          "font": "TimesNewRomanPSMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 4
+        },
+        {
+          "text": "another party under the terms of the sale contract ",
+          "font": "TimesNewRomanPSMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 4
+        },
+        {
+          "text": "\uf034",
+          "font": "Webdings",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": " ",
+          "font": "ArialMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": "a mining company which temporarily owns the right to ",
+          "font": "TimesNewRomanPSMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 4
+        },
+        {
+          "text": "extract minerals from the property's subsurface ",
+          "font": "TimesNewRomanPSMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 4
+        },
+        {
+          "text": "\uf034",
+          "font": "Webdings",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": " ",
+          "font": "ArialMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": "a local municipality which has the right to control how an owner ",
+          "font": "TimesNewRomanPSMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 4
+        },
+        {
+          "text": "uses the property ",
+          "font": "TimesNewRomanPSMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 4
+        },
+        {
+          "text": "\uf034",
+          "font": "Webdings",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": " ",
+          "font": "ArialMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 0
+        },
+        {
+          "text": "a utility company which claims access to the property in ",
+          "font": "TimesNewRomanPSMT",
+          "size": 11.0,
+          "bold": false,
+          "italic": false,
+          "color": 0,
+          "bbox": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 0,
+            "y1": 0
+          },
+          "flags": 4
+        },
+        {
+          "text": "accordance with an easement",
           "font": "TimesNewRomanPSMT",
           "size": 11.0,
           "bold": false,
@@ -9879,3684 +10164,74 @@
       "images": [],
       "analysis": {
         "font_sizes": {
-          "11.0": 39,
+          "11.0": 62,
           "10.0": 1,
-          "74.35269927978516": 1,
-          "74.49164581298828": 2,
+          "72.95358276367188": 1,
+          "72.88377380371094": 2,
           "26.222200393676758": 1,
-          "12.0": 7
+          "12.0": 3
         },
         "font_styles": {
-          "regular_11.0": 20,
+          "regular_11.0": 55,
           "regular_10.0": 1,
-          "bold_74.35269927978516": 1,
-          "bold_74.49164581298828": 2,
+          "bold_72.95358276367188": 1,
+          "bold_72.88377380371094": 2,
           "bold_26.222200393676758": 1,
-          "bold_12.0": 7,
-          "bold_11.0": 18,
+          "bold_12.0": 3,
+          "bold_11.0": 6,
           "italic_11.0": 1
         },
         "likely_headings": [
           {
-            "text": "Ownership",
+            "text": "Interests and Estates",
             "size": 26.222200393676758,
             "bold": true
           },
           {
-            "text": "Sole Ownership",
+            "text": "Interests and Estates in Land",
             "size": 12.0,
             "bold": true
           },
           {
-            "text": "Co-Ownership",
+            "text": "Freehold Estates",
             "size": 12.0,
             "bold": true
           },
           {
-            "text": "Estates in Trust",
-            "size": 12.0,
-            "bold": true
-          },
-          {
-            "text": "Ownership by Business Entities",
-            "size": 12.0,
-            "bold": true
-          },
-          {
-            "text": "Condominiums",
-            "size": 12.0,
-            "bold": true
-          },
-          {
-            "text": "Cooperatives",
-            "size": 12.0,
-            "bold": true
-          },
-          {
-            "text": "Time-Shares",
+            "text": "Leasehold Estates",
             "size": 12.0,
             "bold": true
           }
         ],
         "likely_paragraphs": [
-          "There are numerous ways of holding ownership of a freehold estate",
-          "according to how many parties (tenants) share the ownership and how they",
-          "share it. The primary distinction is between ownership by a single party, and",
-          "ownership by multiple parties. Various trust structures enable an owner to",
-          "employ a trustee to hold and manage an estate. Condominiums, cooperatives",
-          "and time-shares are hybrids that combine several forms of ownership.",
-          "a single party owns",
-          "the fee or life estate, the ownership is a",
-          ". Synonyms are",
-          ", and",
-          ". When the would-be sole owner is a husband or wife, state laws may",
-          "require homestead, dower or elective share rights to be released to allow",
-          "ownership free and clear of any marriage-related claims.",
-          "The estate of a deceased tenant in severalty passes to heirs by probate.",
-          "If more than one person, or a legal entity such as a corporation, owns an estate in",
-          "land, the estate is held in some form of co-ownership. Co-owners are also called"
-        ]
-      }
-    },
-    "39": {
-      "page_number": 39,
-      "book_page": 40,
-      "dimensions": {
-        "width": 612.0,
-        "height": 792.0
-      },
-      "text_spans": [
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "40 Principles of Real Estate Practice in Alabama ",
-          "font": "TimesNewRomanPSMT",
-          "size": 10.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "Tenancy in  ",
-          "font": "Arial-BoldMT",
-          "size": 12.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 16
-        },
-        {
-          "text": "common",
-          "font": "Arial-BoldMT",
-          "size": 12.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 16
-        },
-        {
-          "text": "  ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 12.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": "The tenancy in common, also known as the ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "estate in common, ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": "is the most ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "common form of co-ownership when the owners are not married. The defining ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "characteristics are:",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 12.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": "\uf034",
-          "font": "Webdings",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": " ",
-          "font": "ArialMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": "two or more owners ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "\uf034",
-          "font": "Webdings",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": " ",
-          "font": "ArialMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": "identical rights ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "\uf034",
-          "font": "Webdings",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": " ",
-          "font": "ArialMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": "interests individually owned ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "\uf034",
-          "font": "Webdings",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": " ",
-          "font": "ArialMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": "electable ownership shares ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "\uf034",
-          "font": "Webdings",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": " ",
-          "font": "ArialMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": "no survivorship ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "\uf034",
-          "font": "Webdings",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": " ",
-          "font": "ArialMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": "no unity of time ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "Two or more owners",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": ". Any number of people may be co-tenants in a ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "single property.",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": "Identical rights",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": ". Co-tenants share an indivisible interest in the estate, i.e., all ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "have equal rights to possess and use the property subject to the rights of the other ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "cotenants. No co-tenant may claim to own any physical portion of the property ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "exclusively. They share what is called undivided possession or unity of ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "possession.",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": "Interests individually owned",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": ". All tenants in common have distinct and ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "separable ownership of their respective interests. Co-tenants may sell, ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "encumber, or transfer their interests without obstruction or consent from the ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "other owners. ( A co-tenant may not, however, encumber the entire property.)",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": "Electable ownership shares",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": ". Tenants in common determine among ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "themselves what share of the estate each party will own. For example, three ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "co-tenants may own 40%, 35%, and 25% interests in a property, respectively. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "In the absence of stated ownership shares, it is assumed that each has a share ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "equal to that of the others.",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": "No survivorship",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": ". A deceased co-tenant's estate passes by probate to the ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "decedent's heirs and devisees rather than to the other tenants in common. Any ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "number of heirs can share in the ownership of the willed tenancy.",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": "No unity of time",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": ". It is not necessary for tenants in common to acquire their ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "interests at the same time. A new co-tenant may enter into a pre-existing tenancy ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "in common.",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "The following exhibit illustrates how tenants in common may transfer ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "ownership interests to other parties by sale or will. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "Arial-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 16
-        },
-        {
-          "text": " ",
-          "font": "Arial-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 16
-        }
-      ],
-      "tables": [],
-      "images": [],
-      "analysis": {
-        "font_sizes": {
-          "11.0": 63,
-          "10.0": 1,
-          "12.0": 4
-        },
-        "font_styles": {
-          "regular_11.0": 48,
-          "regular_10.0": 1,
-          "bold_12.0": 4,
-          "bold_11.0": 15
-        },
-        "likely_headings": [
-          {
-            "text": "Tenancy in",
-            "size": 12.0,
-            "bold": true
-          },
-          {
-            "text": "common",
-            "size": 12.0,
-            "bold": true
-          }
-        ],
-        "likely_paragraphs": [
-          "The tenancy in common, also known as the",
-          "is the most",
-          "common form of co-ownership when the owners are not married. The defining",
-          "characteristics are:",
-          "two or more owners",
-          "identical rights",
-          "interests individually owned",
-          "electable ownership shares",
-          "no survivorship",
-          "no unity of time",
-          ". Any number of people may be co-tenants in a",
-          "single property.",
-          ". Co-tenants share an indivisible interest in the estate, i.e., all",
-          "have equal rights to possess and use the property subject to the rights of the other",
-          "cotenants. No co-tenant may claim to own any physical portion of the property",
-          "exclusively. They share what is called undivided possession or unity of",
-          "possession.",
-          ". All tenants in common have distinct and",
-          "separable ownership of their respective interests. Co-tenants may sell,",
-          "encumber, or transfer their interests without obstruction or consent from the",
-          "other owners. ( A co-tenant may not, however, encumber the entire property.)",
-          ". Tenants in common determine among",
-          "themselves what share of the estate each party will own. For example, three",
-          "co-tenants may own 40%, 35%, and 25% interests in a property, respectively.",
-          "In the absence of stated ownership shares, it is assumed that each has a share",
-          "equal to that of the others.",
-          ". A deceased co-tenant's estate passes by probate to the",
-          "decedent's heirs and devisees rather than to the other tenants in common. Any",
-          "number of heirs can share in the ownership of the willed tenancy.",
-          ". It is not necessary for tenants in common to acquire their",
-          "interests at the same time. A new co-tenant may enter into a pre-existing tenancy",
-          "in common.",
-          "The following exhibit illustrates how tenants in common may transfer",
-          "ownership interests to other parties by sale or will."
-        ]
-      }
-    },
-    "40": {
-      "page_number": 40,
-      "book_page": 41,
-      "dimensions": {
-        "width": 612.0,
-        "height": 792.0
-      },
-      "text_spans": [
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "Chapter 4: Ownership 41 ",
-          "font": "TimesNewRomanPSMT",
-          "size": 10.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "Exhibit 4.1 Tenancy in Common ",
-          "font": "Arial-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 16
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "The exhibit shows three owners of a property as tenants in common: A owns ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "20%, B owns 30%, and C owns 50%. C decides to sell 4/5 of his interest to D and ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "1/5 to E. D's interest in the estate will be 40% (4/5 times 50%), and E's will be ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "10% (1/5 times 50%). Both new tenants are tenants in common with A and B. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "Note that any owner may sell any portion of his or her interest to other owners or ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "outside parties. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "The second part of the exhibit shows how, when co-owner A dies, she might ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "bequeath her 20% share of the ownership to heirs D and E equally. In such a ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "case, the heirs would each acquire a 10% share of ownership as tenants in ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "common with B and C. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "Joint tenancy ",
-          "font": "Arial-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 16
-        },
-        {
-          "text": "In a joint tenancy, two or more persons collectively own a property as if they ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "were a single person. Rights and interests are indivisible and equal: each has a ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "shared interest in the whole property which cannot be divided up. Joint tenants ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "may only convey their interests to outside parties as tenant-in-common interests. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "One cannot convey a joint tenant interest. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "The defining characteristics and requirements of joint tenancy are: ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "\uf034",
-          "font": "Webdings",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": " ",
-          "font": "ArialMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": "unity of ownership ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "\uf034",
-          "font": "Webdings",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": " ",
-          "font": "ArialMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": "equal ownership ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "\uf034",
-          "font": "Webdings",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": " ",
-          "font": "ArialMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": "transfer of interest ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "\uf034",
-          "font": "Webdings",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": " ",
-          "font": "ArialMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": "survivorship ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        }
-      ],
-      "tables": [],
-      "images": [
-        {
-          "bbox": {
-            "x0": 192.0,
-            "y0": 124.5,
-            "x1": 537.6,
-            "y1": 390.9
-          }
-        }
-      ],
-      "analysis": {
-        "font_sizes": {
-          "11.0": 51,
-          "10.0": 1
-        },
-        "font_styles": {
-          "regular_11.0": 49,
-          "regular_10.0": 1,
-          "bold_11.0": 2
-        },
-        "likely_headings": [],
-        "likely_paragraphs": [
-          "The exhibit shows three owners of a property as tenants in common: A owns",
-          "20%, B owns 30%, and C owns 50%. C decides to sell 4/5 of his interest to D and",
-          "1/5 to E. D's interest in the estate will be 40% (4/5 times 50%), and E's will be",
-          "10% (1/5 times 50%). Both new tenants are tenants in common with A and B.",
-          "Note that any owner may sell any portion of his or her interest to other owners or",
-          "outside parties.",
-          "The second part of the exhibit shows how, when co-owner A dies, she might",
-          "bequeath her 20% share of the ownership to heirs D and E equally. In such a",
-          "case, the heirs would each acquire a 10% share of ownership as tenants in",
-          "common with B and C.",
-          "In a joint tenancy, two or more persons collectively own a property as if they",
-          "were a single person. Rights and interests are indivisible and equal: each has a",
-          "shared interest in the whole property which cannot be divided up. Joint tenants",
-          "may only convey their interests to outside parties as tenant-in-common interests.",
-          "One cannot convey a joint tenant interest.",
-          "The defining characteristics and requirements of joint tenancy are:",
-          "unity of ownership",
-          "equal ownership",
-          "transfer of interest",
-          "survivorship"
-        ]
-      }
-    },
-    "41": {
-      "page_number": 41,
-      "book_page": 42,
-      "dimensions": {
-        "width": 612.0,
-        "height": 792.0
-      },
-      "text_spans": [
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "42 Principles of Real Estate Practice in Alabama ",
-          "font": "TimesNewRomanPSMT",
-          "size": 10.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "Unity of ownership",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": ". Whereas tenants in common hold separate title to their ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "individual interests, joint tenants together hold a single title to the property. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": "Equal ownership",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": ". Joint tenants own equal shares in the property, without ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "exception. If there are four co-tenants, each owns 25% of the property. If there ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "are ten co-tenants, each owns 10%. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": "Transfer of interest",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": ". A joint tenant may transfer his or her interest in the ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "property to an outside party, but only as a tenancy in common interest. Whoever ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "acquires the interest co-owns the property as a tenant in common with the other ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "joint tenants. The remaining joint tenants continue to own an undivided interest ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "in the property, less the new cotenant's share. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": "Survivorship",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": ". In most states, joint tenants enjoy rights of survivorship: if a joint ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "tenant dies, all interests and rights pass to the surviving joint tenants free from ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "any claims of creditors or heirs. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": "In other states, joint tenancy does not inherently include survivorship; ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "survivorship must be expressly stated to be effected on transfer. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "When only one joint tenant survives, the survivor's interest becomes an estate in ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "severalty, and the joint tenancy is terminated. The estate will be then probated ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "upon the severalty owner's death. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "The survivorship feature of joint tenancy presents an advantage to tenancy in ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "common, in that interests pass without probate proceedings. On the other hand, ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "joint tenants relinquish any ability to will their interest to parties outside of the ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "tenancy. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "Exhibit 4.2 Joint Tenancy ",
-          "font": "Arial-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 16
-        },
-        {
-          "text": " ",
-          "font": "Arial-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 16
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        }
-      ],
-      "tables": [],
-      "images": [
-        {
-          "bbox": {
-            "x0": 174.75,
-            "y0": 475.95,
-            "x1": 527.55,
-            "y1": 727.95
-          }
-        }
-      ],
-      "analysis": {
-        "font_sizes": {
-          "11.0": 51,
-          "10.0": 1
-        },
-        "font_styles": {
-          "regular_11.0": 41,
-          "regular_10.0": 1,
-          "bold_11.0": 10
-        },
-        "likely_headings": [],
-        "likely_paragraphs": [
-          ". Whereas tenants in common hold separate title to their",
-          "individual interests, joint tenants together hold a single title to the property.",
-          ". Joint tenants own equal shares in the property, without",
-          "exception. If there are four co-tenants, each owns 25% of the property. If there",
-          "are ten co-tenants, each owns 10%.",
-          ". A joint tenant may transfer his or her interest in the",
-          "property to an outside party, but only as a tenancy in common interest. Whoever",
-          "acquires the interest co-owns the property as a tenant in common with the other",
-          "joint tenants. The remaining joint tenants continue to own an undivided interest",
-          "in the property, less the new cotenant's share.",
-          ". In most states, joint tenants enjoy rights of survivorship: if a joint",
-          "tenant dies, all interests and rights pass to the surviving joint tenants free from",
-          "any claims of creditors or heirs.",
-          "In other states, joint tenancy does not inherently include survivorship;",
-          "survivorship must be expressly stated to be effected on transfer.",
-          "When only one joint tenant survives, the survivor's interest becomes an estate in",
-          "severalty, and the joint tenancy is terminated. The estate will be then probated",
-          "upon the severalty owner's death.",
-          "The survivorship feature of joint tenancy presents an advantage to tenancy in",
-          "common, in that interests pass without probate proceedings. On the other hand,",
-          "joint tenants relinquish any ability to will their interest to parties outside of the",
-          "tenancy."
-        ]
-      }
-    },
-    "42": {
-      "page_number": 42,
-      "book_page": 43,
-      "dimensions": {
-        "width": 612.0,
-        "height": 792.0
-      },
-      "text_spans": [
-        {
-          "text": " ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "Chapter 4: Ownership 43 ",
-          "font": "TimesNewRomanPSMT",
-          "size": 10.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "The exhibit shows three parties, A, B and C, who acquired a property as joint ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "tenants. By definition, each owns a one-third share. If C sells to D, A and B ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "automatically become joint tenants of two-thirds of the property. D becomes a ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "tenant in common with A and B. D's interest will pass to her heirs upon her death. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "If C dies, A and B receive equal shares of C's estate, making the remaining shares ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "an equal 50%. If B then dies, A acquires the whole estate and becomes the sole ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "owner. This event terminates the joint tenancy estate, and it becomes an estate in ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "severalty. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "Creation of joint tenancy. ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": "To create a joint tenancy, all owners must acquire ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "the property at the same time, use the same deed, acquire equal interests, and ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "share in equal rights of possession. These are referred to as the ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "four unities",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": ".",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": "\uf034",
-          "font": "Webdings",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": " ",
-          "font": "ArialMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": "unity of time ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": "all parties must acquire the joint interest at the same time ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "\uf034",
-          "font": "Webdings",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": " ",
-          "font": "ArialMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": "unity of title ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": "all parties must acquire the property in the same deed of ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "conveyance ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "\uf034",
-          "font": "Webdings",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": " ",
-          "font": "ArialMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": "unity of interest ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": "all parties must receive equal undivided interests ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "\uf034",
-          "font": "Webdings",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": " ",
-          "font": "ArialMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 0
-        },
-        {
-          "text": "unity of possession ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": "all parties must receive the same rights of possession ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "In most states, the conveyance must name the parties as joint tenants with rights ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "of survivorship. Otherwise, and in the absence of clear intent of the parties, the ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "estate will be considered a tenancy in common. In addition, a joint tenancy can ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "only be created by agreement between parties, and not by operation of law. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "In some states, a severalty owner may create a joint tenancy with other parties ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "without the presence of the four unities by deeding the property to himself or ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "herself and other parties as joint tenants. ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "Termination by partition suit",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": ". A partition suit can terminate a joint tenancy ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "or a tenancy in common. Foreclosure and bankruptcy can also terminate these ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "estates.",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": " ",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": "A partition suit is a legal avenue for an owner who wants to dispose of his or her ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "interest against the wishes of other co-owners. The suit petitions the court to ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "divide, or ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "partition",
-          "font": "TimesNewRomanPS-BoldMT",
-          "size": 11.0,
-          "bold": true,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 20
-        },
-        {
-          "text": ", the property physically, according to the owner's respective ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        },
-        {
-          "text": "rights and interests. If this is not reasonably feasible, the court may order the ",
-          "font": "TimesNewRomanPSMT",
-          "size": 11.0,
-          "bold": false,
-          "italic": false,
-          "color": 0,
-          "bbox": {
-            "x0": 0,
-            "y0": 0,
-            "x1": 0,
-            "y1": 0
-          },
-          "flags": 4
-        }
-      ],
-      "tables": [],
-      "images": [],
-      "analysis": {
-        "font_sizes": {
-          "11.0": 51,
-          "10.0": 1
-        },
-        "font_styles": {
-          "regular_11.0": 41,
-          "regular_10.0": 1,
-          "bold_11.0": 10
-        },
-        "likely_headings": [],
-        "likely_paragraphs": [
-          "The exhibit shows three parties, A, B and C, who acquired a property as joint",
-          "tenants. By definition, each owns a one-third share. If C sells to D, A and B",
-          "automatically become joint tenants of two-thirds of the property. D becomes a",
-          "tenant in common with A and B. D's interest will pass to her heirs upon her death.",
-          "If C dies, A and B receive equal shares of C's estate, making the remaining shares",
-          "an equal 50%. If B then dies, A acquires the whole estate and becomes the sole",
-          "owner. This event terminates the joint tenancy estate, and it becomes an estate in",
-          "severalty.",
-          "To create a joint tenancy, all owners must acquire",
-          "the property at the same time, use the same deed, acquire equal interests, and",
-          "share in equal rights of possession. These are referred to as the",
-          "all parties must acquire the joint interest at the same time",
-          "all parties must acquire the property in the same deed of",
-          "conveyance",
-          "all parties must receive equal undivided interests",
-          "all parties must receive the same rights of possession",
-          "In most states, the conveyance must name the parties as joint tenants with rights",
-          "of survivorship. Otherwise, and in the absence of clear intent of the parties, the",
-          "estate will be considered a tenancy in common. In addition, a joint tenancy can",
-          "only be created by agreement between parties, and not by operation of law.",
-          "In some states, a severalty owner may create a joint tenancy with other parties",
-          "without the presence of the four unities by deeding the property to himself or",
-          "herself and other parties as joint tenants.",
-          ". A partition suit can terminate a joint tenancy",
-          "or a tenancy in common. Foreclosure and bankruptcy can also terminate these",
-          "estates.",
-          "A partition suit is a legal avenue for an owner who wants to dispose of his or her",
-          "interest against the wishes of other co-owners. The suit petitions the court to",
-          "divide, or",
-          ", the property physically, according to the owner's respective",
-          "rights and interests. If this is not reasonably feasible, the court may order the"
+          "An interest in real estate is",
+          "ownership of any combination of the bundle of rights",
+          "to real property, including the rights to",
+          "possess",
+          "transfer",
+          "encumber",
+          "exclude",
+          "An undivided interest is an owner's interest in a property in",
+          "which two or more parties share ownership. The terms \"undivided\" and",
+          "\"indivisible\" signify that the owner's interest is in a fractional part of the entire",
+          "estate, not in a physical portion of the real property itself. If two co-owners have",
+          "an undivided equal interest, one owner may not lay claim to the northern half of",
+          "the property for his or her exclusive use.",
+          "Examples of interests include:",
+          "an owner who enjoys the complete bundle of rights",
+          "a tenant who temporarily enjoys the right to use and exclude",
+          "a lender who enjoys the right to encumber the property over the",
+          "life of a mortgage loan",
+          "a repairman who encumbers the property when the owner fails to",
+          "pay for services",
+          "a buyer who prevents an owner from selling the property to",
+          "another party under the terms of the sale contract",
+          "a mining company which temporarily owns the right to",
+          "extract minerals from the property's subsurface",
+          "a local municipality which has the right to control how an owner",
+          "uses the property",
+          "a utility company which claims access to the property in",
+          "accordance with an easement"
         ]
       }
     }
