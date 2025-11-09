@@ -1,0 +1,133 @@
+================================================================================
+                        PAGE 28 ASCII LAYOUT PREVIEW
+================================================================================
+Book Page: 29 | Chapter: 3 | PDF Index: 28 | Dimensions: 612x792px
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│  [Chapter Title Header]                                                     │
+│  3 Interests and Estates                                                    │
+│                                                                             │
+│  [Navigation/Section Links - Sidebar style, Bold]                          │
+│  Interests and Estates in Land                                              │
+│  Freehold Estates                                                           │
+│  Leasehold Estates                                                          │
+│                                                                             │
+│  ══════════════════════════════════════════════════════════════════════    │
+│  [H2 Major Section Heading - Bold, All Caps]                               │
+│  INTERESTS AND ESTATES IN LAND                                              │
+│  ══════════════════════════════════════════════════════════════════════    │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Interests                                                                   │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Estates in land                                                             │
+│                                                                             │
+│  ──────────────────────────────────────────────────────────────────────    │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Interests                                                                   │
+│                                                                             │
+│  [Body Text - 11pt Regular with italic emphasis]                           │
+│  An interest in real estate is ownership of any combination of the bundle  │
+│  of rights to real property, including the rights to                        │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                              │
+│  ▶ possess                                                                   │
+│  ▶ use                                                                       │
+│  ▶ transfer                                                                  │
+│  ▶ encumber                                                                  │
+│  ▶ exclude                                                                   │
+│                                                                             │
+│  [H5 Sub-subsection - 11pt Bold]                                            │
+│  Undivided interest.                                                        │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  An undivided interest is an owner's interest in a property in which two   │
+│  or more parties share ownership. The terms "undivided" and "indivisible"  │
+│  signify that the owner's interest is in a fractional part of the entire   │
+│  estate, not in a physical portion of the real property itself. If two     │
+│  co-owners have an undivided equal interest, one owner may not lay claim   │
+│  to the northern half of the property for his or her exclusive use.        │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  Examples of interests include:                                             │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                              │
+│  ▶ an owner who enjoys the complete bundle of rights                       │
+│  ▶ a tenant who temporarily enjoys the right to use and exclude           │
+│  ▶ a lender who enjoys the right to encumber the property over the life   │
+│    of a mortgage loan                                                       │
+│  ▶ a repairman who encumbers the property when the owner fails to pay     │
+│    for services                                                             │
+│  ▶ a buyer who prevents an owner from selling the property to another     │
+│    party under the terms of the sale contract                              │
+│  ▶ a mining company which temporarily owns the right to extract minerals  │
+│    from the property's subsurface                                           │
+│  ▶ a local municipality which has the right to control how an owner uses  │
+│    the property                                                             │
+│  ▶ a utility company which claims access to the property in accordance    │
+│    with an easement                                                         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+STRUCTURE SUMMARY:
+─────────────────
+
+Page Type: Chapter Opening (Chapter 3)
+Total Elements: 10
+
+Headings (4):
+  • Chapter title: "Interests and Estates"
+  • H2: 1 instance (major section, bold, all caps)
+    - "INTERESTS AND ESTATES IN LAND"
+  • H4: 2 instances (11pt, bold)
+    - "Interests" (appears twice in navigation/content)
+    - "Estates in land"
+  • H5: 1 instance (sub-subsection, 11pt, bold)
+    - "Undivided interest"
+
+Navigation/Section Links (3):
+  • Interests and Estates in Land, Freehold Estates, Leasehold Estates
+  • Bold, sidebar-style presentation
+
+Paragraphs (4):
+  • Body text: 4 paragraphs total
+  • Average paragraph length: ~60 words
+  • Text flow: Top to bottom, left to right
+  • Contains embedded italic emphasis
+
+Bullet Lists (2):
+  • List 1: Rights bundle (possess, use, transfer, encumber, exclude) - 5 items
+  • List 2: Examples of interests - 8 items
+
+Tables: 0
+
+Images: 0
+
+Font Summary:
+  • 11pt: Primary font for all body text and headings
+  • 10pt: Footer text (page number, "Chapter 3: Interests and Estates 29")
+  • Bold major section heading: all caps, larger scale
+  • Bold subsection headings: 11pt bold
+  • Italic: "ownership of any combination of the bundle of rights"
+  • Total unique fonts: 2 (Times New Roman variants)
+
+Key Terms Emphasized:
+  • "INTERESTS AND ESTATES IN LAND" (h2, bold, all caps)
+  • "Interests" (bold subsection)
+  • "Estates in land" (bold subsection)
+  • "Undivided interest" (bold sub-subsection)
+  • "ownership of any combination of the bundle of rights" (italic)
+  • Rights bundle: possess, use, transfer, encumber, exclude
+
+Confidence Assessment:
+  • Heading hierarchy: 95% confident (chapter opening structure)
+  • Element types: 95% confident
+  • Bullet list structure: 95% confident
+  • Content flow: 95% confident
+  • Text styling: 90% confident
+  • Chapter transition: 95% confident
+
+================================================================================

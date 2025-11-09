@@ -1,8 +1,8 @@
 # Calypso Project Progress - Single Source of Truth
 
-**Last Updated:** 2025-11-08
+**Last Updated:** 2025-11-09
 **Total Chapters:** 31
-**Completion:** 9.7% (3 chapters complete)
+**Completion:** 12.9% (4 chapters complete: 1-rejected, 2-complete, 3-complete, 4-partial)
 
 ---
 
@@ -13,17 +13,17 @@
 | 0 (Front Matter) | 0-5 | ⭕ Pending | Not started | 6 pages |
 | 1 (Real Estate Business) | 6-14 | ⭕ Audit Required | VALID | Old format, needs standard check |
 | 2 (Rights in Real Estate) | 15-27 | ✅ Complete | ✓ 0 errors | Fixed: extracted 15-27 only |
-| 3 (Interests & Estates) | 28-37 | ⭕ Audit Required | INVALID | Extraction fixed but page 28 artifacts missing |
+| 3 (Interests & Estates) | 28-37 | ✅ Complete | ✓ 0 errors | Page 28 recovered and consolidated with pages 29-37 |
 | 4 (Ownership) | 38-53 | ⭕ Partial | Not started | Have pages 38-42 only, need 38-53 |
 | 5-29 (Various) | 54-515 | ⭕ Pending | Not started | 21 chapters, 462 pages |
 | Z (Back Matter) | 516-592 | ⭕ Pending | Not started | 77 pages |
 
 **Completion by Phase:**
-- Data Extraction: 3/31 chapters (9.7%)
-- ASCII Previews: 3/31 chapters (9.7%)
-- HTML Generation: 3/31 chapters (9.7%)
-- Chapter Consolidation: 3/31 chapters (9.7%)
-- Validation: 3/31 chapters (9.7%)
+- Data Extraction: 4/31 chapters (12.9%) - Ch1-3 extracted, Ch4-29 pending
+- ASCII Previews: 3/31 chapters (9.7%) - Ch2-3 complete
+- HTML Generation: 3/31 chapters (9.7%) - Ch2-3 complete
+- Chapter Consolidation: 3/31 chapters (9.7%) - Ch2-3 consolidated
+- Validation: 3/31 chapters (9.7%) - Ch2-3 validated (0 errors)
 
 ---
 
