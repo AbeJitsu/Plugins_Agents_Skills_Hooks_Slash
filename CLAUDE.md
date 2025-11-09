@@ -144,27 +144,42 @@ OUTPUT: ASCII preview showing:
 
 ---
 
-### Phase 2b: HTML Generation (AI Skill 3)
+### Phase 2b: HTML Generation + Per-Page Verification (AI Skill 3 + Gate 1)
 ```
-INPUT: PNG + JSON + ASCII preview (all three)
+FOR EACH PAGE (X):
+  ↓
+INPUT: PNG + JSON + ASCII preview (all three) for page X
   ↓
 SKILL 3: AI Generation
   ├─ Use PNG for visual context
   ├─ Use JSON for exact text & styling
   ├─ Use ASCII for structural guidance
   └─ Generate 04_page_XX.html
-OUTPUT: Semantic HTML5
-  - Proper heading hierarchy (h1 → h2 → h4, intentional skip)
-  - Semantic CSS classes (from main.css)
-  - Text styling preserved (<em>, <strong>)
-  - Exhibits as <figure> elements
-  - Tables as semantic <table> with <thead>/<tbody>
+  ↓
+GATE 1: Per-Page Text Verification (MANDATORY FAIL-SAFE)
+  ├─ Extract text from extraction JSON for page X
+  ├─ Extract text from generated HTML
+  ├─ Compare coverage percentage
+  ├─ MUST BE ≥95% to proceed
+  └─ If <95%: STOP, regenerate page, re-verify
+OUTPUT: Verified individual page HTML (or regeneration request)
 ```
 
-**Quality check:**
-- Each page must validate with 0 errors
-- Must use semantic classes from main.css
-- Must preserve exact text from JSON
+**Quality requirements for each page:**
+- ✅ HTML validates (structural check later in process)
+- ✅ Text coverage ≥95% (content completeness check)
+- ✅ Uses semantic classes from main.css
+- ✅ Preserves exact text from JSON
+- ✅ No content from adjacent pages
+
+**Fail-Safe Logic:**
+- Generate page HTML
+- Run text verification immediately
+- If coverage ≥95%: Proceed to next page ✓
+- If coverage 85-95%: Warning - investigate but can continue
+- If coverage <85%: STOP - regenerate page before continuing ❌
+
+**Never consolidate pages with <95% coverage**
 
 ---
 
@@ -222,6 +237,51 @@ python3 Calypso/tools/verify_text_content.py <chapter_num>
 Exit codes: 0 (≥95% pass), 1 (85-95% warning), 2 (<85% fail)
 
 **Detailed validation guide:** See [VALIDATION_CHECKLIST.md](./.claude/VALIDATION_CHECKLIST.md) for step-by-step validation procedures
+
+---
+
+## Comprehensive Fail-Safe Validation Script
+
+### All-in-One Chapter Validation
+
+Instead of running validations manually, use the automated comprehensive validation script:
+
+```bash
+Calypso/tools/verify_chapter_complete.sh <chapter_num>
+```
+
+**This script runs ALL 4 validation gates in sequence:**
+
+1. **Gate 0:** Extraction validation (pages extracted correctly)
+2. **Gate 1:** Per-page text verification (each page ≥95% coverage) ← CRITICAL
+3. **Gate 2:** Boundary markers (opening/closing present)
+4. **Gate 3:** HTML structure validation (0 errors)
+5. **Gate 4:** Chapter-level text verification (≥95% coverage)
+
+**Output:**
+- ✅ All gates pass → Chapter is verified complete
+- ⚠️ Warning (85-95% coverage) → Review and confirm to proceed
+- ❌ Critical failure (<85% coverage) → Stop, regenerate pages, re-run
+
+**Example:**
+```bash
+# After generating all pages for Chapter 1:
+Calypso/tools/verify_chapter_complete.sh 1
+
+# Output shows per-page coverage for pages 6-14:
+[Gate 1] Per-Page Text Verification
+  ✓ Page 6: 97.3% coverage
+  ✓ Page 7: 98.1% coverage
+  ⚠️ Page 13: 94.7% coverage (WARNING)
+  ...
+[Gate 2] Boundary Markers: PASSED
+[Gate 3] HTML Structure: PASSED
+[Gate 4] Chapter-Level: PASSED
+
+Chapter 1 is verified complete and ready for release
+```
+
+**Key advantage:** Fails fast at Gate 1 if any page has <95% coverage, preventing consolidation of incomplete pages.
 
 ---
 

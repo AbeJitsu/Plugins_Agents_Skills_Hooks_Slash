@@ -55,8 +55,16 @@ def extract_text_from_html(html_path: str) -> str:
     return parser.get_text()
 
 
-def extract_text_from_json(json_path: str) -> Tuple[str, int]:
-    """Extract all text content from extraction JSON."""
+def extract_text_from_json(json_path: str, page_num: int = None) -> Tuple[str, int]:
+    """Extract all text content from extraction JSON.
+
+    Args:
+        json_path: Path to extraction JSON
+        page_num: If specified, extract only this page; else extract all pages
+
+    Returns:
+        Tuple of (combined_text, text_span_count)
+    """
     with open(json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
@@ -64,15 +72,30 @@ def extract_text_from_json(json_path: str) -> Tuple[str, int]:
     text_span_count = 0
 
     pages = data.get('pages', {})
-    for page_num in sorted(int(p) for p in pages.keys()):
-        page_data = pages[str(page_num)]
-        text_spans = page_data.get('text_spans', [])
 
-        for span in text_spans:
-            text = span.get('text', '').strip()
-            if text:
-                text_chunks.append(text)
-                text_span_count += 1
+    if page_num is not None:
+        # Extract specific page only
+        page_key = str(page_num)
+        if page_key in pages:
+            page_data = pages[page_key]
+            text_spans = page_data.get('text_spans', [])
+
+            for span in text_spans:
+                text = span.get('text', '').strip()
+                if text:
+                    text_chunks.append(text)
+                    text_span_count += 1
+    else:
+        # Extract all pages
+        for page_num_key in sorted(int(p) for p in pages.keys()):
+            page_data = pages[str(page_num_key)]
+            text_spans = page_data.get('text_spans', [])
+
+            for span in text_spans:
+                text = span.get('text', '').strip()
+                if text:
+                    text_chunks.append(text)
+                    text_span_count += 1
 
     return ' '.join(text_chunks), text_span_count
 
@@ -128,6 +151,8 @@ def get_chapter_paths(chapter_num: int) -> Tuple[str, str]:
 def main():
     """Main verification logic."""
 
+    page_num = None  # For per-page verification
+
     # Parse arguments
     if len(sys.argv) == 2:
         # Single argument: chapter number
@@ -138,13 +163,36 @@ def main():
             print(f"Error: Invalid chapter number '{sys.argv[1]}'")
             sys.exit(1)
     elif len(sys.argv) == 3:
-        # Two arguments: explicit paths
+        # Two arguments: explicit paths (or chapter + page)
+        # Try to interpret as chapter and page number
+        try:
+            chapter_num = int(sys.argv[1])
+            page_num = int(sys.argv[2])
+            json_path, _ = get_chapter_paths(chapter_num)
+            # Find the page HTML file
+            base_dir = Path(__file__).parent.parent
+            chapter_str = f"{chapter_num:02d}"
+            html_path = base_dir / "output" / f"chapter_{chapter_str}" / "page_artifacts" / f"page_{page_num}" / f"04_page_{page_num}.html"
+            html_path = str(html_path)
+        except ValueError:
+            # If that fails, treat as extraction_json and consolidated_html paths
+            json_path = sys.argv[1]
+            html_path = sys.argv[2]
+    elif len(sys.argv) == 4:
+        # Three arguments: extraction_json, html, page_num
         json_path = sys.argv[1]
         html_path = sys.argv[2]
+        try:
+            page_num = int(sys.argv[3])
+        except ValueError:
+            print(f"Error: Invalid page number '{sys.argv[3]}'")
+            sys.exit(1)
     else:
         print("Usage:")
         print("  python3 verify_text_content.py <chapter_num>")
         print("  python3 verify_text_content.py <extraction_json> <consolidated_html>")
+        print("  python3 verify_text_content.py <chapter_num> <page_num>")
+        print("  python3 verify_text_content.py <extraction_json> <html> <page_num>")
         sys.exit(1)
 
     # Verify files exist
@@ -163,7 +211,7 @@ def main():
 
     # Extract texts
     print("Extracting text from JSON...", end=" ")
-    json_text, span_count = extract_text_from_json(json_path)
+    json_text, span_count = extract_text_from_json(json_path, page_num=page_num)
     json_word_count = len(json_text.split())
     print(f"✓ ({span_count} text spans, {json_word_count} words)")
 
