@@ -1,0 +1,99 @@
+================================================================================
+                        PAGE 37 ASCII LAYOUT PREVIEW
+================================================================================
+Book Page: 38 | Chapter: 3 | PDF Index: 37 | Dimensions: 612x792px
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│  [H1 Chapter Title with Subtitle - 12pt Bold]                               │
+│  Interests and Estates                                                      │
+│  Snapshot Review                                                            │
+│                                                                             │
+│  ──────────────────────────────────────────────────────────────────────    │
+│                                                                             │
+│  [Section Title - 10pt Bold]                                                │
+│  INTERESTS AND ESTATES IN LAND                                              │
+│                                                                             │
+│  [H4 Subsection - 10pt Bold]                                                │
+│  Interests                                                                   │
+│                                                                             │
+│  [Bullet List - 10pt Regular]                                              │
+│  ● any combination of bundle of rights                                      │
+│  ● estates, encumbrances, police powers                                     │
+│                                                                             │
+│  [H4 Subsection - 10pt Bold]                                                │
+│  Estates in land                                                             │
+│                                                                             │
+│  [Bullet List - 10pt Regular]                                              │
+│  ● include right of possession; also called tenancies                       │
+│  ● freehold estates (unlimited duration): Fee simple, Life estate           │
+│  ● leasehold estates (specified duration): Tenancy for years, Periodic,    │
+│    Estate at will, Estate at sufferance                                     │
+│                                                                             │
+│  [H4 Subsection - 10pt Bold]                                                │
+│  Encumbrances                                                                │
+│                                                                             │
+│  [Bullet List - 10pt Regular]                                              │
+│  ● do not include right of possession                                       │
+│  ● may restrict owner's bundle of rights                                    │
+│  ● types: mortgages, liens, covenants, easements                            │
+│                                                                             │
+│  [H4 Subsection - 10pt Bold]                                                │
+│  Police Powers                                                               │
+│                                                                             │
+│  [Bullet List - 10pt Regular]                                              │
+│  ● government's right to regulate property use                              │
+│  ● include zoning, taxation, eminent domain, escheat                        │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+STRUCTURE SUMMARY:
+─────────────────
+
+Page Type: Chapter Summary/Snapshot Review with Structured Content
+Total Elements: 12
+
+Headings (5):
+  • H1: 1 instance (12pt, bold, chapter title with subtitle)
+    - "Interests and Estates" with "Snapshot Review"
+  • H4: 4 instances (10pt, bold)
+    - "Interests"
+    - "Estates in land"
+    - "Encumbrances"
+    - "Police Powers"
+
+Exhibits/Figures: 0
+
+Bullet Lists (4):
+  • List 1: 2 items on interests
+  • List 2: 3 items on estates in land (includes full estate type classification)
+  • List 3: 3 items on encumbrances
+  • List 4: 2 items on police powers
+
+Font Summary:
+  • 12pt: Chapter title
+  • 10pt: Primary font for subsection headings and bullet content
+  • 11pt: Body text (if any)
+  • Bold subsection headings: 10pt bold (4 instances)
+  • Total unique fonts: 2 (Arial variants)
+
+Key Terms Emphasized:
+  • "Interests and Estates" (chapter title)
+  • "INTERESTS AND ESTATES IN LAND" (section title)
+  • "Interests", "Estates in land", "Encumbrances", "Police Powers" (subsection categories)
+  • "bundle of rights"
+  • "tenancies"
+  • "freehold estates"
+  • "leasehold estates"
+  • "Fee simple, Life estate"
+  • "mortgages, liens, covenants, easements"
+
+Confidence Assessment:
+  • Heading hierarchy: 100% confident
+  • Element types: 95% confident
+  • Section structure: 95% confident
+  • Summary content mapping: 90% confident (reviews Chapter 3 content)
+  • Text styling: 90% confident
+
+================================================================================

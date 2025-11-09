@@ -1,0 +1,83 @@
+================================================================================
+                        PAGE 38 ASCII LAYOUT PREVIEW
+================================================================================
+Book Page: 39 | Chapter: 4 | PDF Index: 38 | Dimensions: 612x792px
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│  [Chapter Number - Large, Bold, 74pt]                                       │
+│  4                                                                           │
+│                                                                             │
+│  [Chapter Title - 26pt Bold]                                                │
+│  Ownership                                                                   │
+│                                                                             │
+│  [Section Navigation - 12pt Bold, Indented]                                 │
+│  Sole Ownership                                                              │
+│  Co-Ownership                                                                │
+│  Estates in Trust                                                            │
+│  Ownership by Business Entities                                              │
+│  Condominiums                                                                │
+│  Cooperatives                                                                │
+│  Time-Shares                                                                 │
+│                                                                             │
+│  ──────────────────────────────────────────────────────────────────────    │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  There are numerous ways of holding ownership of a freehold estate,        │
+│  according to how many parties (tenants) share the ownership, and how they │
+│  share it. The primary distinction is between ownership by a single party  │
+│  and ownership by multiple parties. Various trust structures enable owners  │
+│  to employ a trustee to hold and manage an estate. Condominiums,           │
+│  cooperatives, and time-shares are hybrids that combine several forms of   │
+│  ownership.                                                                 │
+│                                                                             │
+│  [H2 Major Section - 11pt Bold, All Caps]                                   │
+│  SOLE OWNERSHIP                                                             │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+STRUCTURE SUMMARY:
+─────────────────
+
+Page Type: NEW CHAPTER Opening with Title, Navigation, and First Section
+Total Elements: 5
+
+Headings (2):
+  • Chapter Number and Title: 4 / Ownership (74pt + 26pt, bold)
+  • H2: 1 instance (11pt, bold, all caps)
+    - "SOLE OWNERSHIP"
+
+Navigation (1):
+  • Section Navigation: 7-item menu (12pt bold, indented list)
+    - Sole Ownership, Co-Ownership, Estates in Trust, Ownership by Business Entities,
+      Condominiums, Cooperatives, Time-Shares
+
+Paragraphs (1):
+  • Body text: 1 paragraph
+  • Length: ~70 words
+  • Introduces chapter content and ownership concepts
+
+Font Summary:
+  • 74pt: Chapter number (very large, bold)
+  • 26pt: Chapter title
+  • 12pt: Navigation menu items (bold)
+  • 11pt: Body text and h2 heading
+  • Bold elements: chapter number, chapter title, nav items, h2 heading
+  • Total unique fonts: 2+ (Arial/Times variants with varying sizes)
+
+Key Terms Emphasized:
+  • "Ownership" (chapter title)
+  • "SOLE OWNERSHIP" (h2 major section)
+  • "freehold estate"
+  • "trust structures"
+  • "Condominiums, cooperatives, time-shares" (hybrid forms)
+
+Confidence Assessment:
+  • Heading hierarchy: 100% confident
+  • Chapter structure: 100% confident
+  • Navigation menu: 95% confident
+  • Section transition: 100% confident
+  • Text styling: 90% confident
+
+================================================================================
