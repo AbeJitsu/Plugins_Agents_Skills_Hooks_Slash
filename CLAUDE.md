@@ -207,6 +207,8 @@ OUTPUT: Validation report
 - All semantic classes properly applied
 - Expected h2→h4 hierarchy jumps (intentional)
 
+**Detailed validation guide:** See [VALIDATION_CHECKLIST.md](./.claude/VALIDATION_CHECKLIST.md) for step-by-step validation procedures
+
 ---
 
 ## ASCII Preview Files: The Boundary Validators
@@ -352,14 +354,38 @@ Before processing any chapter:
 - [ ] Update progress.md with status and metrics
 - [ ] Run pre-commit hooks to verify standards met
 
+**For detailed validation procedures:** See [VALIDATION_CHECKLIST.md](./.claude/VALIDATION_CHECKLIST.md)
+- Quick validation (30 seconds): Run automated hook
+- Complete manual validation (5-10 minutes): Follow detailed checklist
+- Troubleshooting: Common issues and solutions
+
 ---
 
 ## Next Steps
 
-1. Fix extraction JSONs (chapters 2-3 metadata)
-2. Update progress.md as single source of truth
-3. Create validation hooks referencing ASCII files
-4. Audit chapter 1 against standard
-5. Document reusable validation checklist
-6. Enable bash auto-approve for orchestrator operations
-7. Process remaining chapters using proven automation
+1. ✓ Fix extraction JSONs (chapters 2-3 metadata)
+2. ✓ Update progress.md as single source of truth
+3. ✓ Create validation hooks referencing ASCII files (.claude/hooks/calypso-chapter-boundary-validation.sh)
+4. ✓ Audit chapter 1 against standard (findings documented in progress.md)
+5. ✓ Document reusable validation checklist (.claude/VALIDATION_CHECKLIST.md)
+6. ⭕ Enable bash auto-approve for orchestrator operations
+7. ⭕ Generate missing Chapter 3 page 28 artifacts (ASCII + HTML)
+8. ⭕ Process remaining chapters using proven automation
+
+---
+
+## Documentation Reference
+
+| Document | Purpose | Key Content |
+|----------|---------|-------------|
+| **CLAUDE.md** (this file) | Infrastructure & process | Directory structure, agents, skills, process flow, standards |
+| **[VALIDATION_CHECKLIST.md](./.claude/VALIDATION_CHECKLIST.md)** | Validation procedures | Quick validation, manual checklist, troubleshooting |
+| **[Calypso/progress.md](./Calypso/progress.md)** | Project status (SSoT) | Chapter status, boundary validation, known issues, metrics |
+| **[.claude/hooks/calypso-chapter-boundary-validation.sh](./.claude/hooks/calypso-chapter-boundary-validation.sh)** | Automated validation | 5-step validation hook (extraction, opening, closing, HTML, progress) |
+
+### Quick Reference
+
+- **For overview:** Start with CLAUDE.md (this file)
+- **For validation:** See VALIDATION_CHECKLIST.md
+- **For status:** Check Calypso/progress.md (single source of truth)
+- **For automation:** Run `./.claude/hooks/calypso-chapter-boundary-validation.sh <chapter_number>`
