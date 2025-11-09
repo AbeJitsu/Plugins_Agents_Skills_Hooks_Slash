@@ -1,0 +1,106 @@
+================================================================================
+                        PAGE 34 ASCII LAYOUT PREVIEW
+================================================================================
+Book Page: 35 | Chapter: 3 | PDF Index: 34 | Dimensions: 612x792px
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  The distinguishing characteristics of the life estate are:                │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                              │
+│  ▶ the owner enjoys full ownership rights during the estate period         │
+│  ▶ holders of the future interest own either a reversionary or remainder   │
+│    interest                                                                 │
+│  ▶ the estate may be created by agreement between private parties, or it   │
+│    may be created by law under prescribed circumstances.                   │
+│                                                                             │
+│  [H5 Sub-subsection - 11pt Bold]                                            │
+│  Remainder.                                                                 │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  If a life estate names a third party to receive title to the property upon│
+│  termination of the life estate, the party enjoys a future interest called a│
+│  remainder interest or a remainder estate. The holder of a remainder        │
+│  interest is called a remainderman.                                         │
+│                                                                             │
+│  [H5 Sub-subsection - 11pt Bold]                                            │
+│  Reversion.                                                                 │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  If no remainder estate is established, the estate reverts to the original  │
+│  owner or the owner's heirs. In this situation, the original owner retains a│
+│  reversionary interest or estate.                                           │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  The two types of life estates are the conventional and the legal life     │
+│  estate.                                                                     │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold, sidebar style]                                 │
+│  Pur autre vie.                                                             │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  A pur autre vie life estate is a life estate measured in the life of      │
+│  someone other than the grantee. The estate terminates upon the death of   │
+│  the person whose life is measured, not the holder. If the holder dies     │
+│  before the measured-life person dies, the estate passes to the holder's   │
+│  heirs. Upon the death of the measured-life person, the estate terminates  │
+│  and passes as determined by the original instrument.                       │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Legal life estate                                                          │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  A legal life estate is created by law rather than by grant or agreement.  │
+│  Legal life estates include homesteads, dowry rights, and elective share   │
+│  interests.                                                                 │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+STRUCTURE SUMMARY:
+─────────────────
+
+Page Type: Chapter Continuation with Multiple Subsections
+Total Elements: 10
+
+Headings (5):
+  • H4: 2 instances (11pt, bold, sidebar style)
+    - "Pur autre vie"
+    - "Legal life estate"
+  • H5: 2 instances (11pt, bold, sub-subsections)
+    - "Remainder"
+    - "Reversion"
+
+Paragraphs (7):
+  • Body text: 7 paragraphs total
+  • Average paragraph length: ~55 words
+  • Text flow: Top to bottom, left to right
+
+Bullet Lists (1):
+  • Three-item characteristics list
+
+Font Summary:
+  • 11pt: Primary font for all body text and headings
+  • 10pt: Footer text (page number)
+  • Bold subsection headings: 11pt bold (4 instances)
+  • Total unique fonts: 2 (Times New Roman variants)
+
+Key Terms Emphasized:
+  • "Pur autre vie" (bold subsection)
+  • "Legal life estate" (bold subsection)
+  • "Remainder" (bold sub-subsection)
+  • "Reversion" (bold sub-subsection)
+  • "remainder interest"
+  • "remainderman"
+  • "reversionary interest or estate"
+  • "homesteads, dowry rights, elective share interests"
+
+Confidence Assessment:
+  • Heading hierarchy: 100% confident
+  • Element types: 95% confident
+  • Bullet list structure: 95% confident
+  • Content flow: 95% confident
+  • Text styling: 90% confident
+
+================================================================================

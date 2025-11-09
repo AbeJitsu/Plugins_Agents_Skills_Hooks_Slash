@@ -1,0 +1,109 @@
+================================================================================
+                        PAGE 32 ASCII LAYOUT PREVIEW
+================================================================================
+Book Page: 33 | Chapter: 3 | PDF Index: 32 | Dimensions: 612x792px
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Fee Simple Defeasible.                                                     │
+│                                                                             │
+│  [Body Text - 11pt Regular with italic emphasis]                           │
+│  The defeasible fee estate is perpetual, provided the usage conforms to    │
+│  stated conditions. Essential characteristics are:                          │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                              │
+│  ▶ the property must be used for a certain purpose or under certain        │
+│    conditions                                                               │
+│  ▶ if the use changes or if prohibited conditions are present, the estate │
+│    reverts to the previous grantor of the estate.                          │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  The two types of fee simple defeasible are determinable and condition     │
+│  subsequent.                                                                │
+│                                                                             │
+│  [H5 Sub-subsection - 11pt Bold]                                            │
+│  Determinable.                                                              │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  The deed to the determinable estate states usage limitations. If the      │
+│  restrictions are violated, the estate automatically reverts to the        │
+│  grantor or heirs.                                                          │
+│                                                                             │
+│  [H5 Sub-subsection - 11pt Bold]                                            │
+│  Condition subsequent.                                                      │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  If any condition is violated, the previous owner may repossess the        │
+│  property. However, reversion of the estate is not automatic: the grantor   │
+│  must re-take physical possession within a certain time frame.              │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Life estate                                                                │
+│                                                                             │
+│  [Body Text - 11pt Regular with italic emphasis]                           │
+│  A life estate is a freehold estate that is limited in duration to the life│
+│  of the owner or other named person. Upon the death of the owner or other  │
+│  named individual, the estate passes to the original owner or another named │
+│  party. The holder of a life estate is called the life tenant.             │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  The distinguishing characteristics of the life estate are:                │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                              │
+│  ▶ the owner enjoys full ownership rights during the estate period         │
+│  ▶ holders of the future interest own either a reversionary or remainder   │
+│    interest                                                                 │
+│  ▶ the estate may be created by agreement between private parties, or it   │
+│    may be created by law under prescribed circumstances.                   │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+STRUCTURE SUMMARY:
+─────────────────
+
+Page Type: Chapter Continuation with Detailed Subsections
+Total Elements: 12
+
+Headings (5):
+  • H4: 2 instances (11pt, bold)
+    - "Fee Simple Defeasible"
+    - "Life estate"
+  • H5: 2 instances (11pt, bold, sub-subsections)
+    - "Determinable"
+    - "Condition subsequent"
+
+Paragraphs (6):
+  • Body text: 6 paragraphs total
+  • Average paragraph length: ~55 words
+  • Text flow: Top to bottom, left to right
+  • Contains embedded italic emphasis
+
+Bullet Lists (2):
+  • List 1: Two items on defeasible estate characteristics
+  • List 2: Three items on life estate characteristics
+
+Font Summary:
+  • 11pt: Primary font for all body text and headings
+  • 10pt: Footer text (page number)
+  • Bold subsection headings: 11pt bold (4 instances)
+  • Italic: "conforms to stated conditions", "passes to the original owner"
+  • Total unique fonts: 2 (Times New Roman variants)
+
+Key Terms Emphasized:
+  • "Fee Simple Defeasible" (bold subsection)
+  • "Life estate" (bold subsection)
+  • "Determinable" (bold sub-subsection)
+  • "Condition subsequent" (bold sub-subsection)
+  • "life tenant"
+  • "reversionary or remainder interest"
+
+Confidence Assessment:
+  • Heading hierarchy: 100% confident
+  • Element types: 95% confident
+  • Bullet list structure: 95% confident
+  • Content flow: 95% confident
+  • Text styling: 90% confident
+
+================================================================================

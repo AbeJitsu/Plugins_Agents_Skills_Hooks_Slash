@@ -1,0 +1,107 @@
+================================================================================
+                        PAGE 30 ASCII LAYOUT PREVIEW
+================================================================================
+Book Page: 31 | Chapter: 3 | PDF Index: 30 | Dimensions: 612x792px
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│  ──────────────────────────────────────────────────────────────────────    │
+│  [EXHIBIT 3.2 - DIAGRAM TITLE]                                              │
+│                                                                             │
+│  Exhibit 3.2 Estates in Land                                                │
+│                                                                             │
+│  [Hierarchical Diagram]                                                     │
+│  ┌──────────────────────────────┐                                          │
+│  │      Estates in Land         │                                          │
+│  └──────────────────────────────┘                                          │
+│              │                                                              │
+│              ├─────────────────┬─────────────────┐                         │
+│              │                 │                 │                         │
+│         Freehold           Leasehold       (relationship types)            │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  In a freehold estate, the duration of the owner's rights cannot be        │
+│  determined: the rights may endure for a lifetime, for less than a         │
+│  lifetime, or for generations beyond the owner's lifetime.                 │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  A leasehold estate is distinguished by its specific duration, as          │
+│  represented by the lease term.                                             │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  Ownership of a freehold estate is commonly equated with ownership of the  │
+│  property, whereas ownership of a leasehold estate is not so considered    │
+│  because the leaseholder's rights are temporary.                            │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  Both leasehold and freehold estates are referred to as tenancies. The     │
+│  owner of the freehold estate is the freehold tenant, and the renter, or   │
+│  lessee, is the leasehold tenant.                                           │
+│                                                                             │
+│  ──────────────────────────────────────────────────────────────────────    │
+│                                                                             │
+│  [H2 Major Section - Bold, All Caps]                                        │
+│  FREEHOLD ESTATES                                                           │
+│                                                                             │
+│  [Section Navigation/Links - 11pt Bold]                                    │
+│  Fee simple estate                                                          │
+│  Life estate                                                                │
+│  Conventional life estate                                                   │
+│  Legal life estate                                                          │
+│                                                                             │
+│  ──────────────────────────────────────────────────────────────────────    │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  Freehold estates differ primarily according to the duration of the estate │
+│  and what happens to the estate when the owner dies. A freehold estate of  │
+│  potentially unlimited duration is a fee simple estate: an estate limited  │
+│  to the life of the owner is a life estate.                                 │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+STRUCTURE SUMMARY:
+─────────────────
+
+Page Type: Chapter Continuation with Major Section and Exhibit
+Total Elements: 9
+
+Headings (2):
+  • H2: 1 instance (major section, bold, all caps)
+    - "FREEHOLD ESTATES"
+
+Exhibits/Figures (1):
+  • Exhibit 3.2: Estates in Land classification diagram
+
+Paragraphs (5):
+  • Body text: 5 paragraphs total
+  • Average paragraph length: ~60 words
+  • Text flow: Top to bottom, left to right
+
+Navigation/Section Links (4):
+  • Fee simple estate, Life estate, Conventional life estate, Legal life estate
+  • Bold, sidebar-style presentation
+
+Font Summary:
+  • 11pt: Primary font for all body text and headings
+  • 10pt: Footer text (page number)
+  • Bold major section heading: all caps, larger scale
+  • Total unique fonts: 2 (Times New Roman variants)
+
+Key Terms Emphasized:
+  • "FREEHOLD ESTATES" (h2, bold, all caps)
+  • "Estates in Land" (exhibit title)
+  • "Freehold", "Leasehold" (diagram categories)
+  • "freehold tenant"
+  • "leasehold tenant"
+  • "fee simple estate"
+  • "life estate"
+
+Confidence Assessment:
+  • Heading hierarchy: 100% confident
+  • Element types: 95% confident
+  • Diagram structure: 95% confident
+  • Content flow: 95% confident
+  • Text styling: 90% confident
+
+================================================================================

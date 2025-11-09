@@ -1,0 +1,109 @@
+================================================================================
+                        PAGE 35 ASCII LAYOUT PREVIEW
+================================================================================
+Book Page: 36 | Chapter: 3 | PDF Index: 35 | Dimensions: 612x792px
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  A legal life estate is created by law rather than by grant or agreement.  │
+│  Legal life estates include homesteads, dowry rights, and elective share   │
+│  interests.                                                                 │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold, sidebar style]                                 │
+│  Homestead                                                                   │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  A homestead is a legal life estate that provides protection for the family│
+│  home. It protects a portion of a home's equity from judgment creditors     │
+│  during bankruptcy proceedings and other economic hardships. A homestead    │
+│  estate grants the surviving spouse a legal life estate in the marital      │
+│  residence.                                                                 │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold, sidebar style]                                 │
+│  Dower and Curtesy                                                          │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  Dower and curtesy are legal rights that provide protection for the        │
+│  surviving spouse. The right of dower is claimed by a widow and is usually  │
+│  a one-third interest in the deceased husband's real property estate. The   │
+│  right of curtesy provides the widower with a legal interest in the        │
+│  deceased wife's property.                                                  │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  Curtesy is generally equal to the rights of dower, or it may be for a     │
+│  life estate in the entire property. Curtesy can only apply when children  │
+│  were born of the marriage.                                                 │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold, sidebar style]                                 │
+│  Elective Share                                                             │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  An elective share, also known as the widow's dower or statutory share, is │
+│  a provision of a property owner's will granting certain property rights to │
+│  a surviving spouse. The elective share is a legal right of a surviving     │
+│  spouse to inherit a specified percentage of a deceased spouse's estate,    │
+│  typically between one-fourth and one-half, even if the will denies the     │
+│  spouse property.                                                           │
+│                                                                             │
+│  ──────────────────────────────────────────────────────────────────────    │
+│                                                                             │
+│  [H2 Major Section - Bold, All Caps]                                        │
+│  LEASEHOLD ESTATES                                                          │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  A leasehold estate is the interest of a renter, lessee, or tenant in      │
+│  leased property. A leasehold estate is characterized by a specified        │
+│  duration: the lease term. A lease is a contract that establishes the terms │
+│  and conditions under which one party will rent property from another.      │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+STRUCTURE SUMMARY:
+─────────────────
+
+Page Type: Chapter Continuation with Multiple Subsections and New Major Section
+Total Elements: 11
+
+Headings (6):
+  • H4: 4 instances (11pt, bold, sidebar style)
+    - "Homestead"
+    - "Dower and Curtesy"
+    - "Elective Share"
+  • H2: 1 instance (major section, bold, all caps)
+    - "LEASEHOLD ESTATES"
+
+Paragraphs (7):
+  • Body text: 7 paragraphs total
+  • Average paragraph length: ~65 words
+  • Text flow: Top to bottom, left to right
+
+Font Summary:
+  • 11pt: Primary font for all body text and headings
+  • 10pt: Footer text (page number)
+  • Bold subsection headings: 11pt bold (4 instances)
+  • Bold major section heading: all caps, larger scale
+  • Total unique fonts: 2 (Times New Roman variants)
+
+Key Terms Emphasized:
+  • "LEASEHOLD ESTATES" (h2, bold, all caps)
+  • "Homestead" (bold subsection)
+  • "Dower and Curtesy" (bold subsection)
+  • "Elective Share" (bold subsection)
+  • "homestead estate"
+  • "dower"
+  • "curtesy"
+  • "widow's dower"
+  • "statutory share"
+  • "leasehold estate"
+  • "lease term"
+
+Confidence Assessment:
+  • Heading hierarchy: 100% confident
+  • Element types: 95% confident
+  • Section transitions: 95% confident
+  • Content flow: 95% confident
+  • Text styling: 90% confident
+
+================================================================================

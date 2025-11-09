@@ -1,0 +1,113 @@
+================================================================================
+                        PAGE 29 ASCII LAYOUT PREVIEW
+================================================================================
+Book Page: 30 | Chapter: 3 | PDF Index: 29 | Dimensions: 612x792px
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│  [Paragraph text - 11pt Regular]                                           │
+│  Interests differ according to                                              │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                              │
+│  ▶ how long a person may enjoy the interest                                │
+│  ▶ what portion of the land, air, or subsurface the interest applies to    │
+│  ▶ whether the interest is public or private                               │
+│  ▶ whether the interest includes legal ownership of the property           │
+│                                                                             │
+│  ──────────────────────────────────────────────────────────────────────    │
+│  [EXHIBIT 3.1 - DIAGRAM TITLE]                                              │
+│                                                                             │
+│  Exhibit 3.1 Interests in Real Estate                                       │
+│                                                                             │
+│  [Hierarchical Diagram]                                                     │
+│  ┌─────────────────┐                    ┌─────────────────┐                │
+│  │   Possession    │                    │ Non-possession  │                │
+│  └─────────────────┘                    └─────────────────┘                │
+│           │                                    │                            │
+│           ├──────────────┐                     ├──────────┬──────────┐      │
+│           │              │                     │          │          │      │
+│        Estate        (no branch)            Encumbrance  Public   (other)  │
+│                                                         Interest            │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  Interests are principally distinguished by whether they include possession.│
+│  If the interest-holder enjoys the right of possession, the party is       │
+│  considered to have an estate in land, or familiarly an estate. If a       │
+│  private interest-holder does not have the right to possess, the interest  │
+│  is an encumbrance. If the interest-holder is not private, such as a       │
+│  government entity, and does not have the right to possess, the interest   │
+│  is some form of public interest.                                           │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  An encumbrance enables a non-owning party to restrict the owner's bundle  │
+│  of rights. Tax liens, mortgages, easements, and encroachments are         │
+│  examples.                                                                   │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  Public entities may own or lease real estate, in which case they enjoy an │
+│  estate in land. However, government entities also have non-possessory     │
+│  interests in real estate which act to control land use for the public good│
+│  within the entity's jurisdiction. The prime example of public interest is  │
+│  police power, or the right of the local or county government to zone.     │
+│  Another example of public interest is the right to acquire ownership      │
+│  through the power of eminent domain.                                       │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                               │
+│  Estates in land                                                            │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  An estate in land is an interest that includes the right of possession.   │
+│  Depending on the length of time one may enjoy the right to possess the    │
+│  estate, the relationships of the parties owning the estate, and specific  │
+│  interests held in the estate, an estate is a freehold or a leasehold      │
+│  estate.                                                                     │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+STRUCTURE SUMMARY:
+─────────────────
+
+Page Type: Chapter Continuation with Diagram Exhibit
+Total Elements: 8
+
+Headings (1):
+  • H4: 1 instance (11pt, bold, sidebar style)
+    - "Estates in land"
+
+Paragraphs (5):
+  • Body text: 5 paragraphs total
+  • Average paragraph length: ~70 words
+  • Text flow: Top to bottom, left to right
+
+Bullet Lists (1):
+  • Four-item list: duration, portion of land, public/private, legal ownership
+
+Exhibits/Figures (1):
+  • Exhibit 3.1: Interests in Real Estate hierarchical diagram
+  • Shows Possession/Non-possession distinction
+  • Sub-categories: Estate, Encumbrance, Public Interest
+
+Font Summary:
+  • 11pt: Primary font for all body text and headings
+  • 10pt: Footer text (page number)
+  • Bold subsection heading: 11pt bold (1 instance)
+  • Total unique fonts: 2 (Times New Roman variants)
+
+Key Terms Emphasized:
+  • "Interests in Real Estate" (exhibit title, bold)
+  • "estate in land"
+  • "encumbrance"
+  • "public interest"
+  • "police power"
+  • "eminent domain"
+  • "Estates in land" (bold subsection)
+
+Confidence Assessment:
+  • Heading hierarchy: 100% confident
+  • Element types: 95% confident
+  • Diagram structure: 90% confident
+  • Content flow: 95% confident
+  • Text styling: 90% confident
+
+================================================================================

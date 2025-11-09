@@ -1,0 +1,110 @@
+================================================================================
+                        PAGE 31 ASCII LAYOUT PREVIEW
+================================================================================
+Book Page: 32 | Chapter: 3 | PDF Index: 31 | Dimensions: 612x792px
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│  ──────────────────────────────────────────────────────────────────────    │
+│  [EXHIBIT 3.3 - DIAGRAM TITLE]                                              │
+│                                                                             │
+│  Exhibit 3.3 Freehold Estates                                               │
+│                                                                             │
+│  [Hierarchical Diagram]                                                     │
+│  ┌────────────────────────────────┐                                        │
+│  │      Freehold Estates          │                                        │
+│  └────────────────────────────────┘                                        │
+│              │                                                              │
+│              ├─────────────────┬─────────────────┐                         │
+│              │                 │                 │                         │
+│        Fee Simple          Life Estates      (other types)                 │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold, sidebar style]                                 │
+│  Fee simple estate                                                          │
+│                                                                             │
+│  [Body Text - 11pt Regular with italic emphasis]                           │
+│  The fee simple freehold estate is the highest form of ownership interest  │
+│  one can acquire in real estate. It includes the complete bundle of rights,│
+│  and the tenancy is unlimited, with certain exceptions indicated below.    │
+│  The fee simple interest is also called the "fee interest," or simply, the │
+│  "fee." The owner of the fee simple interest is called the fee tenant.     │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  Fee simple estates, like all estates, remain subject to government        │
+│  restrictions and private interests.                                        │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  There are two forms of fee simple estate: absolute and defeasible.        │
+│                                                                             │
+│  ──────────────────────────────────────────────────────────────────────    │
+│  [EXHIBIT 3.4 - DIAGRAM TITLE]                                              │
+│                                                                             │
+│  Exhibit 3.4 Fee Simple Estates                                             │
+│                                                                             │
+│  [Hierarchical Diagram with branches]                                       │
+│  ┌────────────────────┐                                                    │
+│  │    Fee Simple      │                                                    │
+│  └────────────────────┘                                                    │
+│              │                                                              │
+│              ├──────────────────┬──────────────────┐                       │
+│              │                  │                  │                       │
+│          Absolute          Defeasible            (other)                   │
+│                                 │                                          │
+│                        ┌────────┴────────┐                                 │
+│                        │                 │                                 │
+│                 Determinable   Condition Subsequent                        │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  Fee Simple Absolute. The fee simple absolute estate is a perpetual estate │
+│  that is not conditioned by stipulated or restricted uses. It may also be  │
+│  freely passed on to heirs. For these reasons, the fee simple absolute     │
+│  estate is the most desirable estate that can be obtained in residential   │
+│  real estate. It is also the most common.                                   │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+STRUCTURE SUMMARY:
+─────────────────
+
+Page Type: Chapter Continuation with Multiple Exhibits
+Total Elements: 9
+
+Headings (2):
+  • H4: 2 instances (11pt, bold, sidebar style)
+    - "Fee simple estate" (appears twice)
+
+Exhibits/Figures (2):
+  • Exhibit 3.3: Freehold Estates classification diagram
+  • Exhibit 3.4: Fee Simple Estates breakdown diagram (Absolute/Defeasible)
+
+Paragraphs (4):
+  • Body text: 4 paragraphs total
+  • Average paragraph length: ~65 words
+  • Text flow: Top to bottom, left to right
+  • Contains embedded italic emphasis
+
+Font Summary:
+  • 11pt: Primary font for all body text and headings
+  • 10pt: Footer text (page number)
+  • Bold subsection headings: 11pt bold (2 instances)
+  • Italic: "highest form of ownership interest"
+  • Total unique fonts: 2 (Times New Roman variants)
+
+Key Terms Emphasized:
+  • "Fee simple estate" (bold subsection)
+  • "Freehold Estates" (exhibit title)
+  • "Fee Simple Estates" (exhibit title)
+  • "fee tenant"
+  • "absolute and defeasible"
+  • "Fee Simple Absolute"
+  • "perpetual estate"
+
+Confidence Assessment:
+  • Heading hierarchy: 100% confident
+  • Element types: 95% confident
+  • Diagram structures: 95% confident (2 diagrams)
+  • Content flow: 95% confident
+  • Text styling: 90% confident
+
+================================================================================
