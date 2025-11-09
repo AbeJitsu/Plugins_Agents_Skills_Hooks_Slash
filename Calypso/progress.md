@@ -53,10 +53,21 @@
 
 ## Chapter 1 Audit Status ⭕
 
-**Status:** Requires review against established standard
-- **File:** `chapter_01.html` (43KB)
-- **Issue:** Generated before standardization process
-- **Action:** Compare against Ch2-3 pattern; regenerate if needed
+**Validation Hook Results:**
+- ✓ Extraction metadata valid: pages 6-14 (9 pages)
+- ✓ HTML validation: 0 errors, 0 warnings (PASSES)
+- ✗ Missing ASCII preview files (page_artifacts not generated)
+- ✗ Different directory structure (metadata/pages.json vs standardized page_artifacts)
+
+**Issue:** Chapter 1 generated before standardization; uses legacy format
+- Has individual page_artifacts structure (metadata, pages directories)
+- Missing required ASCII boundary validation files
+- HTML is valid but process differs from Ch2-3 standard
+
+**Action Required:**
+1. Decision: Regenerate Ch1 with standardized process OR accept legacy format
+2. If regenerating: Re-run AI skills to create page_artifacts with ASCII previews
+3. If accepting: Document as "legacy but valid" and skip page_artifacts requirement
 
 ---
 
@@ -88,9 +99,11 @@
 
 | Issue | Root Cause | Fix Applied | Status |
 |-------|-----------|------------|--------|
+| Ch1 legacy format | Generated before standardization | Documented findings; awaiting decision | ⭕ Audit Complete |
 | Ch2 contained Ch3 opening | Extraction extracted 15-28 instead of 15-27 | Removed page 28 from JSON, updated metadata | ✓ Fixed |
 | Ch3 missing opening page | Extraction started at page 29 instead of 28 | Added page 28 from original extraction | ✓ Fixed |
 | Ch3 included Ch4 pages | Extraction extracted 29-42 instead of 28-37 | Removed pages 38-42 from JSON | ✓ Fixed |
+| Ch3 page 28 artifacts missing | Extraction JSON fixed but AI generation not run | Need to generate page 28 ASCII/HTML | ⭕ Pending |
 | Ch4 file in wrong folder | Process confusion | Moved chapter_04.html to /chapter_04/ | ✓ Fixed |
 
 ---
