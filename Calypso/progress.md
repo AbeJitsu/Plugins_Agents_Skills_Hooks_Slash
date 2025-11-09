@@ -13,7 +13,7 @@
 | 0 (Front Matter) | 0-5 | ⭕ Pending | Not started | 6 pages |
 | 1 (Real Estate Business) | 6-14 | ⭕ Audit Required | VALID | Old format, needs standard check |
 | 2 (Rights in Real Estate) | 15-27 | ✅ Complete | ✓ 0 errors | Fixed: extracted 15-27 only |
-| 3 (Interests & Estates) | 28-37 | ✅ Complete | ✓ 0 errors | Fixed: now includes page 28 opening |
+| 3 (Interests & Estates) | 28-37 | ⭕ Audit Required | INVALID | Extraction fixed but page 28 artifacts missing |
 | 4 (Ownership) | 38-53 | ⭕ Partial | Not started | Have pages 38-42 only, need 38-53 |
 | 5-29 (Various) | 54-515 | ⭕ Pending | Not started | 21 chapters, 462 pages |
 | Z (Back Matter) | 516-592 | ⭕ Pending | Not started | 77 pages |
