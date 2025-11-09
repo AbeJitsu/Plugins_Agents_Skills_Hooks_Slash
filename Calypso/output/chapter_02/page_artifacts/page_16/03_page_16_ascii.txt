@@ -1,0 +1,116 @@
+================================================================================
+                        PAGE 16 ASCII LAYOUT PREVIEW
+================================================================================
+Book Page: 17 | Chapter: 2 | PDF Index: 16 | Dimensions: 612x792px
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│  [Paragraph text - 11pt Regular] (continuation from page 15)               │
+│  All land also includes all plants attached to the ground or in the        │
+│  ground, such as trees and grass. A parcel, or tract, of land is a         │
+│  portion of land delineated by boundaries.                                 │
+│                                                                             │
+│  ──────────────────────────────────────────────────────────────────────    │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                               │
+│  Physical characteristics.                                                  │
+│                                                                             │
+│  [Body Text - 11pt Regular with italics]                                   │
+│  Land has three unique physical characteristics: immobility,               │
+│  indestructibility, and heterogeneity.                                     │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  Land is immobile, since a parcel of land cannot be moved from one site    │
+│  to another. In other words, the geographical location of a tract of land  │
+│  is fixed and cannot be changed. One can transport portions of the land    │
+│  such as mined coal, dirt, or cut plants. However, as soon as such         │
+│  elements are detached from the land, they are no longer considered land.  │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  Land is indestructible in the sense that one would have to remove a       │
+│  segment of the planet all the way to the core in order to destroy it.     │
+│  Even then, the portion extending upward to infinity would remain. For     │
+│  the same reason, land is considered to be permanent.                      │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  Land is non-homogeneous, since no two parcels of land are exactly the     │
+│  same. Admittedly, two adjacent parcels may be very similar and have the   │
+│  same economic value. However, they are inherently different because each  │
+│  parcel has a unique location.                                             │
+│                                                                             │
+│  ──────────────────────────────────────────────────────────────────────    │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold, left sidebar label]                           │
+│  Real estate                    [Body text starts inline, 11pt Regular]    │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  The legal concept of real estate encompasses:                             │
+│                                                                             │
+│  [Bullet List - 2 items]                                                   │
+│    ▸ land                                                                   │
+│    ▸ all man-made structures that are "permanently" attached to the land   │
+│                                                                             │
+│  [Body Text - 11pt Regular with bold terms]                                │
+│  Real estate therefore includes, in addition to land, such things as       │
+│  fences, streets, buildings, wells, sewers, sidewalks and piers. Such     │
+│  man-made structures attached to the land are called improvements. The     │
+│  phrase "permanently attached" refers primarily to one's intention in      │
+│  attaching the item. Obviously, very few if any manmade structures can be  │
+│  permanently attached to the land in the literal sense. But if a person    │
+│  constructs a house with the intention of creating a permanent dwelling,   │
+│  the house is considered real estate. By contrast, if a camper affixes a   │
+│  tent to the land with the intention of moving it to another camp in a     │
+│  week, the tent would not be considered real estate.                       │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+STRUCTURE SUMMARY:
+─────────────────
+
+Page Type: Chapter Continuation
+Total Elements: 10
+
+Headings (2):
+  • H4: 2 instances (11pt, bold)
+    - "Physical characteristics"
+    - "Real estate"
+
+Paragraphs (6):
+  • Body text: 6 paragraphs total
+  • Average paragraph length: ~70 words
+  • Text flow: Top to bottom, left to right
+  • Contains embedded italics and bold text
+
+Lists (1):
+  • Bullet list with 2 items
+  • Bullet format: ▸ character
+  • Items: "land", "all man-made structures..."
+
+Tables: 0
+
+Images/Exhibits: 0
+
+Font Summary:
+  • 11pt: Primary font for all body text and headings
+  • 10pt: Footer text (page number)
+  • Bold subsection headings: 11pt bold
+  • Italics: For emphasis within paragraphs (immobility, indestructibility, heterogeneity)
+  • Total unique fonts: 2 (Times New Roman variants)
+
+Key Terms Emphasized:
+  • "parcel" (bold in extraction)
+  • "tract" (bold in extraction)
+  • "Physical characteristics" (bold subsection)
+  • "immobility, indestructibility, and heterogeneity" (italic)
+  • "improvements" (bold term)
+  • "permanently attached" (quoted emphasis)
+
+Confidence Assessment:
+  • Heading hierarchy: 100% confident
+  • Element types: 95% confident
+  • List structure: 95% confident
+  • Content flow: 95% confident
+  • Text styling preservation: 90% confident
+
+================================================================================

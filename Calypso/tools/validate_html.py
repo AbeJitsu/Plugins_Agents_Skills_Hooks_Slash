@@ -19,7 +19,9 @@ Document Format (v2):
 
 import sys
 import re
+import json
 from pathlib import Path
+from datetime import datetime
 
 try:
     from html.parser import HTMLParser
@@ -275,14 +277,78 @@ class HTMLValidator:
         print("\n" + "=" * 70)
         return results['valid']
 
+    def save_json_report(self, output_path):
+        """Save validation report as JSON file.
+
+        Args:
+            output_path (str): Path where JSON report should be saved
+
+        Returns:
+            bool: True if saved successfully, False otherwise
+        """
+        results = self.validate()
+
+        # Prepare JSON report
+        report_data = {
+            "validation_type": "html_structure_and_semantic",
+            "validation_timestamp": datetime.now().isoformat(),
+            "status": "VALID" if results['valid'] else "INVALID",
+            "valid": results['valid'],
+            "error_count": len(results['errors']),
+            "warning_count": len(results['warnings']),
+            "info_count": len(results['info']),
+            "errors": results['errors'],
+            "warnings": results['warnings'],
+            "info": results['info'],
+            "semantic_classes_found": sorted(list(self.classes_found)),
+        }
+
+        try:
+            output_file = Path(output_path)
+            output_file.parent.mkdir(parents=True, exist_ok=True)
+
+            with open(output_file, 'w') as f:
+                json.dump(report_data, f, indent=2)
+
+            return True
+        except Exception as e:
+            print(f"Error saving JSON report: {e}")
+            return False
+
 
 def main():
-    """Main entry point."""
+    """Main entry point.
+
+    Usage:
+        python3 validate_html.py <html_file>
+            - Prints validation report to screen
+
+        python3 validate_html.py <html_file> --json <output_path>
+            - Saves validation report as JSON to output_path
+            - Also prints report to screen
+
+        python3 validate_html.py <html_file> --json-only <output_path>
+            - Saves validation report as JSON only (no screen output)
+    """
     if len(sys.argv) < 2:
-        print("Usage: python3 validate_html.py <html_file>")
+        print("Usage: python3 validate_html.py <html_file> [--json <output_path>] [--json-only <output_path>]")
         sys.exit(1)
 
     html_file = sys.argv[1]
+    json_output = None
+    json_only = False
+
+    # Parse command line arguments
+    if '--json' in sys.argv:
+        idx = sys.argv.index('--json')
+        if idx + 1 < len(sys.argv):
+            json_output = sys.argv[idx + 1]
+
+    if '--json-only' in sys.argv:
+        idx = sys.argv.index('--json-only')
+        if idx + 1 < len(sys.argv):
+            json_output = sys.argv[idx + 1]
+            json_only = True
 
     try:
         with open(html_file, 'r') as f:
@@ -295,7 +361,22 @@ def main():
         sys.exit(1)
 
     validator = HTMLValidator(html_content)
-    is_valid = validator.report()
+
+    # Generate JSON report if requested
+    if json_output:
+        json_success = validator.save_json_report(json_output)
+        if not json_success:
+            sys.exit(1)
+
+    # Print screen report unless json-only requested
+    if not json_only:
+        is_valid = validator.report()
+    else:
+        # Still validate, but don't print
+        results = validator.validate()
+        is_valid = results['valid']
+        if json_output:
+            print(f"✓ Validation report saved to {json_output}")
 
     sys.exit(0 if is_valid else 1)
 

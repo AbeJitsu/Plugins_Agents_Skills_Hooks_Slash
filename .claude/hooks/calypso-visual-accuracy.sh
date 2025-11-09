@@ -1,8 +1,9 @@
 #!/bin/bash
 
-# Calypso Visual Accuracy Check Hook
-# Triggered when Quality Gate 3 fails (visual-accuracy-check)
-# Reports visual differences and comparison metrics
+# Calypso Visual Accuracy Check Hook (Gate 3 - AI-Based)
+# Triggered when Quality Gate 3 fails (ai-visual-accuracy-check)
+# AI has compared rendered HTML to original PDF and scored below 85% threshold
+# Reports visual accuracy metrics and recommendations
 
 set -e
 
@@ -60,42 +61,48 @@ else
     echo ""
 fi
 
-# Explain what visual accuracy means
-echo -e "${YELLOW}What Visual Accuracy Measures:${NC}"
-echo "  • Layout matching: How well the generated HTML matches PDF layout"
-echo "  • Element positioning: Correct placement of headings, paragraphs, lists"
-echo "  • Content formatting: Text sizes, spacing, alignment"
-echo "  • Visual hierarchy: Proper visual distinction of sections"
+# Explain what AI visual accuracy measures
+echo -e "${YELLOW}What AI Visual Accuracy Measures (AI Judgment):${NC}"
+echo "  • Layout match (40% weight): Overall structure, sections, spacing"
+echo "  • Visual hierarchy (30% weight): Emphasis, heading distinction, relationships"
+echo "  • Content positioning (20% weight): Alignment, indentation, flow"
+echo "  • Typography & styling (10% weight): Font sizes, text styling, readability"
+echo ""
+echo -e "${YELLOW}AI Visual Accuracy Approach:${NC}"
+echo "  • AI compared rendered HTML to original PDF visually"
+echo "  • Not pixel-perfect matching, but contextual understanding"
+echo "  • Acceptable minor differences: web rendering vs PDF constraints"
+echo "  • Scoring focuses on readability and intent preservation"
 echo ""
 
 # Provide remediation guidance
-echo -e "${YELLOW}Why Accuracy May Be Below Threshold:${NC}"
-echo "  1. CSS styling not applied correctly"
-echo "  2. Heading hierarchy incorrect (affects visual hierarchy)"
-echo "  3. Spacing/margins differ from original"
-echo "  4. Font sizes or styles not matching"
-echo "  5. List indentation or bullets different"
-echo "  6. Page structure doesn't match continuous format"
+echo -e "${YELLOW}Why AI Accuracy May Be Below 85% Threshold:${NC}"
+echo "  1. HTML structure doesn't match PDF layout expectations"
+echo "  2. Heading hierarchy incorrect or inconsistent across pages"
+echo "  3. Spacing/margins differ noticeably from original"
+echo "  4. Font sizes or text styling not preserved"
+echo "  5. List indentation, alignment, or formatting different"
+echo "  6. Visual hierarchy not sufficiently emphasized"
+echo "  7. Content flow in continuous format differs from paginated PDF"
 echo ""
 
-echo -e "${YELLOW}How to Improve:${NC}"
-echo "  Option 1: Review and adjust CSS styling"
-echo "    ${BLUE}cat Calypso/output/styles/main.css${NC}"
+echo -e "${YELLOW}How to Improve (AI Regeneration):${NC}"
+echo "  Option 1: Re-run AI HTML generation with refined prompt"
+echo "    • Provide more specific CSS class guidance"
+echo "    • Reference the original PDF layout more explicitly"
+echo "    • Use more detailed descriptions of visual structure"
 echo ""
-echo "  Option 2: Check semantic class usage"
+echo "  Option 2: Check generated semantic class usage"
 echo "    ${BLUE}grep -o 'class=\"[^\"]*\"' \"chapter_XX.html\" | sort -u${NC}"
+echo "    • Verify classes match skill requirements (page-container, section-heading, etc.)"
 echo ""
-echo "  Option 3: Re-generate with improved AI prompt"
-echo "    • Provide more specific layout guidance in prompt"
-echo "    • Include visual reference (PNG) in AI prompt"
+echo "  Option 3: Manual CSS refinement"
+echo "    • Fine-tune styling in main.css for better visual match"
+echo "    • Adjust spacing, font sizes, line heights"
 echo ""
-echo "  Option 4: Manual adjustment of styling"
-echo "    • Override CSS for specific elements"
-echo "    • Fine-tune spacing and formatting"
-echo ""
-echo "  Option 5: Lower acceptance threshold (if acceptable)"
-echo "    • If content is accurate but styling differs"
-echo "    • Document decision and reasoning"
+echo "  Option 4: Accept below-threshold if content is accurate"
+echo "    • If AI notes content accuracy is high but styling differs"
+echo "    • Document decision and business justification"
 echo ""
 
 # Provide threshold context
@@ -106,33 +113,42 @@ echo "  80-85%:  Acceptable, but should review differences"
 echo "  <80%:    Poor match, requires investigation"
 echo ""
 
-# Show command to review diff images
-echo -e "${YELLOW}Review Visual Differences:${NC}"
-echo "  Difference images saved to:"
-echo "    ${BLUE}Calypso/output/chapter_${CHAPTER_NUMBER}/chapter_artifacts/diff_images/${NC}"
+# Show AI accuracy report details
+echo -e "${YELLOW}AI Visual Accuracy Report:${NC}"
+echo "  Report location:"
+echo "    ${BLUE}Calypso/output/chapter_${CHAPTER_NUMBER}/chapter_artifacts/ai_visual_accuracy.json${NC}"
 echo ""
-echo "  These images highlight areas where generated HTML differs from PDF"
-echo "  Red/highlighted areas show mismatches"
+echo "  Report includes:"
+echo "  • AI's detailed visual comparison analysis"
+echo "  • Scores for each evaluation criterion"
+echo "  • Specific differences noted by AI"
+echo "  • Confidence level and explanation"
+echo "  • Pass/fail recommendation"
 echo ""
 
 # Suggest next steps
 echo -e "${YELLOW}Next Steps:${NC}"
-echo "  1. Review the diff_images/ directory to see specific differences"
-echo "  2. Determine root cause (CSS, layout, semantic structure)"
-echo "  3. Make corrections as needed"
-echo "  4. Re-validate:"
-echo "     ${BLUE}python3 Calypso/tools/visual_diff_checker.py\"${NC}"
+echo "  1. Review the AI accuracy report (ai_visual_accuracy.json)"
+echo "  2. Read AI's explanation of why score is below 85%"
+echo "  3. Identify if issues are:"
+echo "     a) HTML generation issues (re-prompt AI)"
+echo "     b) CSS styling issues (update main.css)"
+echo "     c) Semantic structure issues (update page HTML)"
+echo "  4. Decide: Fix & re-run AI validation, or accept below-threshold"
 echo ""
-echo "  5. Option to accept below-threshold if content is accurate"
-echo "     (Document decision: why visual difference is acceptable)"
+echo "  5. If accepting below-threshold:"
+echo "     ${BLUE}Document decision in chapter_artifacts/APPROVAL_DECISION.md${NC}"
+echo "     Include: Business justification and approval details"
 echo ""
 
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
 echo -e "${BLUE}Hook triggered at: $TIMESTAMP${NC}"
 echo ""
 
-# Note: This is a non-blocking warning by design
-# Visual accuracy failures may be acceptable if content is correct
-# This allows user to override if justified
+# Note: This is a BLOCKING quality gate
+# Visual accuracy must be ≥85% to proceed to deployment
+# AI judgment is used to allow contextual understanding
+# User can override with documented approval if justified
+# Exit code 1 blocks pipeline (as designed)
 
 exit 1

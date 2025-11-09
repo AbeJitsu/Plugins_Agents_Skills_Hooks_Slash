@@ -41,7 +41,8 @@ Skill 4: ai-chapter-consolidate (AI)
 Skill 5: quality-report-generate (Python)
     ↓ Saves: Verification markdown + metrics JSON
     ↓
-⛔ GATE 3: visual-accuracy-check (Python - BLOCKING)
+⛔ GATE 3: ai-visual-accuracy-check (AI - BLOCKING)
+    ↓ Saves: Visual accuracy report (JSON) with AI judgment
     ↓
 ✅ Chapter Complete & Approved for Deployment
 ```
@@ -64,9 +65,9 @@ Skill 5: quality-report-generate (Python)
 ✅ `.claude/hooks/calypso-validate-semantics.sh`
 ✅ `.claude/hooks/calypso-visual-accuracy.sh`
 
-#### Phase 4: Python Tools (2 files - IN PROGRESS)
-⏳ `Calypso/tools/visual_diff_checker.py` (NEW - for Gate 3)
+#### Phase 4: Python Tools (1 file - IN PROGRESS)
 ⏳ Update `Calypso/tools/validate_html.py` to output JSON reports (for Gates 1-2)
+   (Gate 3 is now AI-based, no Python tool needed)
 
 ---
 
@@ -75,13 +76,13 @@ Skill 5: quality-report-generate (Python)
 ### 1. **AI + Python = Deterministic Quality**
 
 ```
-Probabilistic Generation (AI)          Deterministic Validation (Python)
-  ├─ ai-html-generate                  ├─ html-structure-validate
-  └─ ai-chapter-consolidate            ├─ html-semantic-validate
-                                        └─ visual-accuracy-check
+Probabilistic Generation (AI)     Deterministic Validation (Python)     AI Validation (Contextual)
+  ├─ ai-html-generate            ├─ html-structure-validate           └─ ai-visual-accuracy-check
+  ├─ ai-chapter-consolidate      └─ html-semantic-validate                (AI judges visual match)
+  └─ ascii-preview-generate
                             ↓
                     Reliable Output
-                   (Probabilistic + Deterministic)
+          (AI Generation + Python Validation + AI Assessment)
 ```
 
 ### 2. **Multi-Input AI Generation**
@@ -183,10 +184,12 @@ This enables:
 **Purpose**: Validate semantic structure
 **Checks**: CSS classes, heading hierarchy, content structure
 
-### Quality Gate 3: visual-accuracy-check
-**Type**: Python (deterministic - BLOCKING)
-**Purpose**: Verify visual match to original
-**Checks**: Layout similarity, element positioning
+### Quality Gate 3: ai-visual-accuracy-check
+**Type**: AI (probabilistic - contextual judgment - BLOCKING)
+**Purpose**: AI judges visual accuracy by comparing rendered HTML to original PDF
+**Scoring**: 4 weighted criteria (Layout 40%, Hierarchy 30%, Positioning 20%, Typography 10%)
+**Pass Threshold**: ≥85% similarity (allows minor web rendering differences)
+**Output**: JSON report with AI analysis, scores, differences, and confidence level
 
 ---
 
@@ -265,14 +268,13 @@ The `calypso-orchestrator.md` agent:
 ### Python Tools (in Calypso/tools/)
 ```
 Calypso/tools/
-├── pdf_page_extract.py (wrapper/runner for Skill 1)
-├── ascii_preview_generator.py (NEW - for Skill 2)
-├── ai_html_generator.py (wrapper for Skill 3)
-├── html_structure_validator.py (wrapper for Gate 1)
-├── chapter_consolidator.py (wrapper for Skill 4)
-├── quality_report_generator.py (wrapper for Skill 5)
-├── visual_diff_checker.py (NEW - for Gate 3)
-└── validate_html.py (UPDATED - JSON output)
+├── rich_extractor.py (Skill 1: PDF extraction with metadata)
+├── orchestrator.py (Coordinator for Python steps + AI preparation)
+├── validate_html.py (UPDATED - JSON output for Gates 1-2)
+└── [Skill 2-6 are handled by Claude Code (AI) or via orchestrator]
+
+Note: Gate 3 (visual-accuracy-check) is AI-based, no Python tool needed
+      AI compares rendered HTML to original PDF visually and provides detailed judgment
 ```
 
 ---
@@ -337,20 +339,14 @@ Metrics support:
 ## Next Steps
 
 ### Immediate (Phase 4 - Python Tools)
-1. Create `ascii_preview_generator.py`
-   - Analyzes text spans and bounding boxes
-   - Generates ASCII layout preview
-   - Uses existing rich_extraction.json
-
-2. Create `visual_diff_checker.py`
-   - Renders HTML to PNG
-   - Compares to original PDF pages
-   - Generates diff images with highlighting
-
-3. Update `validate_html.py`
-   - Modify to output JSON validation reports
+1. Update `validate_html.py` for JSON output
+   - Modify to output validation reports as JSON
    - Add structured error/warning reporting
    - Support both screen and file output
+   - Maintain backward compatibility with screen output
+
+Note: ASCII preview (Skill 2) and visual accuracy (Gate 3) are now AI-based
+      No new Python tools needed - they're handled by Claude Code
 
 ### Then (Phase 5 - Integration)
 1. Test complete pipeline on Chapter 1
@@ -404,12 +400,13 @@ This system ensures:
 
 | Phase | Component | Files | Est. Hours | Status |
 |-------|-----------|-------|-----------|--------|
-| 1 | Skills | 6 | 8 | ✅ DONE |
+| 1 | Skills (6 + 1 AI visual) | 7 | 10 | ✅ DONE |
 | 2 | Orchestrator | 1 | 4 | ✅ DONE |
 | 3 | Hooks | 3 | 3 | ✅ DONE |
-| 4 | Python Tools | 2 | 6 | ⏳ IN PROGRESS |
+| 3b | Documentation | 1 | 2 | ✅ DONE |
+| 4 | Python Tools (validate_html.py) | 1 | 3 | ⏳ IN PROGRESS |
 | 5 | Integration/Testing | - | 6 | ⏳ PENDING |
-| **Total** | | **12** | **27** | |
+| **Total** | | **13** | **28** | |
 
 ---
 
@@ -418,16 +415,25 @@ This system ensures:
 This comprehensive system design provides:
 
 1. **Clear architecture** for PDF-to-HTML conversion
-2. **Quality enforcement** through blocking gates
+2. **Quality enforcement** through blocking gates (2 Python + 1 AI)
 3. **Traceability** with artifact trails
-4. **Flexibility** with pluggable skills
-5. **Reliability** combining AI + Python
+4. **Flexibility** with pluggable skills (7 total: 5 AI + 2 Python)
+5. **Reliability** combining AI generation + Python validation + AI assessment
 6. **Scalability** for 593-page textbook
+7. **AI-Powered Validation** using contextual judgment instead of pixel-perfect matching
 
-The system is **ready for implementation** pending completion of Phase 4 and 5.
+The system is **production-ready** for testing:
+- ✅ All skills documented
+- ✅ Orchestrator ready to coordinate
+- ✅ Quality gates defined (2 Python + 1 AI)
+- ✅ Hooks ready for error reporting
+- ⏳ One Python update remaining (validate_html.py → JSON output)
+
+**Ready to proceed with Chapter 2 conversion testing**
 
 ---
 
 **Design Date**: November 8, 2025
-**Status**: Phase 3 Complete, Phase 4 In Progress
-**Next Review**: After Python tools implementation
+**Last Updated**: November 8, 2025
+**Status**: Phases 1-3 Complete, Phase 4 In Progress, Phase 5 Ready to Start
+**Architecture**: 7-Skill System with Hybrid AI+Python Quality Assurance

@@ -1,0 +1,140 @@
+================================================================================
+                        PAGE 17 ASCII LAYOUT PREVIEW
+================================================================================
+Book Page: 18 | Chapter: 2 | PDF Index: 17 | Dimensions: 612x792px
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│  ──────────────────────────────────────────────────────────────────────    │
+│  [EXHIBIT 2.1 - DIAGRAM TITLE]                                              │
+│                                                                             │
+│  Exhibit 2.1 The Legal Concept of Land and Real Estate                     │
+│                                                                             │
+│  [ASCII Diagram representation]                                             │
+│    ┌─ Natural Attachment (tree symbol)                                     │
+│    │                                                                        │
+│    │  ┌────────────────────┐        LAND                                   │
+│    │  │   Sphere diagram   │                                               │
+│    │  │   showing layers   │  ←─ Air (extends to infinity)                │
+│    │  │                    │  ←─ Surface                                   │
+│    │  │                    │  ←─ Subsurface                                │
+│    │  └────────────────────┘                                               │
+│                                                                             │
+│    ┌─ Natural Attachment (tree symbol)                                     │
+│    │                                                                        │
+│    │  ┌────────────────────┐  ┌─ Land                                      │
+│    │  │   Sphere diagram   │  │                                            │
+│    │  │   with building    │  └─ Manmade Attachments                       │
+│    │  │   on top           │     (house structure)                         │
+│    │  └────────────────────┘                                               │
+│                                                                             │
+│  REAL ESTATE (labeled on left side)                                        │
+│                                                                             │
+│  ──────────────────────────────────────────────────────────────────────    │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold, left sidebar]                                 │
+│  Property                                                                   │
+│                                                                             │
+│  [Body Text - 11pt Regular, spans from left margin]                        │
+│  In common understanding, property is something that is owned by someone.  │
+│  A car is the property of Bill Brown if Bill Brown owns the car. If the    │
+│  item is not owned, it is not property. For example, if a car is abandoned │
+│  and left to rust in the desert, the car is no longer property, since no   │
+│  one claims ownership. Similarly, the planet Jupiter is not property,      │
+│  since no one owns it.                                                      │
+│                                                                             │
+│  [Body Text - 11pt Regular with emphasis]                                  │
+│  From a more technical standpoint, property is not only the item that is   │
+│  owned but also a set of rights to the item enjoyed by the owner. These    │
+│  rights are commonly known as the "bundle of rights."                      │
+│                                                                             │
+│  ──────────────────────────────────────────────────────────────────────    │
+│  [EXHIBIT 2.2 - DIAGRAM TITLE]                                              │
+│                                                                             │
+│  Exhibit 2.2 The Bundle of Rights                                          │
+│                                                                             │
+│  [ASCII Diagram representation]                                             │
+│                ┌────────────────┐                                          │
+│                │                │                                          │
+│         ┌──────┤   Possess      ├──────┐                                   │
+│         │      │                │      │                                   │
+│         │      │     Use        │      │                                   │
+│         │      │   Exclude      │      │                                   │
+│    Transfer   │  Transfer       │   Encumber                               │
+│         │      │  Encumber      │      │                                   │
+│         │      │                │      │                                   │
+│         └──────┤                ├──────┘                                   │
+│                │  (hand/fist    │                                          │
+│                │   bundle       │                                          │
+│                │   graphic)     │                                          │
+│                └────────────────┘                                          │
+│                                                                             │
+│  ──────────────────────────────────────────────────────────────────────    │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  In owning property, one has the right to possess and use it as the law    │
+│  allows. The owner has the right to transfer ownership of the item (sell,  │
+│  rent, donate, assign, or bequeath). The owner may also encumber the item  │
+│  by mortgaging it as collateral for debt. Finally, the owner has the right │
+│  to exclude others from use of the item.                                    │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  In the example of the car, when Bill Brown bought the car, the car became │
+│  his property. Bill now has the right to use the car, sell it to someone   │
+│  else, rent it out, give it away, or mortgage it. Bill also has the right  │
+│  to prevent others from using his car.                                     │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+STRUCTURE SUMMARY:
+─────────────────
+
+Page Type: Chapter Continuation with Diagram Exhibits
+Total Elements: 9
+
+Headings (1):
+  • H4: 1 instance (11pt, bold, sidebar style)
+    - "Property"
+
+Paragraphs (4):
+  • Body text: 4 paragraphs total
+  • Average paragraph length: ~55 words
+  • Text flow: Top to bottom, left to right
+
+Exhibits/Figures (2):
+  • Exhibit 2.1: The Legal Concept of Land and Real Estate
+    - Diagram showing LAND with Natural Attachment, Air, Surface, Subsurface
+    - Diagram showing REAL ESTATE with Land + Manmade Attachments
+  • Exhibit 2.2: The Bundle of Rights
+    - Hand/fist bundle graphic showing 5 rights:
+      Possess, Use, Exclude, Transfer, Encumber
+
+Lists: 0 (no bullet lists on this page)
+
+Tables: 0
+
+Images: 0 (diagrams are ASCII representations)
+
+Font Summary:
+  • 11pt: Primary font for all body text and headings
+  • 10pt: Footer text (page number)
+  • Bold subsection heading: 11pt bold
+  • Italic emphasis: "set of rights to the item enjoyed by the owner"
+  • Total unique fonts: 2 (Times New Roman variants)
+
+Key Terms Emphasized:
+  • "property" (defined and repeated)
+  • "set of rights" (italic emphasis)
+  • "bundle of rights" (quoted, emphasized)
+  • "Bill Brown" (proper noun, repeated)
+  • Exhibit titles with bold formatting
+
+Confidence Assessment:
+  • Heading hierarchy: 100% confident
+  • Element types: 90% confident
+  • Exhibit diagram structure: 85% confident (visual interpretation)
+  • Content flow: 95% confident
+  • Text styling: 90% confident
+
+================================================================================
