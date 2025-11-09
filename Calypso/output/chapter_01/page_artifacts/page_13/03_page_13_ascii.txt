@@ -1,0 +1,125 @@
+================================================================================
+                        PAGE 13 ASCII LAYOUT PREVIEW
+================================================================================
+Book Page: 14 | Chapter: 1 | PDF Index: 13 | Dimensions: 612x792px
+================================================================================
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│                        Exhibit 1.4 Real Estate Trade Organizations and      │
+│                        Designations                                          │
+│                        ^                                                     │
+│                        [11pt Bold] - Exhibit Title                           │
+│                                                                              │
+│  ┌────────────────────────────────────────────────────────────────────────┐ │
+│  │                                                                        │ │
+│  │  LEFT COLUMN:                          RIGHT COLUMN:                  │ │
+│  │                                                                        │ │
+│  │  American Society of Appraisers        National Assoc. of Exclusive   │ │
+│  │    www.appraisers.org                    Buyer's Agents               │ │
+│  │                                          www.naeba.org                 │ │
+│  │  American Society of Home Inspectors                                  │ │
+│  │    www.ashi.com                        National Assoc. of Home        │ │
+│  │                                          Builders                      │ │
+│  │  Assoc. of Real Estate License Law       www.nahb.org                 │ │
+│  │    Officials (ARELLO)                                                 │ │
+│  │    https://www.arello.org/             NAIOP Commercial Real Estate   │ │
+│  │                                          Development Association       │ │
+│  │  Building Owners and Managers Assoc.     www.naiop.org                │ │
+│  │    www.boma.org                                                       │ │
+│  │                                        National Assoc. of Real Estate  │ │
+│  │  CCIM Institute                          Brokers                      │ │
+│  │    www.ccim.com                          www.nareb.com                │ │
+│  │                                                                        │ │
+│  │    Certified Commercial-Investment     National Assoc. of Realtors    │ │
+│  │      Member (CCIM)                       www.nar.realtor              │ │
+│  │                                                                        │ │
+│  │  Corenet Global                        Graduate, Realtors Institute   │ │
+│  │    www.corenetglobal.org                 (GRI)                        │ │
+│  │                                        Certified International Prop.   │ │
+│  │    Master of Corporate Real Estate       Specialist (CIPS)            │ │
+│  │      (MCR)                                                            │ │
+│  │                                        Real Estate Educators Assoc.    │ │
+│  │  Counselors of Real Estate               www.reea.org                 │ │
+│  │    www.cre.org                                                        │ │
+│  │                                        Realtors Land Institute         │ │
+│  │    Counselor of Real Estate (CRE)        www.rliland.com              │ │
+│  │                                                                        │ │
+│  │  Institute of Real Estate Management    Accredited Land Consultant    │ │
+│  │    www.irem.org                          (ALC)                        │ │
+│  │                                                                        │ │
+│  │    Certified Property Manager (CPM)    Society of Industrial and      │ │
+│  │                                          Office Realtors               │ │
+│  │  International Assoc. of Assessing       www.sior.com                 │ │
+│  │    Officers                                                           │ │
+│  │    www.iaao.org                        The Appraisal Institute        │ │
+│  │                                          www.appraisalinstitute.org    │ │
+│  │  International Council of Shopping                                    │ │
+│  │    Centers                             Member, Appraisal Institute    │ │
+│  │    www.icsc.org                          (MAI)                        │ │
+│  │                                        Senior Residential Appraiser    │ │
+│  │  Mortgage Bankers Assoc. of America      (SRA)                        │ │
+│  │    www.mba.org                                                        │ │
+│  │                                        Women's Council of Realtors     │ │
+│  │    Certified Mortgage Banker (CMB)       www.wcr.org                  │ │
+│  │                                                                        │ │
+│  │                                        Performance Management Network  │ │
+│  │                                          (PMN)                        │ │
+│  │                                                                        │ │
+│  └────────────────────────────────────────────────────────────────────────┘ │
+│  ^                                                                           │
+│  [9pt] - Large exhibit box with organizations and URLs in 2 columns          │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                              Chapter 1: The Real Estate      │
+│                                              Business 13                     │
+│                                              ^                               │
+│                                              [10pt] - Footer/Page Number     │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+STRUCTURE SUMMARY:
+─────────────────
+Page Type: FULL-PAGE EXHIBIT
+Total Elements: 1
+
+Headings (0):
+  • None - full page exhibit
+
+Paragraphs: 0
+Lists: 0
+Tables: 0
+Exhibits/Figures: 1 (Exhibit 1.4 - Organizations and Designations)
+
+CONFIDENCE SCORES:
+─────────────────
+Heading Hierarchy: N/A (Exhibit only)
+Element Type Detection: 99% (Clear exhibit structure)
+Content Flow: 95% (Comprehensive organization listing)
+Exhibit Structure: 98% (Two-column layout with URLs)
+
+LAYOUT CHARACTERISTICS:
+──────────────────────
+• Full-page Exhibit 1.4: Real Estate Trade Organizations and Designations
+• Two-column layout listing professional organizations
+• Each entry includes organization name and website URL
+• Some entries include associated professional designations
+• Left column: 15+ organizations
+• Right column: 15+ organizations and designations
+• Blue hyperlinks for all website URLs
+• Footer shows book page number (13)
+
+ORGANIZATIONS LISTED (SAMPLE):
+• American Society of Appraisers
+• CCIM Institute
+• National Association of Realtors
+• Institute of Real Estate Management
+• Many more professional organizations
+
+================================================================================

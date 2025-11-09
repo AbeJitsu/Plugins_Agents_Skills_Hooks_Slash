@@ -1,0 +1,135 @@
+================================================================================
+                        PAGE 9 ASCII LAYOUT PREVIEW
+================================================================================
+Book Page: 10 | Chapter: 1 | PDF Index: 9 | Dimensions: 612x792px
+================================================================================
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│        Professional                                                          │
+│        specialties     In summary, the six primary functional areas are      │
+│        ^               populated by professionals with the following         │
+│     [Sidebar]          specialties.                                          │
+│     [11pt Bold]        ^                                                     │
+│                        [11pt Regular] - Introduction Paragraph               │
+│                                                                              │
+│                        Exhibit 1.1 Professions in Real Estate                │
+│                        ^                                                     │
+│                        [11pt Bold] - Exhibit Title                           │
+│                                                                              │
+│        ┌──────────────────────────────────────────────────────────────┐     │
+│        │                         TABLE                                │     │
+│        ├───────────────┬──────────────────────┬───────────────────────┤     │
+│        │ Creating      │ developers           │ market analysts       │     │
+│        │               │ public/private plan. │ surveyors             │     │
+│        │               │ architects           │ engineers             │     │
+│        │               │ building contractors │ public/priv. inspect. │     │
+│        │               │ space planners       │ mortgage brokers      │     │
+│        │               │ mortgage lenders     │ securities companies  │     │
+│        │               │ title/escrow co.     │ attorneys             │     │
+│        │               │ insurers             │ appraisers            │     │
+│        │               │ RE brokers & agents  │                       │     │
+│        ├───────────────┼──────────────────────┼───────────────────────┤     │
+│        │ Managing &    │ property managers    │ asset managers        │     │
+│        │ Maintaining   │ maintenance engin.   │ maintenance           │     │
+│        │               │ technicians corp.mgr │                       │     │
+│        ├───────────────┼──────────────────────┼───────────────────────┤     │
+│        │ Destroying    │ demolition contract. │ excavators            │     │
+│        ├───────────────┼──────────────────────┼───────────────────────┤     │
+│        │ Holding       │ investors            │ corporate managers    │     │
+│        ├───────────────┼──────────────────────┼───────────────────────┤     │
+│        │ Regulating    │ assessors            │ public planners       │     │
+│        │               │ zoning administrat.  │ building inspectors   │     │
+│        ├───────────────┼──────────────────────┼───────────────────────┤     │
+│        │ Transferring  │ brokers and agents   │ appraisers            │     │
+│        │               │ lenders and bankers  │ mortgage brokers      │     │
+│        │               │ title/escrow co.     │ attorneys             │     │
+│        │               │ insurers             │ surveyors             │     │
+│        └───────────────┴──────────────────────┴───────────────────────┘     │
+│        ^                                                                     │
+│        [9pt] - Table with 6 functional areas and professions                 │
+│                                                                              │
+│        Property type                                                         │
+│        specialization  In addition to specializing by function, many         │
+│        ^               professionals also specialize in the type of property │
+│     [Sidebar]          they work with. According to the purpose of           │
+│     [11pt Bold]        ownership, properties are classified as residential,  │
+│                        commercial, or investment properties.                 │
+│                        ^                                                     │
+│                        [11pt Regular] - Body Paragraph                       │
+│                                                                              │
+│                        Residential property refers to property that is owned │
+│                        and used for habitation. Such properties may be       │
+│                        further classified in terms of how many families they │
+│                        are designed to house, whether they are attached to   │
+│                        other units or detached, and so forth.                │
+│                        ^                                                     │
+│                        [11pt Bold lead-in + Regular] - Body Paragraph        │
+│                                                                              │
+│                        Commercial property generally refers to retail and    │
+│                        office properties, but may also include industrial    │
+│                        real estate. The term "commercial" relates to the     │
+│                        fact that the property can potentially generate       │
+│                        income from a business's usage.                       │
+│                        ^                                                     │
+│                        [11pt Bold lead-in + Regular] - Body Paragraph        │
+│                                                                              │
+│                        Investment property refers to any property that is    │
+│                        held by its owners for investment purposes. All       │
+│                        classifications of property may be investment         │
+│                        properties. Generally, however, the term does not     │
+│                        refer to owner-occupied residences, even though such  │
+│                        properties constitute an investment. Apartments,      │
+│                        condominiums, cooperatives, and single-family homes   │
+│                        may be considered as investment property if non-      │
+│                        occupants own the property for investment purposes.   │
+│                        These properties are also referred to as residential  │
+│                        income properties.                                    │
+│                        ^                                                     │
+│                        [11pt Bold lead-in + Regular] - Body Paragraph        │
+│                                                                              │
+│                                              Chapter 1: The Real Estate      │
+│                                              Business 9                      │
+│                                              ^                               │
+│                                              [10pt] - Footer/Page Number     │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+STRUCTURE SUMMARY:
+─────────────────
+Page Type: CONTINUATION WITH EXHIBIT
+Total Elements: 7
+
+Headings (0):
+  • None - subsections indicated by sidebar labels
+
+Paragraphs: 5
+Lists: 0
+Tables: 1 (Exhibit 1.1 - 6 rows x 3 columns)
+Exhibits/Figures: 1
+Sidebars: 2 ("Professional specialties", "Property type specialization")
+
+CONFIDENCE SCORES:
+─────────────────
+Heading Hierarchy: N/A (No formal headings)
+Element Type Detection: 98% (Clear table structure and sidebars)
+Content Flow: 96% (Exhibit followed by property type definitions)
+Table Structure: 95% (Six functional categories with professions)
+
+LAYOUT CHARACTERISTICS:
+──────────────────────
+• Sidebar: "Professional specialties" with intro paragraph
+• Exhibit 1.1: Table showing professions organized by 6 functional areas
+  - Creating
+  - Managing & Maintaining
+  - Destroying
+  - Holding
+  - Regulating
+  - Transferring
+• Sidebar: "Property type specialization" with definitions
+• Three property type definitions with bold lead-ins:
+  - Residential property
+  - Commercial property
+  - Investment property
+• Footer shows book page number (9)
+
+================================================================================

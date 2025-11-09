@@ -1,0 +1,134 @@
+================================================================================
+                        PAGE 11 ASCII LAYOUT PREVIEW
+================================================================================
+Book Page: 12 | Chapter: 1 | PDF Index: 11 | Dimensions: 612x792px
+================================================================================
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│        Forms of                                                              │
+│        specialization  In the modern brokerage environment, brokers and      │
+│        ^               agents specialize along the following lines:          │
+│     [Sidebar]          ^                                                     │
+│     [11pt Bold]        [11pt Regular] - Introduction Paragraph               │
+│                                                                              │
+│                                  • property type                             │
+│                                  • geographical area                         │
+│                                  • type of transaction                       │
+│                                  • type of client                            │
+│                                  • type of relationship                      │
+│                                  ^                                           │
+│                                  [11pt Regular] - Bullet List (5 items)      │
+│                                                                              │
+│                        One's choice of specialization is influenced by       │
+│                        competitive factors in the market and by perceived    │
+│                        opportunities.                                        │
+│                        ^                                                     │
+│                        [11pt Regular] - Body Paragraph                       │
+│                                                                              │
+│                        Property type. Since different properties have        │
+│                        different features and potential buyers, brokers      │
+│                        commonly choose to specialize in a property type.     │
+│                        Thus there are:                                       │
+│                        ^                                                     │
+│                        [11pt Bold lead-in + Regular] - Body Paragraph        │
+│                                                                              │
+│                                  • residential agents                        │
+│                                  • commercial agents (office, retail)        │
+│                                  • industrial agents                         │
+│                                  • land agents                               │
+│                                  ^                                           │
+│                                  [11pt Regular] - Bullet List (4 items)      │
+│                                                                              │
+│                        Geographical area. Brokers and agents must maintain   │
+│                        current, accurate data on properties. It is not       │
+│                        possible to keep track of every property in larger    │
+│                        markets. Therefore, one must create an area of        │
+│                        geographical specialization. One's area may be        │
+│                        defined by natural barriers; by streets and highways; │
+│                        or by a certain set of subdivisions.                  │
+│                        ^                                                     │
+│                        [11pt Bold lead-in + Regular] - Body Paragraph        │
+│                                                                              │
+│                        Type of transaction. The principal types of           │
+│                        transaction are sales, leases and subleases,          │
+│                        exchanges, and options.                               │
+│                        ^                                                     │
+│                        [11pt Bold lead-in + Regular] - Body Paragraph        │
+│                                                                              │
+│                        Each form of transaction involves particular legal    │
+│                        documents and considerations. As a result, many       │
+│                        agents, particularly commercial agents, specialize in │
+│                        a type of transaction. For example, in an urban       │
+│                        commercial property market, agents generally          │
+│                        specialize in either leases or sales.                 │
+│                        ^                                                     │
+│                        [11pt Regular] - Body Paragraph                       │
+│                                                                              │
+│                        Type of client. Brokers increasingly represent buyers │
+│                        and tenants as well as sellers and landlords. Since   │
+│                        conflicts of interest may be involved, many brokers   │
+│                        restrict their business to representing either buyers │
+│                        and tenants or sellers and landlords exclusively.     │
+│                        ^                                                     │
+│                        [11pt Bold lead-in + Regular] - Body Paragraph        │
+│                                                                              │
+│                        Some brokers and agents also specialize according to  │
+│                        the type of business their clients are in or their    │
+│                        motivations for the transaction. Thus one finds       │
+│                        brokers who focus exclusively on hospitals, or fast   │
+│                        food chains, or executive relocations.                │
+│                        ^                                                     │
+│                        [11pt Regular] - Body Paragraph                       │
+│                                                                              │
+│                        Type of relationship. In recent years, many brokers   │
+│                        have specialized in providing advisory services to    │
+│                        clients instead of the traditional transaction-based, │
+│                        commission-compensated services. In the advisory      │
+│                        relationship, the broker works on identified real     │
+│                        estate tasks or projects in exchange for a fee,       │
+│                        salary, or retainer. The fee advisor may or may not   │
+│                        focus on completing a transaction.                    │
+│                        ^                                                     │
+│                        [11pt Bold lead-in + Regular] - Body Paragraph        │
+│                                                                              │
+│                                              Chapter 1: The Real Estate      │
+│                                              Business 11                     │
+│                                              ^                               │
+│                                              [10pt] - Footer/Page Number     │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+STRUCTURE SUMMARY:
+─────────────────
+Page Type: CONTINUATION
+Total Elements: 11
+
+Headings (0):
+  • None - subsection indicated by sidebar
+
+Paragraphs: 8 (with bold lead-ins for specialization types)
+Lists: 2 (5 items + 4 items)
+Tables: 0
+Exhibits/Figures: 0
+Sidebars: 1 ("Forms of specialization")
+
+CONFIDENCE SCORES:
+─────────────────
+Heading Hierarchy: N/A (No formal headings)
+Element Type Detection: 97% (Clear sidebar and bullet lists)
+Content Flow: 98% (Detailed specialization breakdown)
+Text Extraction: 99% (Clean paragraphs and lists)
+
+LAYOUT CHARACTERISTICS:
+──────────────────────
+• Sidebar: "Forms of specialization"
+• Five types of specialization covered with bold lead-ins:
+  - Property type (with 4-item bullet list)
+  - Geographical area
+  - Type of transaction
+  - Type of client
+  - Type of relationship
+• Two bullet lists providing specific examples
+• Footer shows book page number (11)
+
+================================================================================

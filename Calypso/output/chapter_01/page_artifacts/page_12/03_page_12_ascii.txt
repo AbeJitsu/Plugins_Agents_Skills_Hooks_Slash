@@ -1,0 +1,120 @@
+================================================================================
+                        PAGE 12 ASCII LAYOUT PREVIEW
+================================================================================
+Book Page: 13 | Chapter: 1 | PDF Index: 12 | Dimensions: 612x792px
+================================================================================
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│                        Some of the individual brokerage services that one    │
+│                        might perform for a pre-set fee are:                  │
+│                        ^                                                     │
+│                        [11pt Regular] - Introduction Paragraph               │
+│                                                                              │
+│                                  • comparative price analysis                │
+│                                  • database search                           │
+│                                  • prospect screening                        │
+│                                  • site analysis                             │
+│                                  ^                                           │
+│                                  [11pt Regular] - Bullet List (4 items)      │
+│                                                                              │
+│        Skills and                                                            │
+│        knowledge       Professionals in the brokerage business must have a   │
+│        ^               broad range of real estate knowledge and skills.      │
+│     [Sidebar]          Agents must develop a thorough awareness of their     │
+│     [11pt Bold]        local market and the properties within it. In         │
+│                        addition, agents must develop a proficiency with the  │
+│                        economics of real estate: prices, financing, closing  │
+│                        costs, and so forth. Equally important are "people"   │
+│                        skills: communicating with clients and responding to  │
+│                        their needs.                                          │
+│                        ^                                                     │
+│                        [11pt Regular] - Body Paragraph                       │
+│                                                                              │
+│                        Exhibit 1.3 Skills and Knowledge in Real Estate       │
+│                        Brokerage                                             │
+│                        ^                                                     │
+│                        [11pt Bold] - Exhibit Title                           │
+│                                                                              │
+│        ┌──────────────────────────────────────────────────────────────┐     │
+│        │           Knowledge                    Skills                │     │
+│        ├──────────────────────────────────────────────────────────────┤     │
+│        │  local market conditions        financial qualification      │     │
+│        │  local properties               market analysis              │     │
+│        │  real estate principles         marketing practices          │     │
+│        │  real estate law                ethical practices             │     │
+│        │  value estimation               liability management          │     │
+│        │  real estate financing          data management               │     │
+│        │  investment principles          selling                       │     │
+│        │  license laws                   time management               │     │
+│        │  related math calculations      communication                 │     │
+│        │  closing procedures             writing                       │     │
+│        │                                  basic computer operation     │     │
+│        └──────────────────────────────────────────────────────────────┘     │
+│        ^                                                                     │
+│        [9pt] - Two-column table showing knowledge and skills                 │
+│                                                                              │
+│                                                                              │
+│        ────────────────────────────────────────────────────────              │
+│                                                                              │
+│        PROFESSIONAL ORGANIZATIONS                                            │
+│        ^                                                                     │
+│        [11pt Bold] - Section Heading (H2)                                    │
+│                                                                              │
+│        ────────────────────────────────────────────────────────              │
+│                                                                              │
+│                        There are trade organizations within the real estate  │
+│                        industry that support and promote virtually every     │
+│                        form of business specialization. Benefits of          │
+│                        membership include training programs, professional    │
+│                        designations, and communication channels for keeping  │
+│                        abreast of events and laws. Trade organization        │
+│                        membership also generally enhances one's business     │
+│                        image in the eyes of clients and the public at large. │
+│                        ^                                                     │
+│                        [11pt Regular] - Body Paragraph                       │
+│                                                                              │
+│                        Some of the major trade organizations, institutes and │
+│                        related professional designations are listed below.   │
+│                        ^                                                     │
+│                        [11pt Regular] - Body Paragraph                       │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│        12 Principles of Real Estate Practice in Alabama                      │
+│        ^                                                                     │
+│        [10pt] - Footer/Page Number                                           │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+STRUCTURE SUMMARY:
+─────────────────
+Page Type: SECTION TRANSITION
+Total Elements: 9
+
+Headings (1):
+  • H2: 1 instance (Section - "PROFESSIONAL ORGANIZATIONS")
+
+Paragraphs: 4
+Lists: 1 (4 items - brokerage services)
+Tables: 1 (Exhibit 1.3 - Knowledge and Skills, 2 columns)
+Exhibits/Figures: 1
+Sidebars: 1 ("Skills and knowledge")
+
+CONFIDENCE SCORES:
+─────────────────
+Heading Hierarchy: 97% (Clear H2 section start)
+Element Type Detection: 98% (Table and sidebar clearly marked)
+Content Flow: 96% (Transition from brokerage to organizations)
+Table Structure: 95% (Two-column layout)
+
+LAYOUT CHARACTERISTICS:
+──────────────────────
+• Continuation of fee-based services discussion
+• Bullet list with 4 brokerage services
+• Sidebar: "Skills and knowledge"
+• Exhibit 1.3: Two-column table showing Knowledge and Skills
+• New section begins: "PROFESSIONAL ORGANIZATIONS" (H2)
+• Two introductory paragraphs about trade organizations
+• Footer shows book page number (12)
+
+================================================================================
