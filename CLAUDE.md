@@ -189,23 +189,37 @@ OUTPUT: Complete chapter file
 ```
 INPUT: chapter_XX.html (consolidated)
   ↓
-validate_html.py (Gates 1-2)
+Gate 1-2: validate_html.py (structural + semantic)
   ├─ Gate 1: Structural validation
   │  └─ DOCTYPE, meta tags, proper nesting
   ├─ Gate 2: Semantic validation
   │  └─ Heading hierarchy, CSS classes, list integrity
   └─ TARGET: 0 errors
-OUTPUT: Validation report
-  - Error count
-  - Heading hierarchy
-  - Semantic class coverage
-  - List structure integrity
+  ↓
+Gate 3: verify_text_content.py (text completeness)
+  ├─ Extract all text from extraction JSON
+  ├─ Extract all text from consolidated HTML
+  ├─ Normalize and compare coverage
+  ├─ Identify missing words/content
+  └─ TARGET: ≥95% text coverage
+OUTPUT: Comprehensive validation report
+  - Structural errors: 0 required
+  - Text coverage: ≥95% required
+  - Identified gaps: None in critical sections
 ```
 
 **Success criteria:**
-- ✓ VALID with 0 errors
+- ✓ HTML VALID with 0 errors (Gate 1-2)
+- ✓ Text coverage ≥95% (Gate 3)
 - All semantic classes properly applied
 - Expected h2→h4 hierarchy jumps (intentional)
+- All extracted content present in final output
+
+**Text Coverage Verification (MANDATORY):**
+```bash
+python3 Calypso/tools/verify_text_content.py <chapter_num>
+```
+Exit codes: 0 (≥95% pass), 1 (85-95% warning), 2 (<85% fail)
 
 **Detailed validation guide:** See [VALIDATION_CHECKLIST.md](./.claude/VALIDATION_CHECKLIST.md) for step-by-step validation procedures
 

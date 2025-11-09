@@ -13,7 +13,7 @@
 | 0 (Front Matter) | 0-5 | ⭕ Pending | Not started | 6 pages |
 | 1 (Real Estate Business) | 6-14 | ✅ Complete | ✓ 0 errors | Regenerated with standardized process, page_artifacts structure |
 | 2 (Rights in Real Estate) | 15-27 | ✅ Complete | ✓ 0 errors | Fixed: extracted 15-27 only |
-| 3 (Interests & Estates) | 28-37 | ✅ Complete | ✓ 0 errors | Page 28 recovered and consolidated with pages 29-37 |
+| 3 (Interests & Estates) | 28-37 | ⚠️ Partial | ✗ 77.9% coverage | ALERT: Text gaps found in individual pages 32,34-37. HTML validates but content incomplete. |
 | 4 (Ownership) | 38-53 | ⭕ Partial | Not started | Have pages 38-42 only, need 38-53 |
 | 5-29 (Various) | 54-515 | ⭕ Pending | Not started | 21 chapters, 462 pages |
 | Z (Back Matter) | 516-592 | ⭕ Pending | Not started | 77 pages |
@@ -98,6 +98,25 @@
 | Ch3 included Ch4 pages | Extraction extracted 29-42 instead of 28-37 | Removed pages 38-42 from JSON | ✓ Fixed |
 | Ch3 page 28 artifacts missing | Extraction JSON fixed but AI generation not run | Need to generate page 28 ASCII/HTML | ⭕ Pending |
 | Ch4 file in wrong folder | Process confusion | Moved chapter_04.html to /chapter_04/ | ✓ Fixed |
+| **Ch3 text content gap** | **AI HTML generation (Skill 3) incomplete** | **Pages 32, 34-37 have <95% coverage (see analysis below)** | **⭕ Needs Regeneration** |
+
+### Chapter 3 Text Content Analysis (2025-11-09)
+
+**Problem:** Chapter 3 consolidated HTML has only 77.9% text coverage (2137/2742 words missing ~605 words)
+
+**Root Cause Identified:** Individual page HTML generation (Skill 3) is not capturing all extracted content
+- Pages 28-31, 33: Good coverage (94-105%) ✓
+- **Page 32:** 70.2% coverage (missing ~100 words)
+- **Page 34:** 71.6% coverage (missing ~99 words)
+- **Page 35:** 70.8% coverage (missing ~116 words)
+- **Page 36:** 81.7% coverage (missing ~43 words)
+- **Page 37:** 31.6% coverage (missing ~203 words) ⚠️ CRITICAL - Closing/Summary page
+
+**Why This Matters:** Page 37 is the closing page with "Snapshot Review" bullet lists and summary sections. At 31.6% coverage, critical content is being lost.
+
+**Fix Strategy:** Regenerate pages 32, 34-37 (prioritize 37 first due to severity). The consolidation process is working correctly; the issue is upstream in the individual page generation.
+
+**Prevention:** Text content verification (verify_text_content.py) is now mandatory Gate 3 of validation process to catch these gaps before they're considered "complete".
 
 ---
 

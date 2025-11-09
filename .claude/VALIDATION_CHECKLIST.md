@@ -169,6 +169,57 @@ Status: ✓ VALID
 
 ---
 
+### 4b. TEXT CONTENT VERIFICATION ✓ (MANDATORY Gate 3)
+
+**Purpose:** Ensure all extracted text from PDF made it into final HTML (no content loss)
+
+**Steps:**
+1. Run text content verification:
+   ```bash
+   python3 Calypso/tools/verify_text_content.py <chapter_num>
+   ```
+
+2. Check report for:
+   - ✓ `Coverage: ≥95%` (required minimum)
+   - ✓ Exit code 0 (success)
+   - ✓ All major sections present
+   - ⚠️ Exit code 1: Warning (85-95% coverage) - investigate before accepting
+   - ❌ Exit code 2: Failure (<85% coverage) - MUST FIX before considering complete
+
+**Expected Output (PASSING):**
+```
+================================================================================
+TEXT CONTENT VERIFICATION
+================================================================================
+Extracting text from JSON... ✓ (XXX text spans, YYYY words)
+Extracting text from HTML... ✓ (ZZZZ words)
+
+Comparison:
+  JSON word count:  YYYY
+  HTML word count:  ZZZZ
+  Coverage:         ≥95.0%
+
+✅ VERIFICATION PASSED: Text content is comprehensive
+```
+
+**Common Issues:**
+- **Low coverage (<85%)**: Individual pages have content gaps during AI generation
+  - Run page-by-page analysis to identify which pages are incomplete
+  - Regenerate incomplete pages with revised prompts
+  - Re-consolidate and re-verify
+
+- **Minor gaps (85-95%)**: Minor content loss acceptable but investigate
+  - Usually page numbers, punctuation variations, or formatting artifacts
+  - Check if critical content is present
+  - Proceed with caution and note in progress.md
+
+- **Missing words are just page numbers**: Acceptable variance
+  - Extraction JSON includes footer page numbers
+  - HTML may strip these during formatting
+  - Not a real content gap if semantic content is complete
+
+---
+
 ### 5. PAGE BOUNDARIES ✓
 
 **Purpose:** Confirm all expected pages are present with no gaps
