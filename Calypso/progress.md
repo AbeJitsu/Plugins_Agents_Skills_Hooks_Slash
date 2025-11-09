@@ -174,22 +174,186 @@ Each page follows this pipeline:
 
 ---
 
-## Processing Plan for Remaining Pages
+## Detailed Processing for Pages 19-28
 
-### Pages 18-28 (remaining)
-Each will follow the three-input process:
+### PAGE 19 ✅
+**Status:** Complete (continuation page)
 
-**PAGE 18:** Classifications of property, Real vs Personal property
-**PAGE 19:** Personal property examples and considerations
-**PAGE 20:** Property vs Improvement distinctions
-**PAGE 21:** Real property interests (freehold, leasehold, etc.)
-**PAGE 22:** Freehold definitions and types
-**PAGE 23:** Leasehold interests
-**PAGE 24:** Other property interests
-**PAGE 25:** Regulation of real property interests
-**PAGE 26:** Regulatory framework and restrictions
-**PAGE 27:** Modern regulations affecting property
-**PAGE 28:** Final content and chapter summary
+**Skill 2 Inputs (ASCII Preview Generation):**
+- PNG: `output/chapter_02/page_artifacts/page_19/02_page_19.png`
+- JSON: `analysis/chapter_02/rich_extraction.json` (page 19 section)
+  - 58 text spans, meaningful content about property rights subdivision
+
+**Skill 2 Output (ASCII Preview):**
+- ASCII: `output/chapter_02/page_artifacts/page_19/03_page_19_ascii.txt` ✅
+  - 3 h4 subsections (Surface rights, Air rights, Subsurface rights)
+  - 10 paragraphs explaining rights subdivision
+  - Confidence scores: 90-100%
+
+**Skill 3 Inputs (HTML Generation):**
+- PNG + JSON + ASCII preview (all three inputs)
+
+**Skill 3 Output (HTML):**
+- HTML: `output/chapter_02/page_artifacts/page_19/04_page_19.html` ✅
+  - Continuation content (no chapter header)
+  - 3 h4 subsection headings
+  - 9 paragraphs with exact text from extraction
+  - Text styling: `<em>` for "right to encumber", "right to exclude"
+  - Validated: ✓ VALID, 0 errors
+
+### PAGE 20 ✅
+**Status:** Complete (continuation with water rights subsection)
+
+**Skill 2 Output (ASCII Preview):**
+- ASCII: `output/chapter_02/page_artifacts/page_20/03_page_20_ascii.txt` ✅
+  - 3 h4 subsections (Water rights, Doctrine of Prior Appropriation, Littoral rights)
+  - 6 paragraphs, 1 bullet list (3 items), 1 exhibit
+  - Confidence scores: 85-95%
+
+**Skill 3 Output (HTML):**
+- HTML: `output/chapter_02/page_artifacts/page_20/04_page_20.html` ✅
+  - 3 h4 subsections, 6 paragraphs, 1 bullet list, 1 figure/exhibit
+  - Exhibit 2.4: Littoral Rights diagram
+  - Validated: ✓ VALID, 0 errors
+
+### PAGE 21 ✅
+**Status:** Complete (riparian rights and exhibit)
+
+**Skill 2 Output (ASCII Preview):**
+- ASCII: `output/chapter_02/page_artifacts/page_21/03_page_21_ascii.txt` ✅
+  - 1 h4 subsection, 1 dual-diagram exhibit (navigable vs non-navigable)
+  - 4 paragraphs, 1 bullet list (3 conditions)
+  - Confidence scores: 85-95%
+
+**Skill 3 Output (HTML):**
+- HTML: `output/chapter_02/page_artifacts/page_21/04_page_21.html` ✅
+  - 1 h4 subsection, 4 paragraphs, 1 bullet list, 1 complex figure
+  - Exhibit 2.5: Riparian Rights with two scenarios
+  - Validated: ✓ VALID, 0 errors
+
+### PAGE 22 ✅
+**Status:** Complete (new major section: REAL VERSUS PERSONAL PROPERTY)
+
+**Skill 2 Output (ASCII Preview):**
+- ASCII: `output/chapter_02/page_artifacts/page_22/03_page_22_ascii.txt` ✅
+  - 1 h2 major section, 6 nav items, 4 h4 subsections
+  - 7 paragraphs, h5 subsections (Intention, Adaptation)
+  - Multiple definition boxes
+  - Confidence scores: 90-100%
+
+**Skill 3 Output (HTML):**
+- HTML: `output/chapter_02/page_artifacts/page_22/04_page_22.html` ✅
+  - New section divider, h2 heading, section-navigation
+  - 2 h4 subsections (Fixtures, Differentiation criteria)
+  - 2 h5 sub-subsections (Intention, Adaptation)
+  - 7 paragraphs with nested structure
+  - Validated: ✓ VALID, 0 errors
+
+### PAGE 23 ✅
+**Status:** Complete (detailed subsections on property distinctions)
+
+**Skill 2 Output (ASCII Preview):**
+- ASCII: `output/chapter_02/page_artifacts/page_23/03_page_23_ascii.txt` ✅
+  - 3 h5 sub-subsections, 4 h4 subsections
+  - 10 paragraphs covering trade fixtures, emblements, factory-built housing
+  - Emphasis on multiple classification criteria
+  - Confidence scores: 90-100%
+
+**Skill 3 Output (HTML):**
+- HTML: `output/chapter_02/page_artifacts/page_23/04_page_23.html` ✅
+  - 3 h5 sub-subsections (Functionality, Relationship of parties, Sale/lease provisions)
+  - 4 h4 subsections (Trade fixtures, Emblements, Factory-built housing)
+  - 7 paragraphs with exact styling preservation
+  - Text styling: `<em>` for italic terms, `<strong>` for definitions
+  - Validated: ✓ VALID, 0 errors
+
+### PAGE 24 ✅
+**Status:** Complete (conversion section and new major section: REGULATION)
+
+**Skill 2 Output (ASCII Preview):**
+- ASCII: `output/chapter_02/page_artifacts/page_24/03_page_24_ascii.txt` ✅
+  - 1 h4 subsection (Conversion), 1 major exhibit table, 1 h2 section (REGULATION)
+  - 3 paragraphs, 1 table, navigation section
+  - Confidence scores: 90-95%
+
+**Skill 3 Output (HTML):**
+- HTML: `output/chapter_02/page_artifacts/page_24/04_page_24.html` ✅
+  - 1 h4 subsection (Conversion), 1 semantic table (Exhibit 2.6)
+  - New h2 section (REGULATION OF REAL PROPERTY INTERESTS)
+  - Section divider, navigation, bullet list of regulated areas
+  - Exhibit 2.6: Real Property vs Personal Property comparison table
+  - Validated: ✓ VALID, 0 errors
+
+### PAGE 25 ✅
+**Status:** Complete (regulatory framework details)
+
+**Skill 2 Output (ASCII Preview):**
+- ASCII: `output/chapter_02/page_artifacts/page_25/03_page_25_ascii.txt` ✅
+  - 4 h4 subsections (Federal, State, Local, Judicial regulation)
+  - 10 paragraphs of regulatory detail
+  - Confidence scores: 90-95%
+
+**Skill 3 Output (HTML):**
+- HTML: `output/chapter_02/page_artifacts/page_25/04_page_25.html` ✅
+  - 4 h4 subsections with detailed regulatory descriptions
+  - 10 paragraphs covering federal, state, local, and judicial regulation
+  - Exact text preservation from extraction data
+  - Validated: ✓ VALID, 0 errors
+
+### PAGE 26 ✅
+**Status:** Complete (regulation comprehensive exhibit table)
+
+**Skill 2 Output (ASCII Preview):**
+- ASCII: `output/chapter_02/page_artifacts/page_26/03_page_26_ascii.txt` ✅
+  - Exhibit 2.7 detailed table structure
+  - 3 columns (Level, Type, Description)
+  - Hierarchical regulatory framework
+  - Confidence scores: 95%
+
+**Skill 3 Output (HTML):**
+- HTML: `output/chapter_02/page_artifacts/page_26/04_page_26.html` ✅
+  - Single exhibit: Exhibit 2.7 Regulation of Real Property Interests
+  - Complex table with rowspan attributes
+  - Regulatory hierarchy: Federal, State, Local, Courts
+  - Validated: ✓ VALID, 0 errors
+
+### PAGE 27 ✅
+**Status:** Complete (chapter summary/snapshot review)
+
+**Skill 2 Output (ASCII Preview):**
+- ASCII: `output/chapter_02/page_artifacts/page_27/03_page_27_ascii.txt` ✅
+  - Chapter 2 title with "Snapshot Review" subtitle
+  - 3 major sections in ALL CAPS
+  - 11 h4 subsections with bullet-point organization
+  - ~40+ bullet items organized by topic
+  - Confidence scores: 95%
+
+**Skill 3 Output (HTML):**
+- HTML: `output/chapter_02/page_artifacts/page_27/04_page_27.html` ✅
+  - Chapter review header with subtitle
+  - 3 h2 major sections (REAL ESTATE AS PROPERTY, REAL VS PERSONAL, REGULATION)
+  - 11 h4 subsections
+  - 14+ bullet lists with comprehensive summaries
+  - Validated: ✓ VALID, 0 errors
+
+### PAGE 28 ✅
+**Status:** Complete (Chapter 3 opening: Interests and Estates)
+
+**Skill 2 Output (ASCII Preview):**
+- ASCII: `output/chapter_02/page_artifacts/page_28/03_page_28_ascii.txt` ✅
+  - Chapter 3 header and title
+  - 1 h2 major section, 3 nav items
+  - 1 h4 and 1 h5 subsection, 2 bullet lists
+  - 8 example interest items
+  - Confidence scores: 95%
+
+**Skill 3 Output (HTML):**
+- HTML: `output/chapter_02/page_artifacts/page_28/04_page_28.html` ✅
+  - Chapter 3 header with section navigation
+  - 1 h2 major section, multiple h4/h5 subsections
+  - Definition of "Interests" with rights bundle
+  - "Undivided interest" subsection with 8 examples
+  - Validated: ✓ VALID, 0 errors
 
 ---
 
@@ -201,8 +365,16 @@ Each will follow the three-input process:
 | 16   | 50    | ✅     | 7       | 0      | ✓ VALID  | Continuation, 2 h4, 1 list |
 | 17   | 48    | ✅     | 8       | 0      | ✓ VALID  | Continuation, 2 exhibits |
 | 18   | 76    | ✅     | 9       | 0      | ✓ VALID  | Continuation, 1 table |
-| 19   | -     | ⏳     | TBD     | TBD    | ⏳       | In progress |
-| 20-28| -     | ⏳     | TBD     | TBD    | ⏳       | Pending |
+| 19   | 58    | ✅     | 7       | 0      | ✓ VALID  | Continuation, 3 h4 subsections |
+| 20   | 62    | ✅     | 10      | 0      | ✓ VALID  | Continuation, 3 h4, 1 list, 1 exhibit |
+| 21   | 75    | ✅     | 9       | 0      | ✓ VALID  | Continuation, 1 h4, 1 exhibit, 1 list |
+| 22   | 53    | ✅     | 11      | 0      | ✓ VALID  | Major section, h2, nav, h4/h5 subsections |
+| 23   | 75    | ✅     | 9       | 0      | ✓ VALID  | Continuation, 1 h4, 2 h5, multiple lists |
+| 24   | 67    | ✅     | 11      | 0      | ✓ VALID  | Continuation, h2, nav, 1 table |
+| 25   | 52    | ✅     | 9       | 0      | ✓ VALID  | Continuation, 4 h4 subsections |
+| 26   | 38    | ✅     | 8       | 0      | ✓ VALID  | Exhibit-focused, complex table |
+| 27   | 95    | ✅     | 10      | 0      | ✓ VALID  | Chapter review, 11+ subsections, bullets |
+| 28   | 70    | ✅     | 10      | 0      | ✓ VALID  | Chapter 3 opening, h2, nav |
 
 ---
 

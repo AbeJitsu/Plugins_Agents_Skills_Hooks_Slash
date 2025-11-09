@@ -1,0 +1,116 @@
+================================================================================
+                        PAGE 21 ASCII LAYOUT PREVIEW
+================================================================================
+Book Page: 22 | Chapter: 2 | PDF Index: 21 | Dimensions: 612x792px
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│  [Paragraph text - 11pt Regular] (continuation from page 20)               │
+│  Littoral rights attach to the property. When the property is sold, the    │
+│  littoral rights transfer with the property to the new owner.              │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold, left sidebar]                                 │
+│  Riparian rights.                                                           │
+│                                                                             │
+│  [Body Text - 11pt Regular with italic emphasis]                           │
+│  Riparian rights concern properties abutting moving water such as streams  │
+│  and rivers. If a property abuts a stream or river, the owner's riparian   │
+│  rights are determined by whether the water is navigable or not navigable. │
+│  If the property abuts a non-navigable stream, the owner enjoys unrestrict-│
+│  ed use of the water and owns the land beneath the stream to the stream's  │
+│  midpoint. If the waterway in question is navigable, the waterway is      │
+│  considered to be a public easement. In such a case, the owner's property  │
+│  extends to the water's edge as opposed to the midpoint of the waterway.   │
+│  The state owns the land beneath the water.                                │
+│                                                                             │
+│  ──────────────────────────────────────────────────────────────────────    │
+│  [EXHIBIT 2.5 - DIAGRAM TITLE]                                              │
+│                                                                             │
+│  Exhibit 2.5 Riparian Rights                                               │
+│                                                                             │
+│  [ASCII Diagram representation - Two scenarios]                             │
+│                                                                             │
+│  NAVIGABLE STREAM:                                                          │
+│  ┌──────────────────────────────────────────────────────────────┐           │
+│  │  [Left property with tree/house]  → | River/Stream (dark) | │           │
+│  │  (Labeled "Navigable")             | midpoint            | │           │
+│  │                                     ← [Right property]    │           │
+│  └──────────────────────────────────────────────────────────────┘           │
+│  "Rivers and Streams" (labeled)                                            │
+│                                                                             │
+│  NON-NAVIGABLE STREAM:                                                      │
+│  ┌──────────────────────────────────────────────────────────────┐           │
+│  │  [Left property with tree/house]  → | Brook (light) |  ←    │           │
+│  │  (Labeled "Non-Navigable")         | boundary line |  │     │           │
+│  │                                     [Right property] │     │           │
+│  └──────────────────────────────────────────────────────────────┘           │
+│                                                                             │
+│  ──────────────────────────────────────────────────────────────────────    │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  One's riparian rights to use flowing water are subject to the conditions  │
+│  that:                                                                      │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                              │
+│  ▶ the usage is reasonable and does not infringe on the riparian rights   │
+│    of other owners downstream                                              │
+│  ▶ the usage does not pollute the water                                    │
+│  ▶ the usage does not impede or alter the course of the water flow.        │
+│                                                                             │
+│  [Body Text - 11pt Regular]                                                │
+│  Like littoral rights, riparian rights attach to the property.             │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+STRUCTURE SUMMARY:
+─────────────────
+
+Page Type: Chapter Continuation with Multiple Diagram Exhibits
+Total Elements: 8
+
+Headings (1):
+  • H4: 1 instance (11pt, bold, sidebar style)
+    - "Riparian rights"
+
+Paragraphs (4):
+  • Body text: 4 paragraphs total
+  • Average paragraph length: ~90 words
+  • Text flow: Top to bottom, left to right
+  • Contains embedded italic emphasis
+
+Bullet Lists (1):
+  • Three-item conditions list: reasonable usage, no pollution, no alteration
+
+Exhibits/Figures (1):
+  • Exhibit 2.5: Riparian Rights diagram showing two scenarios
+  • Two side-by-side river/stream comparisons (Navigable vs Non-Navigable)
+  • Labeled: "Rivers and Streams", "River", "Brook"
+
+Tables: 0
+
+Images: 0 (diagrams are ASCII representations)
+
+Font Summary:
+  • 11pt: Primary font for all body text and headings
+  • 10pt: Footer text (page number)
+  • Bold subsection heading: 11pt bold (1 instance)
+  • Italic: "is navigable or not navigable", "owns the land beneath the stream to the stream's midpoint", "to the water's edge"
+  • Total unique fonts: 2 (Times New Roman variants)
+
+Key Terms Emphasized:
+  • "Riparian rights" (bold subsection)
+  • "is navigable or not navigable" (italic)
+  • "owns the land beneath the stream to the stream's midpoint" (italic)
+  • "to the water's edge" (italic)
+  • Two-diagram exhibit showing contrasts
+
+Confidence Assessment:
+  • Heading hierarchy: 100% confident
+  • Element types: 95% confident
+  • Bullet list structure: 95% confident
+  • Exhibit diagram structure: 85% confident (visual interpretation, complex dual diagram)
+  • Content flow: 95% confident
+  • Text styling: 90% confident
+
+================================================================================

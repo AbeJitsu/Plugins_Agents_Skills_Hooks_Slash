@@ -1,0 +1,197 @@
+================================================================================
+                        PAGE 27 ASCII LAYOUT PREVIEW
+================================================================================
+Book Page: 28 | Chapter: 2 | PDF Index: 27 | Dimensions: 612x792px
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│  [Chapter Title with Subtitle - Large Bold]                                │
+│  2 Rights and Interests in Real Estate                                      │
+│  Snapshot Review                                                             │
+│                                                                             │
+│  [H2 Major Section - Bold, All Caps]                                        │
+│  REAL ESTATE AS PROPERTY                                                    │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Land                                                                        │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                               │
+│  • Constitution guarantees private ownership of real estate; ownership      │
+│    rights not absolute; others may exert claims against one's property     │
+│  • surface, all natural things attached to it, subsurface, and air above   │
+│    surface; unique aspects: immobile, indestructible, heterogeneous        │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Real estate                                                                 │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                               │
+│  • land plus all permanently attached man-made structures, called          │
+│    improvements                                                              │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Property                                                                    │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                               │
+│  • something that is owned by someone and the associated rights of         │
+│    ownership                                                                 │
+│  • the bundle of rights: possession, use, transfer, exclusion, and        │
+│    encumbrance                                                               │
+│  • property is real or personal, tangible or intangible                    │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Real property rights                                                        │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                               │
+│  • any of the bundle of rights, applied to airspace (air rights), surface │
+│    (surface rights), and subsurface (subsurface rights)                    │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Water rights                                                                │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                               │
+│  • Doctrine of Prior Appropriation: state controls water usage; grants     │
+│    usage permits                                                             │
+│  • littoral rights: abutting property owners own land to high water mark;  │
+│    may use, but state owns underlying land                                  │
+│  • riparian rights: if navigable, abutting property owners own land to     │
+│    water's edge; may use, but state owns underlying land; if not navigable,│
+│    owner owns land to midpoint of waterway                                  │
+│                                                                             │
+│  [H2 Major Section - Bold, All Caps]                                        │
+│  REAL VS PERSONAL PROPERTY                                                  │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  General                                                                     │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                               │
+│  • an item may be real or personal property depending on the "attachment"  │
+│    criterion and other circumstances                                        │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Fixtures                                                                    │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                               │
+│  • real property converted from personal property by attachment to real    │
+│    estate                                                                    │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Differentiation criteria                                                    │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                               │
+│  • intention; adaptation; functionality; relationship of parties; contract │
+│    provisions                                                                │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Trade fixtures                                                              │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                               │
+│  • personal property items temporarily attached to real estate in order to │
+│    conduct business; to be removed at some point                            │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Emblements                                                                 │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                               │
+│  • plants or crops considered personal property since human intervention is│
+│    necessary for planting, harvesting                                       │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Factory-built housing                                                      │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                               │
+│  • housing pre-built off-site; includes mobile homes; real or personal    │
+│    depending on attachment to land                                          │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Conversion                                                                  │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                               │
+│  • transforming real to personal property through severance, or personal  │
+│    to real property through affixing                                        │
+│                                                                             │
+│  [H2 Major Section - Bold, All Caps]                                        │
+│  REGULATION OF REAL PROPERTY INTERESTS                                      │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Federal regulation                                                         │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                               │
+│  • grants overall rights of ownership; controls broad usage standards,     │
+│    discrimination                                                            │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  State regulation                                                           │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                               │
+│  • governs the real estate business; sets regional usage standards         │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Local regulation                                                           │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                               │
+│  • levies real estate taxes; controls specific usage                        │
+│                                                                             │
+│  [H4 Subsection - 11pt Bold]                                                │
+│  Judicial regulation                                                        │
+│                                                                             │
+│  [Bullet List - 11pt Regular]                                               │
+│  • applies case law and common law to disputes                              │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+STRUCTURE SUMMARY:
+─────────────────
+
+Page Type: Chapter Summary/Review Page
+Total Elements: 26
+
+Headings (14):
+  • Title: "Rights and Interests in Real Estate" with "Snapshot Review" subtitle
+  • H2: 3 instances (major sections, bold, all caps)
+    - "REAL ESTATE AS PROPERTY"
+    - "REAL VS PERSONAL PROPERTY"
+    - "REGULATION OF REAL PROPERTY INTERESTS"
+  • H4: 11 instances (subsections, 11pt, bold)
+    - Land, Real estate, Property, Real property rights, Water rights
+    - General, Fixtures, Differentiation criteria, Trade fixtures, Emblements
+    - Factory-built housing, Conversion
+    - Federal regulation, State regulation, Local regulation, Judicial regulation
+
+Bullet Lists (14):
+  • Multiple bullet lists, 1-5 items per list
+  • Total bullets across page: ~40+ individual items
+  • Well-organized hierarchical structure
+
+Tables: 0
+
+Images: 0
+
+Font Summary:
+  • 11pt: Primary font for subsections and bullets
+  • 10pt: Footer text (page number)
+  • Bold major section headings: all caps, larger scale
+  • Bold subsection headings: 11pt bold
+  • Regular text: 11pt for bullet content
+  • Total unique fonts: 2 (Times New Roman variants)
+
+Key Terms Emphasized:
+  • Chapter title with subtitle format
+  • All major sections in ALL CAPS
+  • Subsection headings in bold
+  • Comprehensive bullet-point summary of entire chapter
+
+Content Coverage:
+  • Real Estate as Property: 5 subsections
+  • Real vs Personal Property: 7 subsections
+  • Regulation of Real Property Interests: 4 subsections
+  • Total: 16 subsections with supporting bullets
+
+Confidence Assessment:
+  • Heading hierarchy: 100% confident
+  • Element types: 95% confident
+  • Bullet list structure: 95% confident
+  • Content organization: 95% confident
+  • Text styling: 90% confident
+
+================================================================================
