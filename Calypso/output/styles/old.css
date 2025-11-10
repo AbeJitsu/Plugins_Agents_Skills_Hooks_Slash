@@ -1,0 +1,563 @@
+/* ==========================================================================
+   Chapter HTML Stylesheet
+   Professional styling for clean PDF-to-HTML chapter conversions
+   TinyMCE Theme Compatible - Uses CSS Color Variables
+   ========================================================================== */
+
+/* ==========================================================================
+   Color Scale Variables (50-950)
+
+   Color values are provided by the LMS theme system.
+   This stylesheet references the following color scales:
+
+   - --base-50 through --base-950 (neutral/text colors)
+   - --primary-50 through --primary-950 (accent/brand colors)
+   - --surface-50 through --surface-950 (background colors)
+
+   ========================================================================== */
+
+/* ==========================================================================
+   Root & Global Styles
+   ========================================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--base-700);
+  background-color: var(--surface-100);
+  margin: 0;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ==========================================================================
+   Typography - Headings
+   ========================================================================== */
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--base-900);
+  margin: 0.5rem 0 1.5rem 0;
+  padding: 0;
+  border-bottom: 3px solid var(--primary-600);
+  padding-bottom: 0.75rem;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-600);
+  margin: 2rem 0 1rem 0;
+  padding: 0;
+  line-height: 1.3;
+  text-transform: none;
+  letter-spacing: 0.3px;
+}
+
+/* First h2 in document - add extra top margin */
+h1 + p + h2 {
+  margin-top: 1rem;
+}
+
+/* ==========================================================================
+   Typography - Paragraphs & Text
+   ========================================================================== */
+
+p {
+  margin: 1rem 0;
+  padding: 0;
+  line-height: 1.6;
+  text-align: left;
+  font-size: 0.95rem;
+  color: var(--base-700);
+}
+
+/* Reduce spacing between consecutive paragraphs */
+p + p {
+  margin-top: 0.5rem;
+}
+
+/* Reduce spacing after section labels */
+.section-label + p {
+  margin-top: 0.75rem;
+  border-top: 1px solid var(--base-300);
+  padding-top: 0.75rem;
+}
+
+/* Style second subsection name paragraph - bottom border */
+.section-label + p + p {
+  border-bottom: 1px solid var(--base-300);
+  padding-bottom: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+/* Style third subsection name paragraph - bottom border for 3-subsection sections */
+.section-label + p + p + p {
+  border-bottom: 1px solid var(--base-300);
+  padding-bottom: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+
+li {
+  margin-left: 0;
+  margin-bottom: 0.4rem;
+  padding-left: 1.5rem;
+  line-height: 1.5;
+  color: var(--base-700);
+  text-align: left;
+  list-style-position: outside;
+  list-style-type: disc;
+  font-size: 0.95rem;
+}
+
+/* Bullet point styling - handle both ul/ol and individual li elements */
+li::before {
+  content: '';
+}
+
+/* ==========================================================================
+   Document Structure
+   ========================================================================== */
+
+/* Add subtle page-like appearance */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--surface-50);
+  z-index: -1;
+}
+
+/* Main content container effect */
+body {
+  background: var(--surface-50);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+
+/* ==========================================================================
+   Spacing & Layout
+   ========================================================================== */
+
+/* Consistent spacing after section headings */
+h2 + p {
+  margin-top: 0.5rem;
+}
+
+/* Extra space before new sections */
+h2 {
+  margin-top: 2.5rem;
+}
+
+/* First h2 should have less top margin */
+h1 + p + p + h2 {
+  margin-top: 1.5rem;
+}
+
+/* ==========================================================================
+   Special Characters & Entities
+   ========================================================================== */
+
+/* Ampersand styling */
+/* (no special styling needed for &amp; as it's rendered as regular text) */
+
+/* ==========================================================================
+   Links (if added in future)
+   ========================================================================== */
+
+a {
+  color: var(--primary-600);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+a:hover {
+  border-bottom-color: var(--primary-600);
+}
+
+/* ==========================================================================
+   Print Styles
+   ========================================================================== */
+
+@media print {
+  body {
+    background: var(--surface-50);
+    box-shadow: none;
+    padding: 0;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  h1 {
+    page-break-after: avoid;
+  }
+
+  h2 {
+    page-break-after: avoid;
+  }
+
+  p {
+    orphans: 3;
+    widows: 3;
+    page-break-inside: avoid;
+  }
+
+  li {
+    page-break-inside: avoid;
+  }
+}
+
+/* ==========================================================================
+   Responsive Design - Tablet
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 0.5rem 0 1rem 0;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    margin: 1.75rem 0 0.75rem 0;
+  }
+
+  p {
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+}
+
+/* ==========================================================================
+   Responsive Design - Mobile
+   ========================================================================== */
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 12px;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+    margin: 0.5rem 0 0.75rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #2c5aa0;
+  }
+
+  h2 {
+    font-size: 1.15rem;
+    margin: 1.5rem 0 0.5rem 0;
+  }
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  li {
+    padding-left: 1.5rem;
+  }
+}
+
+/* ==========================================================================
+   Accessibility
+   ========================================================================== */
+
+/* Ensure good color contrast */
+body {
+  color: var(--base-900);
+}
+
+/* Focus styles for keyboard navigation */
+a:focus {
+  outline: 2px solid var(--primary-600);
+  outline-offset: 2px;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  a {
+    transition: none;
+  }
+}
+
+/* ==========================================================================
+   Typography Refinements
+   ========================================================================== */
+
+/* Better text rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Word breaking for very long words */
+h1, h2, p, li {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+/* ==========================================================================
+   Code Block Support (if added in future)
+   ========================================================================== */
+
+code, pre {
+  font-family: 'Courier New', Courier, monospace;
+  background: var(--surface-200);
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+pre {
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+  line-height: 1.4;
+}
+
+/* ==========================================================================
+   Chapter Header Styling
+   ========================================================================== */
+
+.chapter-header {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid var(--primary-600);
+}
+
+.chapter-number {
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: 300;
+  color: var(--base-900);
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.chapter-title-group {
+  flex: 1;
+}
+
+.chapter-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--base-900);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.chapter-subtitles {
+  margin-top: 1rem;
+  line-height: 1.5;
+  color: var(--base-700);
+}
+
+.chapter-subtitles-item {
+  display: block;
+  font-weight: 500;
+  margin: 0.25rem 0;
+}
+
+/* ==========================================================================
+   Section Label Styling
+   ========================================================================== */
+
+.section-label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--base-900);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 2.5rem 0 1.5rem 0;
+  padding: 0.75rem 0;
+  border-top: 1px solid var(--base-300);
+  border-bottom: 1px solid var(--base-300);
+}
+
+/* ==========================================================================
+   Subsection Label Styling (Left margin labels)
+   ========================================================================== */
+
+.subsection-label {
+  font-weight: 700;
+  color: var(--base-900);
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+  display: block;
+  line-height: 1.4;
+}
+
+/* ==========================================================================
+   Section Content with Sidebar Labels (Grid Layout)
+   ========================================================================== */
+
+.subsection-with-label {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  align-items: start;
+}
+
+.subsection-label-column {
+  padding-top: 0.25rem;
+}
+
+.subsection-label-column .subsection-label {
+  font-weight: 700;
+  color: var(--base-900);
+  font-size: 0.95rem;
+}
+
+.subsection-content-column {
+  padding: 0;
+}
+
+.subsection-content-column p:first-child {
+  margin-top: 0;
+}
+
+/* ==========================================================================
+   Section Content Layout (Legacy - for compatibility)
+   ========================================================================== */
+
+.section-content {
+  margin-bottom: 2rem;
+}
+
+.section-content .subsection-label:first-child {
+  margin-top: 0;
+}
+
+/* ==========================================================================
+   Exhibit/Table Styling
+   ========================================================================== */
+
+.exhibit {
+  margin: 1.5rem 0;
+  border: 1px solid var(--base-400);
+  background-color: var(--surface-50);
+  padding: 1rem;
+  border-collapse: collapse;
+}
+
+.exhibit-title {
+  font-weight: 600;
+  color: var(--base-900);
+  margin: 0 0 0.75rem 0;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.exhibit table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.exhibit table th,
+.exhibit table td {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--base-300);
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.exhibit table th {
+  background-color: var(--surface-100);
+  font-weight: 600;
+  color: var(--base-900);
+}
+
+.exhibit table td {
+  color: var(--base-700);
+}
+
+/* ==========================================================================
+   Snapshot Review Styling
+   ========================================================================== */
+
+.snapshot-review {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--primary-600);
+}
+
+.snapshot-review-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--base-900);
+  margin-bottom: 1.5rem;
+}
+
+.snapshot-section {
+  margin-bottom: 1.5rem;
+}
+
+.snapshot-section-title {
+  font-weight: 700;
+  color: var(--primary-600);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.snapshot-item {
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--primary-300);
+  color: var(--base-700);
+  font-size: 0.95rem;
+}
+
+/* ==========================================================================
+   Selection Styling
+   ========================================================================== */
+
+::selection {
+  background-color: var(--primary-600);
+  color: var(--surface-50);
+}
+
+::-moz-selection {
+  background-color: var(--primary-600);
+  color: var(--surface-50);
+}
