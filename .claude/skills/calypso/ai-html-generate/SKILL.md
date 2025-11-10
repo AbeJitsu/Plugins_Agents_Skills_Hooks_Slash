@@ -236,8 +236,79 @@ VALIDATION:
 └────────┬────────────────────────────────┘
          │
          ▼
+┌─ GATE 1: Verify Text Content ──────────┐
+│ MANDATORY - DO NOT SKIP                │
+│                                        │
+│ Run per-page text verification:        │
+│ python3 Calypso/tools/                 │
+│   verify_text_content.py 1 <page>      │
+│                                        │
+│ Check coverage percentage:             │
+│ • ≥95% = PASS, proceed to next page   │
+│ • 85-95% = WARNING, review required   │
+│ • <85% = FAIL, REGENERATE PAGE        │
+│                                        │
+│ CRITICAL: Never consolidate pages     │
+│ until all individual pages pass ✓      │
+└────────┬─────────────────────────────┘
+         │
+         ▼
    ✓ Complete - Ready for Validation
 ```
+
+## GATE 1: MANDATORY Per-Page Text Verification
+
+**This is the fail-safe that prevents incorrect content from reaching consolidation.**
+
+After generating each page's HTML with the AI prompt above:
+
+1. **Immediately run verification:**
+   ```bash
+   python3 Calypso/tools/verify_text_content.py <chapter_num> <page_num>
+   ```
+
+2. **Interpret results:**
+   - **95-100% coverage**: PASS ✅ - Text matches extraction JSON (minor formatting differences acceptable), proceed to next page
+   - **>100% coverage**: FAIL ❌ - Extra content added not in original page, REGENERATE
+   - **85-95% coverage**: WARNING ⚠️ - Some text missing/modified, review content manually
+   - **<85% coverage**: FAIL ❌ - Critical content missing, REGENERATE
+
+3. **If verification FAILS (<85% coverage):**
+   - Stop immediately
+   - DO NOT proceed to next page
+   - DO NOT consolidate chapter
+   - Review the HTML - check if it contains:
+     - Content from a DIFFERENT page (wrong page generated)
+     - Missing sections or major text blocks
+     - Corrupted or duplicate content
+   - Regenerate the page with the AI prompt again
+   - Re-run verification
+   - Only proceed when coverage ≥95%
+
+4. **Example of FAIL scenarios:**
+
+   **Extra content (>100%)**:
+   ```
+   Page 9 HTML contains 296 words
+   Page 9 JSON should have 224 words
+   Coverage: 132.1% = FAIL ❌ (>100%)
+   → Extra 72 words = content from other pages mixed in
+   → Regenerate page 9 immediately
+   ```
+
+   **Missing content (<85%)**:
+   ```
+   Page X HTML contains 180 words
+   Page X JSON should have 250 words
+   Coverage: 72% = FAIL ❌ (<85%)
+   → Missing 70 words from page X
+   → Regenerate page X immediately
+   ```
+
+5. **CONSOLIDATION BLOCK:**
+   - Do not run Skill 4 (consolidate) until all pages pass Gate 1
+   - Consolidating pages with wrong content cascades the error to the entire chapter
+   - Each page must verify individually first
 
 ## Output Files
 
