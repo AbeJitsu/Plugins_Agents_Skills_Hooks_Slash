@@ -5,233 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chapter 1: The Real Estate Business</title>
     <link rel="stylesheet" href="../../styles.css">
-    <style>
-        :root {
-            --color-primary: #000;
-            --color-text: #000;
-            --color-background: #fff;
-            --font-serif: 'Times New Roman', serif;
-            --font-sans: Arial, sans-serif;
-        }
-
-        body {
-            font-family: var(--font-serif);
-            color: var(--color-text);
-            background-color: var(--color-background);
-            margin: 0;
-            padding: 50px 30px;
-            line-height: 1.4;
-        }
-
-        .page-container {
-            max-width: 100%;
-            margin: 0 auto;
-            position: relative;
-        }
-
-        /* ===== CHAPTER HEADER WRAPPER ===== */
-        .chapter-header-wrapper {
-            display: grid;
-            grid-template-columns: auto 1fr;
-            gap: 20px;
-            margin-bottom: 20px;
-        }
-
-        /* ===== CHAPTER HEADER ===== */
-        .chapter-header {
-            display: contents;
-        }
-
-        .chapter-header__number {
-            font-family: var(--font-sans);
-            font-size: 74px;
-            font-weight: bold;
-            font-style: italic;
-            line-height: 1;
-            grid-row: 1;
-            grid-column: 1;
-        }
-
-        .chapter-header__title {
-            font-family: var(--font-sans);
-            font-size: 27px;
-            font-weight: bold;
-            margin: 0;
-            padding-top: 5px;
-            grid-row: 1;
-            grid-column: 2;
-        }
-
-        /* ===== CHAPTER OUTLINE ===== */
-        .chapter-outline {
-            font-family: var(--font-sans);
-            font-size: 11px;
-            font-weight: bold;
-            line-height: 1.5;
-            text-align: left;
-            margin: 0;
-            grid-row: 2;
-            grid-column: 2;
-            width: fit-content;
-        }
-
-        .chapter-outline__item {
-            margin: 4px 0;
-        }
-
-        /* ===== DIVIDERS ===== */
-        .section-divider {
-            border: none;
-            border-top: 1px solid var(--color-primary);
-            margin: 15px 0;
-            height: 0;
-            width: 100%;
-        }
-
-        /* ===== SUBSECTION HEADING ===== */
-        .subsection-heading {
-            font-family: var(--font-sans);
-            font-size: 12px;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin: 15px 0 12px 0;
-        }
-
-        /* ===== SUBSECTION ITEMS LIST ===== */
-        .subsection-items {
-            font-family: var(--font-sans);
-            font-size: 11px;
-            font-weight: bold;
-            margin: 0 0 15px 0;
-            padding: 0;
-            list-style: none;
-        }
-
-        .subsection-items__item {
-            margin: 6px 0;
-        }
-
-        /* ===== MAIN CONTENT AREA ===== */
-        .content-area {
-            margin-top: 0;
-            display: block;
-        }
-
-        /* Left Column - Sidebar Area */
-        .content-area__left-column {
-            float: left;
-            width: 80px;
-            margin-right: 10px;
-            margin-bottom: 20px;
-            margin-top: 0;
-        }
-
-        /* Right Column - Main Text */
-        .content-area__right-column {
-            overflow: hidden;
-        }
-
-        /* ===== BODY TEXT PARAGRAPHS ===== */
-        .body-text {
-            font-family: var(--font-serif);
-            font-size: 11px;
-            line-height: 1.6;
-            margin: 8px 0;
-            text-align: justify;
-        }
-
-        .body-text--intro {
-            margin-top: 5px;
-            margin-left: 90px;
-        }
-
-        /* Emphasis text (real estate) */
-        .text-emphasis {
-            font-style: italic;
-        }
-
-        /* Bold emphasis (sole enterprise) */
-        .text-bold-emphasis {
-            font-weight: bold;
-            font-style: italic;
-        }
-
-        /* ===== SIDEBAR ELEMENT ===== */
-        .sidebar {
-            margin: 0;
-            padding: 0;
-        }
-
-        .sidebar__title {
-            font-family: var(--font-sans);
-            font-size: 10px;
-            font-weight: bold;
-            margin: 0;
-            padding: 0;
-            line-height: 1.2;
-            text-align: left;
-            word-break: break-word;
-        }
-
-        /* ===== BULLET LIST ===== */
-        .bullet-list {
-            margin: 10px 0;
-            padding-left: 20px;
-            list-style: none;
-        }
-
-        .bullet-list__item {
-            margin: 8px 0;
-            position: relative;
-            padding-left: 15px;
-            font-family: var(--font-serif);
-            font-size: 11px;
-        }
-
-        .bullet-list__item:before {
-            content: "▶";
-            position: absolute;
-            left: 0;
-            font-size: 6px;
-        }
-
-        /* ===== SUBHEADING WITHIN TEXT ===== */
-        .text-subheading {
-            font-family: var(--font-sans);
-            font-size: 11px;
-            font-weight: bold;
-            margin-top: 12px;
-            margin-bottom: 6px;
-        }
-
-
-        /* ===== RESPONSIVE ===== */
-        @media (max-width: 768px) {
-            .page-container {
-                max-width: 100%;
-            }
-
-            .chapter-header {
-                flex-direction: column;
-                gap: 10px;
-            }
-
-            .chapter-header__number {
-                font-size: 48px;
-            }
-
-            .chapter-outline {
-                text-align: left;
-            }
-
-            .content-area__left-column {
-                float: none;
-                width: 100%;
-                margin-right: 0;
-            }
-        }
-    </style>
 </head>
 <body>
     <div class="page-container">
@@ -267,49 +40,52 @@
         <!-- Second Divider -->
         <hr class="section-divider">
 
-        <!-- Introduction Paragraph (before sidebar) -->
-        <p class="body-text body-text--intro">
-            In its broadest sense, the real estate industry is the largest single industry in the American economy. Within it one might include the construction industry, itself often considered our country's largest business. In addition, the real estate industry may be said to include the creation, management, and demolition of every residence and business facility in the nation: offices, warehouses, factories, stores, and special purpose buildings such as hospitals and government facilities. The <span class="text-emphasis">real</span> estate business would include as well the managing of all the undeveloped land in the country: national parks, forests, and the vast quantity of unused federal property.
-        </p>
+        <!-- Reading Material Container -->
+        <div class="reading-material">
+            <!-- Main Content Area with Sidebar -->
+            <div class="content-area">
+                <!-- Left Column (Sidebar Area) -->
+                <div class="content-area__left-column">
+                    <aside class="sidebar">
+                        <h3 class="sidebar__title">Real estate activities</h3>
+                    </aside>
+                </div>
 
-        <!-- Main Content Area with Sidebar -->
-        <div class="content-area">
-            <!-- Left Column (Sidebar Area) -->
-            <div class="content-area__left-column">
-                <aside class="sidebar">
-                    <h3 class="sidebar__title">Real estate activities</h3>
-                </aside>
-            </div>
+                <!-- Right Column (Main Content) -->
+                <div class="content-area__right-column">
+                    <!-- Introduction Paragraph (flows with sidebar) -->
+                    <p class="body-text body-text--intro">
+                        In its broadest sense, the real estate industry is the largest single industry in the American economy. Within it one might include the construction industry, itself often considered our country's largest business. In addition, the real estate industry may be said to include the creation, management, and demolition of every residence and business facility in the nation: offices, warehouses, factories, stores, and special purpose buildings such as hospitals and government facilities. The <span class="text-emphasis">real</span> estate business would include as well the managing of all the undeveloped land in the country: national parks, forests, and the vast quantity of unused federal property.
+                    </p>
 
-            <!-- Right Column (Main Content) -->
-            <div class="content-area__right-column">
-                <!-- Professionals Definition Paragraph -->
-                <p class="body-text">
-                    Real estate professionals are individuals and business organizations whose <span class="text-bold-emphasis">sole enterprise is performing a real estate-related service or function</span>. A wide range of professions is available to persons wishing to enter the real estate business.
-                </p>
+                    <!-- Professionals Definition Paragraph -->
+                    <p class="body-text">
+                        Real estate professionals are individuals and business organizations whose <span class="text-bold-emphasis">sole enterprise is performing a real estate-related service or function</span>. A wide range of professions is available to persons wishing to enter the real estate business.
+                    </p>
 
-                <!-- Real Estate Professional Functions -->
-                <p class="body-text">
-                    Real estate professionals perform the following property-related functions:
-                </p>
+                    <!-- Real Estate Professional Functions -->
+                    <p class="body-text">
+                        Real estate professionals perform the following property-related functions:
+                    </p>
 
-                <!-- Bullet List of Functions -->
-                <ul class="bullet-list">
-                    <li class="bullet-list__item">creation and improvement</li>
-                    <li class="bullet-list__item">management and maintenance</li>
-                    <li class="bullet-list__item">demolition</li>
-                    <li class="bullet-list__item">investment ownership</li>
-                    <li class="bullet-list__item">regulation</li>
-                    <li class="bullet-list__item">transfer</li>
-                </ul>
+                    <!-- Bullet List of Functions -->
+                    <ul class="bullet-list">
+                        <li class="bullet-list__item">creation and improvement</li>
+                        <li class="bullet-list__item">management and maintenance</li>
+                        <li class="bullet-list__item">demolition</li>
+                        <li class="bullet-list__item">investment ownership</li>
+                        <li class="bullet-list__item">regulation</li>
+                        <li class="bullet-list__item">transfer</li>
+                    </ul>
 
-                <!-- Creation and Improvement Subheading -->
-                <h4 class="text-subheading">Creation and improvement.</h4>
+                    <!-- Creation and Improvement Subheading -->
+                    <h4 class="text-subheading">Creation and improvement.</h4>
 
-                <!-- Creation and Improvement Paragraph -->
-                <p class="body-text">
-                    Creating real properties from raw land involves capital formation, financing, construction contracting, and regulatory approvals. The key parties involved in this aspect of the business are generally the developer, the landowner, and the mortgage lender. Also involved are market analysts, architects, engineers, space planners, interior designers, and construction subcontractors.
-                </p>
+                    <!-- Creation and Improvement Paragraph -->
+                    <p class="body-text">
+                        Creating real properties from raw land involves capital formation, financing, construction contracting, and regulatory approvals. The key parties involved in this aspect of the business are generally the developer, the landowner, and the mortgage lender. Also involved are market analysts, architects, engineers, space planners, interior designers, and construction subcontractors.
+                    </p>
+                </div>
             </div>
         </div>
 
