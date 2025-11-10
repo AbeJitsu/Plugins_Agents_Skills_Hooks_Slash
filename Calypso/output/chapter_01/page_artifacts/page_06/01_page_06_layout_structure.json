@@ -1,0 +1,234 @@
+{
+  "page_metadata": {
+    "page_number": 6,
+    "book_page": 7,
+    "chapter": 1,
+    "title": "The Real Estate Business",
+    "width_points": 612,
+    "height_points": 792,
+    "margins": {
+      "top": 50,
+      "right": 50,
+      "bottom": 50,
+      "left": 50
+    }
+  },
+  "layout_sections": [
+    {
+      "section_id": "header",
+      "section_type": "chapter_header",
+      "position": {
+        "top": 80,
+        "left": 50,
+        "width": 512,
+        "height": 120
+      },
+      "content": {
+        "chapter_number": {
+          "text": "1",
+          "styling": {
+            "font_family": "Arial, serif",
+            "font_size": 74,
+            "font_weight": "bold",
+            "font_style": "italic",
+            "alignment": "left"
+          },
+          "position": "left"
+        },
+        "chapter_title": {
+          "text": "The Real Estate Business",
+          "styling": {
+            "font_family": "Arial",
+            "font_size": 27,
+            "font_weight": "bold",
+            "alignment": "left"
+          },
+          "position": "right_of_number"
+        }
+      }
+    },
+    {
+      "section_id": "toc_section",
+      "section_type": "outline_list",
+      "position": {
+        "top": 200,
+        "left": 280,
+        "width": 280,
+        "height": 60
+      },
+      "styling": {
+        "font_family": "Arial",
+        "font_size": 11,
+        "font_weight": "bold",
+        "line_spacing": 1.5
+      },
+      "list_items": [
+        "Real Estate Professions",
+        "Real Estate Brokerage",
+        "Professional Organizations",
+        "Regulation and Licensing"
+      ]
+    },
+    {
+      "section_id": "divider_1",
+      "section_type": "horizontal_line",
+      "position": {
+        "top": 265,
+        "left": 50,
+        "width": 200,
+        "height": 1
+      }
+    },
+    {
+      "section_id": "subsection_heading_1",
+      "section_type": "subsection_heading",
+      "position": {
+        "top": 280,
+        "left": 50,
+        "width": 512,
+        "height": 20
+      },
+      "content": {
+        "text": "REAL ESTATE PROFESSIONS",
+        "styling": {
+          "font_family": "Arial",
+          "font_size": 12,
+          "font_weight": "bold",
+          "text_transform": "uppercase",
+          "letter_spacing": 1
+        }
+      }
+    },
+    {
+      "section_id": "subheading_list_1",
+      "section_type": "list",
+      "position": {
+        "top": 305,
+        "left": 50,
+        "width": 512,
+        "height": 40
+      },
+      "styling": {
+        "font_family": "Arial",
+        "font_size": 11,
+        "font_weight": "bold"
+      },
+      "list_items": [
+        "Real estate activities",
+        "Professional specialties",
+        "Property type specialization"
+      ]
+    },
+    {
+      "section_id": "divider_2",
+      "section_type": "horizontal_line",
+      "position": {
+        "top": 350,
+        "left": 50,
+        "width": 512,
+        "height": 1
+      }
+    },
+    {
+      "section_id": "main_content_column_1",
+      "section_type": "text_column",
+      "position": {
+        "top": 365,
+        "left": 50,
+        "width": 200,
+        "height": 350
+      },
+      "styling": {
+        "font_family": "Times New Roman",
+        "font_size": 11,
+        "font_weight": "normal",
+        "line_spacing": 1.4
+      },
+      "content_references": [
+        "Body text describing real estate industry scope and breadth",
+        "Sidebar heading: 'Real estate activities'",
+        "Text about property-related functions"
+      ]
+    },
+    {
+      "section_id": "main_content_column_2",
+      "section_type": "text_column",
+      "position": {
+        "top": 365,
+        "left": 310,
+        "width": 252,
+        "height": 350
+      },
+      "styling": {
+        "font_family": "Times New Roman",
+        "font_size": 11,
+        "font_weight": "normal",
+        "line_spacing": 1.4
+      },
+      "content_includes": [
+        "Bullet list with arrow symbols (►)",
+        "Items: creation and improvement, management and maintenance, demolition, investment ownership, regulation, transfer",
+        "Subsection: 'Creation and improvement' with detailed description"
+      ]
+    },
+    {
+      "section_id": "sidebar_element",
+      "section_type": "sidebar",
+      "position": {
+        "top": 410,
+        "left": 50,
+        "width": 180,
+        "height": 40
+      },
+      "styling": {
+        "font_family": "Arial",
+        "font_size": 11,
+        "font_weight": "bold",
+        "border_left": "2px solid black",
+        "padding_left": 10
+      },
+      "content": "Real estate activities"
+    },
+    {
+      "section_id": "footer",
+      "section_type": "page_footer",
+      "position": {
+        "top": 760,
+        "left": 50,
+        "width": 512,
+        "height": 15
+      },
+      "styling": {
+        "font_family": "Times New Roman",
+        "font_size": 10,
+        "text_alignment": "right"
+      },
+      "content": "Chapter 1: The Real Estate Business 7"
+    }
+  ],
+  "visual_hierarchy": {
+    "level_1": "Chapter number and title",
+    "level_2": "Chapter outline list",
+    "level_3": "Subsection headings (REAL ESTATE PROFESSIONS)",
+    "level_4": "Sub-item lists",
+    "level_5": "Body text in columns",
+    "level_6": "Sidebars and callouts"
+  },
+  "styling_notes": {
+    "color_scheme": "Black and white",
+    "fonts_used": [
+      "Times New Roman (body text)",
+      "Arial (headings, sans-serif)",
+      "Arial Bold Italic (chapter number)"
+    ],
+    "spacing_pattern": "generous margins, clear section breaks with horizontal lines",
+    "column_layout": "2-column layout for main content after header",
+    "special_elements": [
+      "Large italic chapter number on left",
+      "Bold chapter title aligned right of number",
+      "Black horizontal dividers between sections",
+      "Bullet points with arrow symbols (►)",
+      "Sidebar with bold heading and left border"
+    ]
+  }
+}
