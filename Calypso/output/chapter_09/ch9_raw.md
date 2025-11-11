@@ -1,0 +1,85 @@
+Principles of Real Estate Practice in Alabama
+120 Principles of Real Estate Practice in Alabama 9 Legal Descriptions Methods of Legal Description Metes and Bounds The Rectangular Survey System Recorded Plat Method Describing Elevation
+
+METHODS OF LEGAL
+DESCRIPTION
+There are many common ways of describing properties: address (100 Main Street), name (Buckingham Palace), and general description ("the south forty acres"). Such informal descriptions are not acceptable for use in public recordation or, generally speaking, in a court of law because they lack both permanence and sufficient information for a surveyor to locate the property. Even if a legal document or public record refers to an address, the reference is always supported by an accepted legal description. A legal description of real property is one which accurately locates and identifies the boundaries of the subject parcel to a degree acceptable by courts of law in the state where the property is located. The general criterion for a legal description is that it alone provides sufficient data for a surveyor to locate the parcel. A legal description identifies the property as unique and distinct from all other properties. Legal description provides accuracy and consistency over time. Systems of legal description, in theory, facilitate transfers of ownership and prevent boundary disputes and problems with chain of title. A legal description is required for:  public recording  creating a valid deed of conveyance or lease  completing mortgage documents  executing and recording other legal documents In addition, a legal description provides a basis for court rulings on encroachments and easements.
+
+Chapter 9: Legal Descriptions 121 The three accepted methods of legally describing parcels of real estate are:  metes and bounds  rectangular survey system, or government survey method  recorded plat method, or lot and block method Since the metes and bounds method preceded the inception of the rectangular survey system, the older East Coast states generally employ metes and bounds descriptions. States in the Midwest and West predominantly use the rectangular survey system. Some states combine methods.
+
+METES AND BOUNDS
+A metes and bounds description identifies the boundaries of a parcel of real estate using reference points, distances, and angles. The description always identifies an enclosed area by starting at an origination point, called point of beginning, or POB, and returning to the POB at the end of the description. A metes and bounds description must return to the POB in order to be valid. The term "metes" refers to distance and direction, and the term "bounds" refers to fixed reference points, or monuments and landmarks, which may be natural and artificial. Natural landmarks include trees, rocks, rivers, and lakes. Artificial landmarks are typically surveyor stakes. Many states use metes and bounds description to describe properties within the rectangular survey system. A metes and bounds description begins with an identification of the city, county, and state where the property is located. Next, it identifies the POB and describes the distance and direction from the POB to the first monument, and then to subsequent monuments that define the property's enclosed perimeter.
+
+122 Principles of Real Estate Practice in Alabama Exhibit 9.1 Metes and Bounds Description
+
+A parcel of land located in Bucks County, Pennsylvania, having the following description: commencing at the intersection of the south line of Route 199 and the middle of Flint Creek, thence southeasterly along the center thread of Flint Creek 410 feet, more or less, to the willow tree landmark, thence north 65 degrees west 500 feet, more or less to the east line of Dowell Road, thence north 2 degrees east 200 feet, more or less, along the east line of Dowell Road to the south line of Route 199, thence north 90 degrees east 325 feet, more or less, along the south line of Route 199 to the point of beginning.
+
+Chapter 9: Legal Descriptions 123
+
+THE RECTANGULAR SURVEY SYSTEM
+The survey grid Sections of township Fractions of a section Converting section fractions to acres The federal government developed the rectangular survey system, or government survey method, to simplify and standardize property descriptions as a replacement for the cumbersome and often inaccurate metes and bounds method. The system was further modified to facilitate the transfer of large quantities of government-owned western lands to private parties. To institute the system, all affected land was surveyed using latitude (east-west) and longitude (north-south) lines. The object was to create uniform grids of squares, called townships, which would have equal size and be given a numerical reference for identification. Exhibit 9.2 Principal Meridians and Base Parallels
+
+The rectangular survey system works well for describing properties that are square or rectangular in shape, since these can be described as fractions of sections. However, for an irregular shape, such as a triangle, the rectangular system is inadequate as a method of legal description. The full description has to include a metes and bounds or lot and block description.
+
+124 Principles of Real Estate Practice in Alabama The survey grid The following exhibit shows a portion of the rectangular survey system. Exhibit 9.3 A Sample Survey Grid: Florida
+
+Meridian. The north-south, longitudinal lines on the survey grid are meridians. The principal meridian is the single designated meridian for identifying townships in the principal meridian's geographical "jurisdiction." There are 37 principal meridians in the national survey. In the exhibit, the principal meridian is the Tallahassee Principal Meridian.
+
+Parallel. The east-west, latitudinal lines are called parallels. The base parallel or base line is the designated line for identifying townships. There is a base parallel for each principal meridian Range. The north-south area between consecutive meridians is called a range. The area labeled "B" in the exhibit is a range. A range is identified by its relationship to the principal meridian. All ranges are six miles wide. Tier. The east-west area between two parallels is called a tier, or a township strip. The area marked "C" in the exhibit is a tier. A tier is identified by its relationship to the base parallel. All tiers are six miles wide. Township. A township is the area enclosed by the intersection of two consecutive meridians and two consecutive parallels, as the shaded square marked "A" in the exhibit illustrates. Since the parallels and meridians are six miles apart, a township is a square with six miles on each side. Its area is therefore 36 square miles. Sections of a township The rectangular survey system divides a township into thirty-six squares called sections. Each side of a section is one mile in length. Thus the area of a section is one square mile, or 640 acres. As the next exhibit illustrates, the sections in a township are numbered sequentially starting with Section 1 in the northeast corner, proceeding east to west across the top row, continuing from west to east
+
+Chapter 9: Legal Descriptions 125 across the next lower row, and so on, alternately, ending with Section 36 in the southeast corner. Exhibit 9.4 Sections of a Township
+
+Fractions of a section A section of a township can be divided into fractions as the next exhibit shows. Exhibit 9.5 Fractions of Sections and Acreage
+
+126 Principles of Real Estate Practice in Alabama Converting section fractions to acres The size in acres of a subsection of a township is a fraction of 640 acres, since there are 640 acres in a section. For example, the SW 1/4 of a section is one quarter section. Thus, its acreage is one quarter of 640, or 160 acres. Going further, the E 1/2 of the SW 1/4 is one half of that one quarter, or 80 acres. The E 1/2 of the SW 1/4 of the SW ¼ is 20 acres. A quick method of calculating the acreage of a parcel from its legal description is as follows: (1) Multiply the denominators of the fractional descriptions together. (2) Divide 640 by the resulting number. Applying this method to the foregoing descriptions, we get:
+
+SW 1/4 of a section:
+
+E 1/2 of the SW 1/4 of a section:
+
+E 1/2 of the SW 1/4 of the SW 1/4 of a section
+
+:
+
+RECORDED PLAT METHOD
+Subdivision plat map Description format Subdivision plat map The recorded plat method, also called the lot and block system, is used to describe properties in residential, commercial, and industrial subdivisions. Under this system, tracts of land are subdivided into lots. The entire group of lots comprises the subdivision. In a large subdivision, lots may be grouped together into blocks for ease of reference. The entire subdivision is surveyed to specify the size and location of each lot and block. The surveyor then incorporates the survey data into a plat of survey, or subdivision plat map, which must comply with local surveying standards and ordinances. If local authorities accept it, the subdivision plat map is recorded in the county where the subdivision is located. The recorded lot and block numbers of a subdivision parcel, along with its section, township and meridian reference, become the property's legal description. The exhibit shows a sample subdivision plat map. 640 4 = 160 𝑎𝑐𝑟𝑒𝑠 640 (2𝑥4) = 80 𝑎𝑐𝑟𝑒𝑠 640 (2𝑥4𝑥4) = 20 𝑎𝑐𝑟𝑒𝑠
+
+Chapter 9: Legal Descriptions 127 Exhibit 9.6 Subdivision Plat Map
+
+Description format The description of a recorded plat property first presents the property's lot number or letter, then the block identifier and the subdivision name. Note that this is only a portion of the full legal description, which must describe the subdivision's location within a section, a township, a county, and a state. For example, if the subdivision in the exhibit is situated in the southeast quarter of Section 35 of Township T28S, R19E, of the Tallahassee Principal Meridian and its block number is 8, the legal description of the lot marked "7" would be:
+
+"Lot 7, Block 8 of the Panther Ridge, the Forest Subdivision of the SE 1/4 of Section 35, Township T28S, R19E of the Tallahassee Principal Meridian in Manatee County, Florida."
+
+DESCRIBING ELEVATION
+To describe property located above or below the earth's surface, such as the air rights of a condominium, a surveyor must know the property's elevation. Standard elevation reference points, called datums, have been established throughout the country. The original datum was defined by the U.S. Geological Survey as mean sea level at New York harbor. A surveyor uses a datum as an official elevation point to describe the height or depth of a property. If, for example, the datum for an area is a point 100 feet above sea level, all surveys in
+
+128 Principles of Real Estate Practice in Alabama the area will indicate elevation as a distance above or below 100 feet above sea level. In many cases it is impractical for a surveyor to rely on a single datum for an entire surveying area. To simplify matters, surveyors have identified local elevation markers, called benchmarks, to provide reference elevations for nearby properties. Once a benchmark is registered, it provides a valid reference point for surveying other elevations in the immediate area.
+
+Chapter 9: Legal Descriptions 129 Legal Descriptions Snapshot Review
+
+METHODS OF LEGAL
+DESCRIPTION
+● metes and bounds; rectangular survey system or government survey; recorded plat or lot and block
+
+● legal description is sufficiently accurate, acceptable in court of law; facilitates transfers; avoids disputes; used in legal contracts
+
+METES AND BOUNDS
+● describes property perimeter by landmarks, monuments, distances, angles
+
+● from point of beginning (POB), describes perimeter and returns to POB; usable within rectangular survey system
+
+RECTANGULAR SURVEY
+SYSTEM
+The survey grid ● meridians: north-south lines six miles apart
+
+● parallels: east-west lines six miles apart
+
+● ranges: north-south strips of area between meridians; tiers: east-west strips of area between parallels; townships: the area representing the intersection of a range and a tier, consisting of six-mile by six-mile squares of land Sections of a township ● 36 sections per township, each one-mile square (1 mile on each side) Fractions of a section ● 1 section = 640 acres; fractions of sections described by size and location within progressively larger quarters of section Converting section fractions to acres ● formula: multiply denominators of section fractions; divide product into 640
+
+RECORDED PLAT
+METHOD
+● or lot and block system; used in surveyed subdivisions Subdivision plat map ● surveyed plat of subdivided tract; legal descriptor if approved and recorded Description format ● lots within subdivision are identified by lot reference and block reference: "Lot 7 Block B of the Grand Oaks Subdivision"
+
+DESCRIBING
+ELEVATION
+● datum: a standard elevation reference point; benchmark: elevation marker officially surveyed and registered
