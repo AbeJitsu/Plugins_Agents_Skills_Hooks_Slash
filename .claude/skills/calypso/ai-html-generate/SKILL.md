@@ -142,11 +142,21 @@ REQUIREMENTS:
    - exhibit-title (figure/table caption)
    - image-placeholder (for embedded images)
 
-5. Content Preservation:
+5. Content Preservation & Boundary Integrity:
    - Include ALL text content from the parsed data
    - Preserve exact text (no paraphrasing or edits)
    - Maintain original structure and relationships
    - Do not omit or skip sections
+
+   CRITICAL - PAGE BOUNDARY RULES:
+   - Start page content EXACTLY where JSON starts it
+   - End page content EXACTLY where JSON ends it
+   - NEVER add bridging text, connectors, or completing phrases
+   - NEVER invent transitional words or sentences
+   - NEVER synthesize content to "smooth" page transitions
+   - Pages may start or end mid-sentence - this is EXPECTED and CORRECT
+   - If a sentence seems incomplete, that is the accurate page boundary
+   - Every single word in your HTML MUST exist in the source JSON
 
 6. Heading Hierarchy:
    - Follow logical hierarchy (h1 → h2 → h3 → h4)
@@ -192,7 +202,10 @@ VALIDATION:
 - HTML must be valid HTML5
 - All opening tags must have closing tags
 - Class attributes must use correct class names
-- All text content must be included
+- All text content from JSON MUST be included
+- NO TEXT MAY BE ADDED that doesn't exist in the source JSON extraction
+- Coverage must be 99-100% (>100% indicates invented content = FAIL)
+- Every single word must come from the extraction data
 ```
 
 ## Process Flow
@@ -244,8 +257,9 @@ VALIDATION:
 │   verify_text_content.py 1 <page>      │
 │                                        │
 │ Check coverage percentage:             │
-│ • ≥95% = PASS, proceed to next page   │
-│ • 85-95% = WARNING, review required   │
+│ • 99-100% = PASS, proceed to next page │
+│ • 95-98% = WARNING, review content    │
+│ • >100% = FAIL, REGENERATE (hallucin) │
 │ • <85% = FAIL, REGENERATE PAGE        │
 │                                        │
 │ CRITICAL: Never consolidate pages     │
@@ -268,9 +282,10 @@ After generating each page's HTML with the AI prompt above:
    ```
 
 2. **Interpret results:**
-   - **95-100% coverage**: PASS ✅ - Text matches extraction JSON (minor formatting differences acceptable), proceed to next page
-   - **>100% coverage**: FAIL ❌ - Extra content added not in original page, REGENERATE
+   - **99-100% coverage**: PASS ✅ - Text matches extraction JSON precisely, proceed to next page
+   - **95-98% coverage**: WARNING ⚠️ - Minor text differences, review content manually to ensure no loss
    - **85-95% coverage**: WARNING ⚠️ - Some text missing/modified, review content manually
+   - **>100% coverage**: FAIL ❌ - Extra content added not in original page (AI hallucination), REGENERATE IMMEDIATELY
    - **<85% coverage**: FAIL ❌ - Critical content missing, REGENERATE
 
 3. **If verification FAILS (<85% coverage):**
@@ -287,13 +302,14 @@ After generating each page's HTML with the AI prompt above:
 
 4. **Example of FAIL scenarios:**
 
-   **Extra content (>100%)**:
+   **Extra content (>100% - AI HALLUCINATION)**:
    ```
-   Page 9 HTML contains 296 words
-   Page 9 JSON should have 224 words
-   Coverage: 132.1% = FAIL ❌ (>100%)
-   → Extra 72 words = content from other pages mixed in
-   → Regenerate page 9 immediately
+   Page 16 HTML contains 301 words
+   Page 16 JSON should have 297 words
+   Coverage: 101.2% = FAIL ❌ (>100%)
+   → Extra 4 words = AI invented bridging text
+   → Example: AI added "All land also includes" that doesn't exist in source
+   → Regenerate page 16 immediately with strict boundary constraints
    ```
 
    **Missing content (<85%)**:

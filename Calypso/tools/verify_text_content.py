@@ -275,9 +275,23 @@ def main():
     missing_words = json_chars - html_chars
     extra_words = html_chars - json_chars
 
-    if coverage >= 94:
-        print(f"\n✅ TEXT COVERAGE GOOD: {coverage:.1f}%")
-        print("   All extracted text appears to be in the HTML.")
+    if coverage > 100:
+        print(f"\n❌ EXTRA CONTENT DETECTED (AI HALLUCINATION): {coverage:.1f}%")
+        print(f"   HTML contains {html_word_count - json_word_count} MORE words than source JSON.")
+        print("   The AI has synthesized/invented text not in the original PDF.")
+
+        if extra_words:
+            print(f"\n   Extra words in HTML (first 20):")
+            for word in sorted(extra_words)[:20]:
+                print(f"     - {word}")
+            if len(extra_words) > 20:
+                print(f"     ... and {len(extra_words) - 20} more")
+
+        print("\n   ACTION: Regenerate page with strict boundary constraints.")
+        print("   The prompt has been updated to prohibit synthesizing bridging text.")
+    elif coverage >= 99:
+        print(f"\n✅ TEXT COVERAGE EXCELLENT: {coverage:.1f}%")
+        print("   All extracted text precisely matches the HTML (99-100% coverage).")
 
         if missing_words:
             print(f"\n   Note: {len(missing_words)} words from JSON not found in HTML:")
@@ -285,6 +299,17 @@ def main():
                 print(f"     - {word}")
             if len(missing_words) > 10:
                 print(f"     ... and {len(missing_words) - 10} more")
+    elif coverage >= 95:
+        print(f"\n⚠️  TEXT COVERAGE ACCEPTABLE (95-98%): {coverage:.1f}%")
+        print(f"   Minor text differences detected ({json_word_count - html_word_count} words).")
+        print("   Review HTML to ensure no critical content is missing.")
+
+        if missing_words:
+            print(f"\n   Words from JSON not found in HTML (first 20):")
+            for word in sorted(missing_words)[:20]:
+                print(f"     - {word}")
+            if len(missing_words) > 20:
+                print(f"     ... and {len(missing_words) - 20} more")
     else:
         print(f"\n⚠️  TEXT COVERAGE LOW: {coverage:.1f}%")
         print(f"   Missing approximately {json_word_count - html_word_count} words.")
@@ -339,15 +364,23 @@ def main():
     print("\n" + "=" * 80)
 
     # Exit code based on coverage
-    # Note: Headers/footers are filtered out from JSON, so expect slightly lower coverage
-    if coverage >= 94:
-        print("\n✅ VERIFICATION PASSED: Text content is comprehensive")
+    # Note: Headers/footers are filtered out from JSON, so expect 99-100% coverage
+    if coverage > 100:
+        print("\n❌ VERIFICATION FAILED: Extra content detected (AI hallucination)")
+        print("   Coverage >100% indicates AI invented text not in source PDF.")
+        return 2
+    elif coverage >= 99:
+        print("\n✅ VERIFICATION PASSED: Text content is accurate and complete")
         return 0
+    elif coverage >= 95:
+        print("\n⚠️  VERIFICATION WARNING: Minor text differences (95-98% coverage)")
+        print("   Review to ensure no critical content is missing.")
+        return 1
     elif coverage >= 85:
-        print("\n⚠️  VERIFICATION WARNING: Minor text gaps detected")
+        print("\n⚠️  VERIFICATION WARNING: Moderate text gaps (85-95% coverage)")
         return 1
     else:
-        print("\n❌ VERIFICATION FAILED: Significant text gaps detected")
+        print("\n❌ VERIFICATION FAILED: Significant text gaps detected (<85% coverage)")
         return 2
 
 
