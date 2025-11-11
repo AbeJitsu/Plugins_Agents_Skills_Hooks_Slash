@@ -1,0 +1,318 @@
+Closings
+
+Chapter 21:Closings 329
+
+21 Closings The Closing Event Real Estate Settlement Procedures Act Financial Settlement of the Transaction Computing Prorations Taxes Due at Closing Closing Cost Calculations: Case Study TILA/RESPA Integrated Disclosure Rule Reporting Requirements
+
+THE CLOSING EVENT
+
+The setting The closing process Transfer of title Transfer of purchase funds Escrow procedures Lender closing requirements Broker's role The setting The closing event is the culmination of the real estate transaction. During this event, the buyer pays the purchase price and receives title to the purchased real estate. At the same time, the buyer completes financing arrangements, and buyer and seller pay all required taxes, fees, and charges. Customary Practices. Procedures and customary practices for conducting real estate closings vary from state to state. For example, it is common in some states for sellers to pay title insurance, while in other states the buyer and seller might share this expense. Students should refer to supplemental state materials to ascertain prevailing practices in their state. Time. The sale contract sets the date of the closing, usually within sixty days of signing. The time period between signing and closing is expected to be sufficient for the removal of any contingencies, such as the buyer's obtaining of financing, the performance of inspections, and the correction of identified physical defects. Failure of either buyer or seller to perform pre-closing actions specified in the contract can delay or terminate the transaction. If the contract includes a statement that "time is of the essence," all parties agree to meet the time limitations exactly as stated. If both parties consent, however, they can re- schedule the closing date. Location. Closings occur at various locations, such as the office of the title company, the lender, the escrow agent, one of the attorneys, the broker, or the county recorder. The sale contract specifies the location.
+
+330 Principles of Real Estate Practice in Alabama
+
+Parties at closing. The primary parties at the closing are normally buyer, seller, and a closing agent or escrow officer. Other parties who might be present include the title officer, attorneys, brokers or agents, and the lender's representative. It is not actually necessary for any of these parties to attend the meeting. The closing agent can complete the transaction, provided all documents have been duly executed in advance. The closing process The closing process consists of buyer and seller verifying that each has fulfilled the terms of the sale contract. If they have, then the mortgage loan, if any, is closed, all expenses are apportioned and paid, the consideration is exchanged for the title, final documents are signed, and arrangements are made to record the transaction according to local laws. Exhibit 21.1 The Closing Process
+
+Transfer of title The seller must produce evidence of marketable title, such as a commitment for title insurance by a title insurer. Before making a title commitment, a title company performs a title search to discover any liens, encumbrances, restrictions, conditions, or easements attaching to the title. If there are any encumbrances or liens that damage the title, the seller is expected to remove these prior to the date specified in the contract. The most common title cloud is an unpaid lien. The seller may also be asked to execute an affidavit of title stating that, since the date of the original title search, the seller has incurred no new liens, judgments, unpaid bills for repairs or improvements, no unrecorded deeds or contracts, no bankruptcies or divorces that would affect title, or any other defects the seller is aware of. Confirm performance Close loan Pay expenses Exchange funds & title Complete documents Record transaction
+
+Chapter 21:Closings 331 The purchaser, purchaser's lender, or title company may require a survey to verify the location and size of the property. The survey also identifies any easements, encroachments, or flood plain hazard. The buyer should inspect the property to make certain that the property is in the condition in which the seller states that it is, and that any repairs or other required actions have been performed. A final inspection, called a buyer's walk-through, should be conducted as close to the closing date as possible. If the seller's mortgage lien(s) are to be satisfied at closing, the lender will provide a payoff statement, also called an offset statement, specifying the amount of unpaid principal and any interest due as of the closing date, plus fees that will be due the lender and any credits or penalties that may apply. The holder of a note secured by a trust deed will provide a similar statement, called a beneficiary statement, to show any unpaid balance. Even if the buyer is assuming the seller's mortgage loan, the buyer will want to know the exact amount of the unpaid balance as of the closing date. Finally, the seller produces and/or deposits with the escrow agent the deed that conveys the property to the buyer. Transfer of purchase funds The buyer usually produces and/or deposits with the escrow agent the following:  earnest money  loan funds and documents  any other cash needed to complete the purchase Escrow procedures If the closing occurs "in escrow" rather than face-to-face, the principal parties deposit funds and documents with the appointed escrow agent, and the escrow agent disburses funds and releases documents to the appropriate parties when all the conditions of the escrow have been met. If for any reason the transaction cannot be completed, for instance if the buyer refuses the title as it is offered, or the buyer fails to produce the necessary cash, the escrow instructions usually provide a mechanism for reconveying title to the seller and funds to the buyer. In such a case, both parties return to their original status as if no sale had occurred. Lender closing requirements A lender is concerned about the quality of the collateral a borrower is providing in return for the mortgage loan. The collateral would be endangered by defects in the title, by liens that would take precedence over the mortgage lien, such as a tax lien, and by physical damage to the property which is not repaired. Consequently, the lender typically requires a survey; a property inspection; hazard insurance; a title insurance policy; a reserve account for taxes and insurance; and possibly, private mortgage insurance. In some cases the lender may also require a certificate of occupancy verifying that any new construction performed complies with local building codes. Broker's role A broker usually continues to provide service between the signing of the sale contract and the closing by helping to make arrangements for pre-closing activities such as inspections, surveys, appraisals and repairs and generally taking steps to ensure that the closing can proceed as scheduled.
+
+332 Principles of Real Estate Practice in Alabama A broker may conduct proceedings at the closing meeting, or may have no further role in the transaction after the sale contract is signed, depending on local practices and the transaction in question. In many states, the broker is charged with the responsibility for accuracy and timely delivery of the closing documents to the principal parties. A broker may also have the responsibility for reporting the transaction to the Internal Revenue Service. Finally, if the seller of the property is a non-resident alien, U.S. law may require the broker to withhold and transmit to the Internal Revenue Service a portion of the sale proceeds to cover the alien seller's income tax liability. There are also special reporting requirements when the transaction involves a non-resident alien.
+
+REAL ESTATE SETTLEMENT
+PROCEDURES ACT (RESPA)
+TRID
+
+Information booklet Loan Estimate Mortgage servicing disclosure Closing Disclosure Disclosures after settlement Limits on escrow accounts Referral fees and kickbacks The Real Estate Settlement Procedures Act (RESPA) is a consumer protection statute enacted in 1974. Its purpose is to clarify settlement costs and to eliminate kickbacks and fees that increase settlement costs. RESPA specifies certain closing procedures when a purchase:  involves a residential property, including one- to four-family residences, cooperatives and condominiums;  involves a first or second mortgage lien; and  is being financed by a "federally-related" mortgage loan, which includes loans made by a federally-insured lender; loans insured or guaranteed by the VA or FHA, loans administered by HUD, and loans intended to be sold to FNMA, FHLMC, or GNMA. RESPA regulations do not apply to transactions being otherwise financed except in the case of an assumption in which the terms of the assumed loan are modified or the lender's charges for the assumption are greater than $50. RESPA is directed at lenders and settlement companies, but licensees should be familiar with requirements and changes implemented as of January, 2014. The Dodd-Frank Act of 2010 granted rule-making authority under RESPA to the Consumer Financial Protection Bureau (CFPB) and generally granted the CFPB authority to supervise and enforce compliance with RESPA and its implementing
+
+Chapter 21:Closings 333 regulations. In 2013, the CFPB made substantive and technical changes to the existing regulations. Substantive changes included modifying the servicing transfer notice requirements and implementing new procedures and notice requirements related to borrowers’ error resolution requests and information requests. The amendments also included new provisions related to escrow payments, force-placed insurance, general servicing policies, procedures, and requirements, early intervention, continuity of contact, loss mitigation and the relation of RESPA’s servicing provisions to State law. These RESPA amendments went into effect on January 10, 2014.
+
+TRID
+
+Effective October 3, 2015, a TILA/RESPA Integrated Disclosure Rule (TRID) integrates the disclosure requirements of RESPA and Truth-in-Lending, replacing the old Good Faith Estimate form and HUD-1 Uniform Settlement Statement a new Loan Estimate form and Closing Disclosure form, respectively. Information booklet A lender subject to RESPA must give loan applicants the CFPB booklet, "Your Home Loan Toolkit," within three days of receiving a loan application. This booklet describes loans, closing costs, and the Closing Disclosure form. Loan Estimate A lender must give the applicant, at the time of application or within three business days of application, a Loan Estimate (H-24) of likely settlement costs. This estimate is usually based on comparable transactions completed in the area. The terms stated in the Closing Disclosure must agree with those of the Loan Estimate within certain limits. Mortgage servicing disclosure The lender must disclose to the buyer whether the lender intends to service the loan or convey it to another lender for servicing. This disclosure must also be accompanied by information as to how the buyer can resolve complaints. Closing Disclosure Under CFPB rules, a lender must use the Closing Disclosure (H-25) to disclose settlement costs to the buyer. This form covers all costs that the buyer will have to pay at closing, whether to the lender or to other parties. Use of this form enforces RESPA's prohibitions against a lender's requiring a buyer to deposit an excessive amount in the tax and insurance escrow account or to use a particular title company for title insurance. The consumer must receive the completed form not later than three business days before closing and has the right to inspect a revised form one business day before closing. A description and example of this form are provided later in this chapter. Disclosures after settlement Loan servicers must provide borrowers with an annual escrow statement which summarizes all inflows and outflows in the prior 12-month period. The statement must also disclose shortfalls or overages in the account, and how the discrepancies will be resolved. Limits on escrow accounts Section 10 of RESPA limits the amounts lenders can require borrowers to place in escrow for purposes of paying taxes, hazard insurance, and other property- related expenses. The limitation applies to the initial deposits as well as deposits made over the course of the loan’s term. Referral fees and kickbacks RESPA prohibits the payment of fees as part of a real estate settlement when no services are actually rendered. This prohibition includes referral fees for such
+
+334 Principles of Real Estate Practice in Alabama services as title searches, title insurance, mortgage loans, appraisals, credit reports, inspections, surveys, and legal services. Business relationships and affiliations among real estate firms, mortgage brokers, title insurance firms and other such companies that are involved in a transaction are permitted, provided the relationships are disclosed in writing to the consumer, the consumer is free to go elsewhere for the relevant service, and the companies do not exchange fees for referrals.
+
+FINANCIAL SETTLEMENT OF THE
+TRANSACTION
+
+Settlement process Selling terms and closing costs Debits and credits Non-prorated items Prorated items
+
+Settlement process The process of settlement consists of five basic steps: 1. Identify selling terms and closing costs. 2. Determine non-prorated debits and credits. 3. Determine prorated debits and credits. 4. Complete the closing statement. 5. Disburse funds. Selling terms and closing costs Selling terms are the price of the property, the buyer's deposit and downpayment, and the terms and amounts of the buyer's financing arrangements. Closing costs are final expenses that buyer or seller must pay at closing to complete the transaction. The sale contract identifies all selling terms and who pays which costs. The apportionment of expenses is subject to negotiation, and in the absence of a specific agreement, is determined by custom. Closing costs include such items as brokerage fees, mortgage-related fees, title-related expenses, and real estate taxes. Debits and credits The closing statement accounts for the debits and credits of the buyer and seller to settle and complete the transaction. A debit is an amount that one party must pay at closing or has already paid prior to closing. A credit is an amount that a party must receive at closing or that has already been received prior to closing.
+
+Chapter 21:Closings 335 Exhibit 21.2 Debit and Credit
+
+The excess of the buyer's debits over the buyer's credits is the amount the buyer must bring to the closing. The excess of the seller's credits over the seller's debits is the amount the seller will receive at closing. An individual expense item that one party owes to a party unrelated to the transaction, such as an attorney or the state, is treated as a debit to that party only. An income or expense item that affects both parties is apportioned, or prorated, to each party to reflect the proper amount that each owes or should receive. A prorated item is treated as a debit to one party and a credit to the other party for the same amount. Buyer's debits and credits. To determine how much money the buyer owes at closing, the buyer's debits are totaled and compared with the total of the buyer's credits. The excess of debits over credits is the amount the buyer must bring to the closing, usually in the form of a cashier's check or certified check. The items typically debited and credited to the buyer are illustrated in the following exhibit.
+
+Exhibit 21.3 Buyer's Credits and Debits
+
+Seller's credits and debits. To determine how much the seller will receive at closing, the same procedure is followed for the seller's debits and credits. The excess of credits over debits is what the seller will receive. The items typically debited and credited to the seller are illustrated in the following exhibit. Buyer’s Credits
+
+earnest money loan amount (borrowed or assumed) seller’s share of prorated items the buyer will pay Buyer’s Debits
+
+purchase price expenses (per agreement or custom) buyer’s share of prorated items prepaid by seller
+
+336 Principles of Real Estate Practice in Alabama Exhibit 21.4 Seller's Debits and Credits
+
+Non-prorated items Non-prorated items are costs incurred by one party only. Items not prorated include those listed in the next exhibit.
+
+Exhibit 21.5 Non-Prorated Items Buyer usually pays Seller usually pays Mortgage recording fees Stamp tax on deed Documentary stamp tax Title insurance Intangible tax on mortgage Brokerage fee Mortgage-related fees: appraisal, credit, survey, loan origination Inspection fees Title-related expenses Impound reserves: insurance, taxes Attorney fees Attorney fees
+
+Prorated items Many of the items to be settled at the closing are partly the responsibility of the buyer and partly of the seller. Some are expense items that the seller has paid in advance, where the buyer owes the seller part of the expense. Some are income items that the seller received in advance, and the seller owes the buyer a part of the income. Others are items the buyer will have to pay in arrears, and the seller owes the buyer part of the expense. The method of dividing financial responsibility for such items is proration. With a prorated item, there is always a debit to one party and a corresponding credit for the same amount to the other party. Items paid in advance. At the time of closing, the seller has paid some items in advance that cover a period of time that goes beyond the closing date. In effect, the seller has prepaid some of the buyer's expenses, and the buyer must reimburse the seller. Heating oil and natural gas are typical items. By the same Seller’s Debits
+
+expenses (per agreement or custom) seller’s share of prorated items the buyer will pay loan balance or other lien to be paid off Seller’s Credits
+
+purchase price buyer’s share of prorated items prepaid by seller
+
+Chapter 21:Closings 337 token, the seller of a rental property may have received rent or rental deposits in advance, and must reimburse the buyer for the part that belongs to the buyer. For an expense the seller paid in advance, the buyer receives a debit and the seller receives a credit.
+
+For income the seller received in advance, the buyer receives a credit and the seller receives a debit.
+
+Items paid in arrears. At the time of closing, the seller has incurred certain expenses that have not been billed or paid at the time of closing and that the buyer will have to pay later. A typical item is real estate taxes.
+
+For an item the buyer will pay in arrears, the buyer receives a credit and the seller receives a debit.
+
+Exhibit 21.6 Items Paid in Arrears and Advance
+
+arrears
+
+advance
+
+real estate taxes
+
+x
+
+mortgage interest
+
+x
+
+rents received by seller
+
+x
+
+utilities
+
+x
+
+Charging shares. If the seller has paid the buyer's share of an item, charge the buyer for the buyer's share of the period. If the buyer will pay the seller's share of an item, charge the seller for the seller's share of the period. If the seller has received the buyer's share of an income item, charge the seller for the buyer's share of the period.
+
+Exhibit 21.7 Who Gets Charged Seller paid for the year: charge buyer for buyer’s share Annual expense – closing August 7 Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
+
+7 8
+
+Seller’s share Buyer’s share
+
+Buyer will pay for the month: charge seller for seller’s share Monthly expense – closing August 7 August 1 2 3 4 5 6 7 8-31 Seller’s share Buyer’s share
+
+338 Principles of Real Estate Practice in Alabama
+
+COMPUTING PRORATIONS
+
+12-month/30-day method 365-day method The primary methods of calculating prorations are the 360/30-day method, which computes prorations on the basis of a 360-day year and 30-day month, and the 365-day method, which computes prorations on the basis of a 365-day year. The 360/30-day method is commonly used for prorating mortgage interest. Either method may be used for real estate taxes, depending on local practice. It is customary in most states that the seller owns the property up to and including the day of closing unless stated otherwise in the contract. Thus the closing day is apportioned to the seller in computing prorations. The method of prorating, if not specified in the contract, will follow local custom. 12-month / 30 day method The 12-month/30-day method determines an average daily rate of payment for an item to be prorated based on a 30-day month and a 360-day year. The method consists of the following steps for annual and monthly items. Annual items 1. Identify the total amount to be prorated. 2. Divide this amount by 12 to obtain an average monthly rate. 3. Divide the monthly rate by 30 to obtain an average daily rate. 4. Multiply the monthly amount times the seller's number of months of ownership in the year of the sale up to the month of closing. For the month of closing, multiply the seller's number of days of ownership times the daily amount and add the result to the previous result. The final result is the seller's pro rata share of this item. 5. The buyer's pro rata share of an item is the total amount less the seller's pro rata share. Monthly items 1. Identify the total amount to be prorated. 2. Divide this amount by 30 to obtain the average daily amount. 3. Multiply the daily amount times the seller's number of days of ownership. The result is the seller's pro rata share of this item. 4. The buyer's pro rata share of an item is the total amount less the seller's pro rata share.
+
+Chapter 21:Closings 339
+
+Exhibit 21.8 Prorating Annual Item: Real Estate Tax 12-month/30-day Method
+
+A sale transaction on a single-family house closes on March 2. County taxes for the previous year, to be paid in arrears, amount to $1,730. The seller owns the house through the day of closing. What are the seller's and buyer's prorated shares of this item?
+
+Total amount due: = $ 1,730.00 Monthly amount: 1,730 ÷ 12 = $ 144.17 Daily amount: 144.17 ÷ 30 = $ 4.81 Seller's share: 144.17 x 2 mo. = $ 288.34
+
+4.81 x 2 days = $ 9.62
+
+288.34 + 9.62 = $ 297.96 Buyer's share 1,730 - 297.96 = $ 1,432.04 Closing statement entries. The seller will be charged for the seller's share of the proration; an amount of $297.96 will be entered as a debit to the seller and a credit to the buyer because the buyer will have to pay the seller's share when the tax bill is received.
+
+Exhibit 21.9 Prorating Monthly Item: Rent Received 12-month/30-day Method
+
+The house in the previous example has been rented during the listing and selling period at a rate of $1800 per month. Rent for the month of March was paid to the seller on March 1. What is the buyer’s prorated share of this rent? The day of closing, March 2, belongs to the seller.
+
+Total received:
+
+= $ 1,800.00 Daily amount: 1800 ÷ 30 = $ 60.00 Seller's share: 60.00 x 2 days = $ 120.00 Buyer's share 1800.00 – 120.00 = $ 1,680.00 Closing statement entries. The seller will be charged for the buyer’s share of the proration; an amount of $1,680.00 will be debited to the seller’s account and credited to the buyer’s account because the seller has received rent that belongs to the new owner after closing.
+
+340 Principles of Real Estate Practice in Alabama
+
+365-day method The 365-day method uses the actual number of days in the calendar. The steps in the calculation are the same for annual and monthly prorations. The steps are: 1. Identify the total annual or monthly amount to be prorated. 2. For an annual proration, divide the total amount by 365 to obtain a daily amount (366 in a Leap Year). For a monthly proration, divide the total amount by the actual number of days in the month to obtain the daily amount. 3. Multiply the daily amount times the seller's number of days of ownership. The result is the seller's pro rata share of the item. 4. The buyer's pro rata share of an item is the total amount less the seller's pro rata share.
+
+Exhibit 21.10 Prorating an Annual Tax Bill, 365-day Method
+
+TAXES DUE AT CLOSING
+
+State taxes on the deed State taxes on the mortgage
+
+Certain transfer taxes that are due in connection with the closing appear and are accounted for on the closing statement. These include state taxes relating to the deed and to the buyer's mortgage. In addition to state-imposed taxes, counties and municipalities may also impose a tax on the real estate transfer. The seller in the previous example has a $1,730 tax bill, paid annually in arrears on December 31. Closing is on March 2, and the seller owns the day of closing. What is the seller's prorated share of this item?
+
+Total amount due:
+
+= $ 1,730.00 Daily amount: 1730 ÷ 365 = $ 4.74 Seller's share: 61 days x 4.75 = $ 289.14 Buyer's share: 1730 - 289.14 = $ 1,440.86 Closing statement entries. The seller will be charged for the seller's share of the proration; an amount of $289.14 will be debited to the seller's account and credited to the buyer's account because the buyer will have paid the seller's share of the tax bill in arrears.
+
+Chapter 21:Closings 341 State taxes on the deed Most states impose a transfer tax when real estate is conveyed. The tax is usually paid when the deed is recorded, often in the form of documentary stamps purchased from the recorder where the deed is recorded. The stamps must be attached to deeds and conveyances before they are recorded. Tax rates are specific to each state. Methods of stating the transfer tax due include quoting the tax as a percentage of the taxable consideration and as a dollar rate per $100.00 of total selling price. If the number of 100's is not a whole number, it must be rounded up to the next 100. For instance, if a property sells for $350,120 and the tax rate is $.55 per $100.00 "or any fraction thereof," the tax stamps will cost: 350,120 ÷ 100.00 = 3,501.20 3,501.20 rounded up = 3,502 3,502 x $.55 = $1,926.10
+
+State taxes on the mortgage Some states also impose a tax on instruments that contain promises to pay money, such as mortgages, notes, and contracts. Such taxes may be paid by the purchase of documentary stamps from the agency which will record the instrument. In addition, some states impose a further tax on the mortgage as an item of intangible personal property. Taxes on the mortgage are typically paid by the buyer/borrower.
+
+CLOSING COST ITEMIZATION:
+CASE ILLUSTRATION
+
+Selling terms and closing costs Prorations and charges
+
+The Closing Disclosure summarizes the financial settlement of a transaction. At closing, the closing agent also generally provides a statement to the buyer and/or seller detailing receipts and disbursements from relevant escrow accounts to which the buyer and seller have contributed funds as part of the transaction. The following illustration shows how some of these cost components are calculated and allocated in a sample transaction. Selling terms and closing costs Lawrence and Sandy Binder have accepted an offer on their house located at 928 Elm Street, Littleburg. The buyers, Bill and Dillis Waite, offered $450,000, with earnest money of $70,000 and the remaining $380,000 of the purchase price to come from a new conventional loan from Scepter Mortgage Company. The loan is for 30 years at 5.5% interest, with a monthly principal plus interest payment of $2,158. The lender is charging 1.5 points and a 1% origination fee. Closing is set to occur at Alta Title Company at 4 p.m. on May 10 of the current (non-leap) year.
+
+342 Principles of Real Estate Practice in Alabama The Binders have an agreement to pay a broker's commission of 6% to Littleburg Realty. Their unpaid mortgage loan balance as of May 1 will be $184,000. Their monthly interest payments are $613.00. The annual interest rate is 4%. The previous year's county taxes, amounting to $2,572, have been paid by the seller in arrears. The current year's taxes, not yet billed or paid, are assumed to be the same as the previous year's. The parties agree to prorate using the 365-day method, and that the day of closing belongs to the seller. The relevant facts and costs, and who pays them according to the terms of the sale contract, are summarized below.
+
+Selling terms Sale price: $450,000 Deposit/downpayment $70,000 Loan amount $380,000 Seller-paid Costs Commissions: 6% of sale price (.06) Real estate taxes: $2,572, to be prorated Title insurance: $900 owner's coverage Seller's attorney: $1,500 Record Release Deed: $25 Survey: $550 Transfer stamps state: $162 county: $162 Seller's loan payoff: $184,000 + 10 days’ prorated May interest @ $613/month Buyer- paid Costs Sale price: $450,000 ($70,000 earnest money already deposited by buyer) Appraisal fee: $400 already paid by buyer Credit report: $50 already paid by buyer Closing fee: $350 Recording fees: $55 Title insurance: $250 for lender's coverage Buyer's attorney: $1200 Pest inspection: $100 Buyer's loan: $380,000; 30-year fixed @ 5.5% (.055)
+
+points: 1.5% of loan amount (.015)
+
+origination fee: 1.0% of loan amount (.01) Hazard insurance: $2,400/year Real estate taxes: $2,572.00, to be prorated Tax and insurance escrow: 8 months' taxes, 4 months' insurance Prepaid interest: from day after closing to end of month Prorations and charges According to the summarized sale contract, the only cost to be prorated and shared between seller and buyer is the real estate tax. Other costs to be computed are the broker's commission, the seller's unpaid mortgage interest, the buyer's loan fees and points, the buyer's tax and insurance escrows, and the buyer's prepaid mortgage interest. Commission. The commission paid by the seller is: $450,000 x 6% = $27,000.00 At closing this amount will be charged, or debited, to the seller.
+
+Chapter 21:Closings 343 Real estate taxes. Using the 365-day method, the daily amount is $2,572 ÷ 365, or $7.05 (rounded). The total number of days is the number of days in January, February, March and April, plus 10 days in May, or (31+28+31+30+10), or 130 days. At closing, the seller's share of $916.50 is charged to the seller and the buyer is credited with the same amount.
+
+Total amount due:
+
+= $ 2,572.00
+
+Daily amount: Seller’s share 2,572 ÷ 365 7.051 x 130
+
+= =
+
+$ $
+
+7.05 916.50
+
+Buyer’s share: 2,572 – 916.50 = $ 1,655.50
+
+Seller's unpaid mortgage interest. Since mortgage interest is paid in arrears, the seller owes the lender for interest not yet charged for the ten days of the month of closing. This amount is therefore debited to the seller.
+
+Daily amount: 613 ÷ 31 days = $ 19.77 Seller's charge:
+
+19.77 x 10 days = $ 197.70 Buyer's loan origination and points. The buyer's debits for loan fees and points are:
+
+Fee: 380,000 x 1% = $ 3,800 Points: 380,000 x 1.5% = $ 5,700
+
+Buyer's escrow. The lender requires the buyer to establish an escrow account to cover eight months of real estate taxes and four months of hazard insurance. The debits charged to the buyer are therefore:
+
+Taxes:
+
+Annual amount:
+
+= $ 2,572.00 Monthly amount: 2,572 ÷ 12 = $ 214.33 Amount due: 214.33 x 8 mo. = $ 1,714.64
+
+Insurance:
+
+Annual amount:
+
+= $ 2400.00 Monthly amount: 2400 ÷ 12 = $ 200.00 Amount due: 200 x 4 mo. = $ 800.00
+
+Prepaid interest. The lender requires the buyer (borrower) to pay, in advance, the interest on the loan amount disbursed at closing to cover the 21 days of the closing month that would be due in arrears later. Note that the lender is not charging the borrower for interest for the day of closing. The buyer's first mortgage payment, which will cover the month of June, will not be due until July 1. Charged to buyer:
+
+Monthly amount: 380K x 5.5% ÷ 12 = $ 1741.67 Daily amount: 1,741.67 ÷ 31 = $ 56.18 Total prepaid interest 56.18 x 21 days = $ 1179.78
+
+344 Principles of Real Estate Practice in Alabama
+
+TILA/RESPA INTEGRATED
+DISCLOSURE RULE
+
+Forms and procedures Good faith Types of charges Applicable transactions The H-25 Closing Disclosure form Forms and procedures As mentioned earlier, the TILA/RESPA Integrated Disclosures (TRID) rule is in effect as of October 3, 2015. These changes introduce new mandatory forms and procedures to replace the old ones, as follows.  Lenders must give the consumer a copy of the booklet, "Your Home Loan Toolkit" at the time of loan application.  Lenders must deliver or mail the Loan Estimate (Form H-24) to the consumer no later than the third business day after receiving a loan application. (A "business day" in this context is any day on which the lender's offices are open for business. An "application" exists when the consumer has given the lender or mortgage broker six pieces of information: name; income; Social Security number; property address; estimated value of property; loan amount sought).  Lenders must provide the Closing Disclosure (Form H-25) to the consumer at least three business days before consummation of the loan. (A "business day" in this context is any calendar day except a Sunday or the day on which a legal public holiday is observed. "Consummation" refers to the day on which the borrower becomes indebted to the creditor; this may or may not correspond to the day of closing the transaction.)
+
+Chapter 21:Closings 345
+
+Exhibit 21. 11 TILA/RESPA Disclosures
+
+Good faith Creditors are responsible for ensuring that the figures stated in the Loan Estimate are made in good faith and consistent with the best information reasonably available to the creditor at the time they are disclosed. Good faith is measured by calculating the difference between the estimated charges originally provided in the Loan Estimate and the actual charges paid by or imposed on the consumer in the Closing Disclosure. Generally, if the charge paid by or imposed on the consumer exceeds the amount originally disclosed on the Loan Estimate it is not in good faith, regardless of whether the creditor later discovers a technical error, miscalculation, or underestimation of a charge, although there are exceptions. Types of charges For certain costs or terms, creditors are permitted to charge consumers more than the amount disclosed on the Loan Estimate without any tolerance limitation.
+
+346 Principles of Real Estate Practice in Alabama These charges are:  prepaid interest; property insurance premiums; amounts placed into an escrow, impound, reserve or similar account  charges for services required by the creditor if the creditor permits the consumer to shop and the consumer selects a third-party service provider not on the creditor's written list of service providers  charges paid to third-party service providers for services not required by the creditor (may be paid to affiliates of the creditor) However, creditors may only charge consumers more than the amount disclosed when the original estimated charge, or lack of an estimated charge for a particular service, was based on the best information reasonably available to the creditor at the time the disclosure was provided. Charges for third-party services and recording fees paid by or imposed on the consumer are grouped together and subject to a 10% cumulative tolerance ("10% tolerance" charges). This means the creditor may charge the consumer more than the amount disclosed on the Loan Estimate for any of these charges so long as the total sum of the charges added together does not exceed the sum of all such charges disclosed on the Loan Estimate by more than 10%. For all other charges ("zero tolerance" charges), creditors are not permitted to charge consumers more than the amount disclosed on the Loan Estimate under any circumstances other than changed circumstances that permit a revised Loan Estimate. If the amounts paid by the consumer at closing exceed the amounts disclosed on the Loan Estimate beyond the applicable tolerance threshold, the creditor must refund the excess to the consumer no later than 60 calendar days after consummation. Applicable transactions The Integrated Disclosures rule applies to most closed-end consumer mortgages. It does not apply to:  home equity lines of credit (HELOCs)  reverse mortgages  mortgages secured by a mobile home or by a dwelling that is not attached to real property (i.e., land)  loans made by persons who are not considered "creditors" by virtue of the fact they make five or fewer mortgages in a year. However, certain types of loans that used to be subject to TILA but not RESPA are now subject to the TILA-RESPA rule's integrated disclosure requirements, including:
+
+ construction-only loans  loans secured by vacant land or by 25 or more acres  credit extended to certain trusts for tax or estate planning
+
+Chapter 21: Closings 347 Guides and detailed information about the current TILA-RESPA rule can be found on the Consumer Financial Protection Bureau (CFPB) website at https://www.consumerfinance.gov/policy-compliance/guidance/tila-respa- disclosure-rule/ The H-25 Closing Disclosure form The H-25 Closing Disclosure form consists of five pages. Pages 1, 4, and 5 vary, depending on the loan type. To illustrate the form, we use a sample disclosure for a 30-year fixed rate loan that is presented on the CFPB website. Page 1 has four sections: general information, Loan Terms, Projected Payments, and Costs at Closing. General information. This section has three columns:
+
+ Closing information –issue date, closing date, disbursement date, settlement agent, file number, property address, and sale price  Transaction information – names and addresses for borrower, seller and lender  Loan information – loan term, loan purpose, product type, loan type and loan ID number Loan Terms. This section states the loan amount, interest rate, and monthly principal and interest payment, and indicates whether any of those amounts can increase after closing. It also gives specifics of any prepayment penalty or balloon payment. Projected Payment. This section displays the borrower’s payment for principal and interest and mortgage insurance, an estimated escrow payment, and the total estimated monthly mortgage payment for years 1-7 and 8-30 of the loan term. It also provides an estimate of monthly tax, insurance, and assessment payments and indicates whether the payments will be held in escrow. Costs at Closing. The last section of page 1 shows the borrowers' total closing costs (brought forward from page 2) and the total amount of cash the buyer needs to close (brought forward from page 3). Page 2 details the closing costs. There are two sections divided into four columns:  Description of the costs—loan costs and other costs  Costs paid by the borrower – "at closing" or "before closing"  Costs paid by the seller – "at closing" or "before closing"  Costs paid by others (in the example, someone other than buyer or seller pays for the appraisal) Loan Costs. The first section deals with the loan costs: A. Origination charges, such as points, application fee, and underwriting fee B. Charges for services the borrower did not shop for - items the lender requires, such as appraisals and credit reports
+
+348 Principles of Real Estate Practice in Alabama C. Services the borrower did shop for - items the borrower orders on his own, such as pest inspections, survey fees, and title insurance D. The total of A, B, and C above
+
+Other Costs. The second section deals with additional transaction-related costs: E. Taxes and other government fees, such as recording fees and transfer taxes F. Prepaid items, such as homeowner's insurance, mortgage insurance, prepaid interest, and property taxes to be paid before the first scheduled loan payment G. Initial escrow payment at closing – an amount the borrower will pay the lender each month to be held in escrow until due, typically for insurance premiums and tax instalments H. Other costs not covered elsewhere on the disclosure, such as items as association fees, home warranty fees, home inspection fees, real estate commission, and prorated items I. The total of the costs of E, F, G, and H above J. The total borrower-paid closing costs from D + I above. This total is carried to the bottom of page 1 as "Costs at Closing – Closing Costs." Page 3 has two sections, one for calculating cash to close, the other for summarizing the transactions of borrower and seller. Calculating Cash to Close. The first section compares the final costs of the loan with the lender's original Loan Estimate. This calculation considers costs paid before closing, down payment, deposits, seller credits, adjustments, and other credits. The last line of the calculation is "Cash to close," the amount the borrower needs to produce at closing. When an amount has changed, the creditor must indicate where the consumer can find the amounts that have changed on the Loan Estimate. For example, if the Seller Credit amount changed, the creditor can indicate that the consumer should "See Seller Credits in Section L." When the increase in Total Closing Costs exceeds the legal limits, the creditor must disclose this fact and the dollar amount of the excess in the “Did this change?” column. A statement directing the consumer to the Lender Credit on page 2 must also be included if the creditor owes a credit to the consumer at closing for the excess amount. Summaries of Transactions. The second section of page 3 is divided into two columns (or subsections), one to summarize the borrower's transaction and the other for the seller's transaction. The borrower's column includes: K. amounts due from the borrower at closing, including the sale price and adjustments for items paid by the seller in advance. L. amounts already paid by or on behalf of the borrower at closing, such as deposit, loan amount, loan assumptions, seller credits, other credits, and adjustments for items unpaid by the seller, such as taxes and assessments.
+
+Chapter 21: Closings 349 The calculation at the bottom of the left column subtracts the totals already paid by the borrower (line L) from the total due from the borrower (line K) to derive the Cash to Close due from the borrower at closing. This figure is the same as that at the bottom of page 1 under "Costs at Closing – Cash to Close." The seller's column of the Summaries section includes: M. amounts due to the seller at closing, including the sale price of the property and adjustments for items paid by the seller in advance. N. amounts due from the seller at closing, such as closing costs the seller will pay, payoff of first or second mortgages, seller credit, and adjustments for items unpaid by the seller, such as taxes and assessments.
+
+The calculation at the bottom of the right column subtracts the total due from the seller (line N) from the total due to the seller (line M) to derive the Cash to Seller, which is the amount the seller will receive at closing.
+
+Page 4 provides additional Loan Disclosures:  Assumption –whether the lender will allow a loan assumption on a future transfer  Demand feature –whether the lender can require early repayment  Late payment – the fee the lender will charge for a late payment  Negative amortization –whether the loan is negatively amortized, which increases loan amount and diminishes the borrower's equity over the term  Partial payments –whether the lender accepts partial payments and applies them to the loan  Security interest –identifies the property securing the loan  Escrow account – itemizes what is included in the escrow account and states the monthly escrow payment
+
+Page 5 provides additional calculations, disclosures, and contact information:  Loan Calculations –the total amount of all payments on the loan, the dollar amount of the finance charges over the life of the loan, the amount financed, the annual percentage rate (APR), and the total interest percentage (TIP)  Other Disclosures –other important information for the borrower, including the right to a copy of the appraisal report and an indication of whether the borrower is protected against liability for the unpaid balance in the event of a foreclosure  Contact Information –names, addresses, license numbers, contact names, email addresses, and phone numbers for persons involved in the transaction.  Confirm Receipt –the borrowers' signatures confirming receipt of the Closing Disclosure document. Signing the document does not indicate acceptance of the loan.
+
+350 Principles of Real Estate Practice in Alabama
+
+Exhibit 21.12 Sample H-25 Closing Disclosure, Page 1
+
+Chapter 21: Closings 351
+
+Exhibit 21.13 Sample H-25 Closing Disclosure, Page 2
+
+352 Principles of Real Estate Practice in Alabama
+
+Exhibit 21.14 Sample H-25 Closing Disclosure, Page 3
+
+Chapter 21: Closings 353
+
+Exhibit 21.15 Sample H-25 Closing Disclosure, Page 4
+
+354 Principles of Real Estate Practice in Alabama Exhibit 21.16 Sample H-25 Closing Disclosure, Page 5
+
+Chapter 21: Closings 355
+
+REPORTING REQUIREMENTS
+
+Who must report What must be filed Who must report The Tax Reform Act of 1986 requires that persons designated by the act as "real estate brokers" must report a closed real estate transaction to the Internal Revenue Service and provide the information contained in the report to each party to the transaction. The act defines "real estate broker" as any of the following:  the seller's broker  the buyer's broker  the settlement agent, escrow agent, attorney, title company or other party responsible for closing the transaction  the mortgage lender  anyone so designated by the Internal Revenue Service What must be filed The person reporting files a Form 1099-S information return with the Internal Revenue Service. This form includes the names and addresses of the parties to the transaction and information about the sale proceeds. The reporting person also provides each party to the transaction with a written statement showing the name and address of the reporting party as well as the information reported in the 1099. If the transaction involves a non-resident alien, the reporting person may also have tax reporting and withholding responsibilities under the Foreign Investment and Real Property Tax Act of 1980 (FIRPTA), the Deficit Reduction Act of 1984 (DEFRA), and/or the Branch Profits Tax and Technical and Miscellaneous Revenue Act of 1988 (TAMRA).
+
+356 Principles of Real Estate Practice in Alabama 21
+
+Closings Snapshot Review
+
+THE CLOSING EVENT
+
+The setting ● sale contract sets date, location, and who participates The closing process ● verify contract fulfillment; exchange consideration and title; pay expenses; sign final documents; arrange for recording the transaction Transfer of title ● seller gives evidence of marketability-- title abstract or title insurance commitment; may also need affidavit stating no new encumbrances incurred; seller must remove encumbrances or liens prior to the specified date; if seller is paying off mortgage lien, lender provides a payoff statement Transfer of purchase funds ● buyer produces funds and documents needed to complete the transaction Escrow procedures ● if closing "in escrow," escrow agent holds and disburses funds and releases documents when escrow conditions have been met Lender closing requirements ● common: survey, inspections, hazard insurance, title insurance, certificate of occupancy, reserves for taxes and insurance, private mortgage insurance Broker's role ● broker's role ranges from nil to conducting the proceedings to reporting the transaction
+
+REAL ESTATE
+SETTLEMENT
+PROCEDURES ACT
+
+● for residential property, first or second mortgage, federally-related mortgage, assumption modifying loan terms, lender charging over $50 for assumption Information booklet ● lender must provide borrower with CFPB booklet, "Your Home Loan Toolkit" Loan Estimate ● lender must provide CFPB’s H-24 Loan Estimate of settlement costs Mortgage servicing disclosure ● lender must disclose who will be servicing loan Closing Disclosure ● lender must use CFPB's H-25 Closing disclosure Disclosures after settlement ● loan servicers must provide annual escrow statements to borrowers Limits on escrow accounts ● places ceiling on amounts lenders may compel borrowers to place in escrow Referral fees and kickbacks ● RESPA prohibits payment of referral fees and kickbacks; business relationships between firms involved in the transaction must be disclosed
+
+FINANCIAL SETTLEMENT
+OF THE TRANSACTION
+
+Settlement process ● identify closing costs; determine who pays what; do prorations; assign debits and credits; complete closing statement; disburse funds Selling terms and closing costs ● price, deposits, downpayment, financing, final expenses to be paid at closing; apportionment of expenses determined by sale contract or custom Debits and credits ● excess of buyer's debits over credits is amount buyer must produce at closing; excess of seller's credits over debits is amount seller must receive
+
+Chapter 21: Closings 357 Non-prorated items ● incurred by one party only; not shared Prorated items ● incurred by buyer or seller in advance or arrears; shared by buyer and seller; typical: real estate taxes, insurance premiums, mortgage interest, rents
+
+COMPUTING
+PRORATIONS
+
+● sale contract or local custom establishes methods of proration to be used for particular items 12-month/30-day method ● determines average daily amount based on 12-month year and 30-day month 365-day method ● determines an amount using the actual number of calendar days
+
+TAXES DUE AT CLOSING
+
+State taxes on deed ● state, counties and municipalities may impose taxes on transfer State taxes on mortgage ● state may impose taxes on mortgages, notes and contracts
+
+TILA/RESPA INTEGRATED
+DISCLOSURES RULE
+
+Forms and procedures ● effective October 3, 2015
+
+● mandatory: Your Home Loan Toolkit booklet at loan application; Loan Estimate form 3 business days after loan application; Closing disclosure 3 business days before consummation Good faith ● Loan Estimate costs based an best information available
+
+● Closing Disclosure costs equal estimate costs within certain tolerances Types of charges ● no limitation on increase over estimate
+
+● 10% tolerance charges
+
+● 0 tolerance charges Applicable transactions ● most closed-end consumer mortgages, including: construction loans, loans secured by vacant land, loans to trusts
+
+● not covered: home equity loans, reverse mortgages, loans on mobile homes, loans by small lenders (no more than 5 loans per year) The H-25 form ● 5 pages, variable by loan type
+
+REPORTING
+REQUIREMENTS
+
+Who must report ● "real estate broker" defined by the Tax Reform Act of 1986; buyer's or seller's broker, settlement agent, mortgage lender, other IRS-designated party What must be filed ● Form 1099-S Information Return
+
+● statements to each party
+
+● tax reporting and withholding if FIRPTA applies (non-resident alien)
