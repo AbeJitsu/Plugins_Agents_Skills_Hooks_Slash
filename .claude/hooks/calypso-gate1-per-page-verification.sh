@@ -95,20 +95,19 @@ for page_num in $(seq "$FIRST_PAGE" "$LAST_PAGE"); do
     fi
 
     # Determine status based on coverage
-    # Validation ranges (STRICT):
+    # Validation ranges (strict - >99% to 100% acceptable window):
     # - >100% = FAIL (extra content, not allowed)
-    # - 100% = PASS (perfect match)
-    # - 95-100% = PASS (acceptable, minor formatting differences)
-    # - 85-95% = WARNING (review needed)
-    # - <85% = FAIL (missing content)
+    # - >99% to 100% = PASS (acceptable, accounting for headers/footers being filtered)
+    # - ≤99% to 85% = FAIL (missing or boundary content)
+    # - <85% = FAIL (missing critical content)
 
     if (( $(echo "$coverage > 100" | bc -l) )); then
-        # Over 100% = extra content added (not from original page)
+        # Over 100% = extra content (not allowed)
         echo -e "${RED}❌ FAIL - EXTRA CONTENT ($coverage% coverage = content added that wasn't in original)${NC}"
         all_passed=false
         failed_pages+=("$page_display")
-    elif (( $(echo "$coverage >= 95" | bc -l) )); then
-        # 95-100% = PASS (acceptable range)
+    elif (( $(echo "$coverage > 99" | bc -l) )); then
+        # >99% to 100% = PASS (acceptable range)
         if (( $(echo "$coverage >= 99.5" | bc -l) )); then
             # Near perfect
             echo -e "${GREEN}✓ PASS - EXCELLENT ($coverage% coverage)${NC}"
@@ -117,13 +116,9 @@ for page_num in $(seq "$FIRST_PAGE" "$LAST_PAGE"); do
             echo -e "${GREEN}✓ PASS ($coverage% coverage)${NC}"
         fi
         passed_pages+=("$page_display")
-    elif (( $(echo "$coverage >= 85" | bc -l) )); then
-        # Warning range
-        echo -e "${YELLOW}⚠️  WARNING ($coverage% coverage - review required)${NC}"
-        warning_pages+=("$page_display")
     else
-        # Critical failure - less than 85%
-        echo -e "${RED}❌ FAIL - MISSING CONTENT ($coverage% coverage)${NC}"
+        # Coverage ≤ 99% = FAIL (per user requirement)
+        echo -e "${RED}❌ FAIL - MISSING/BOUNDARY CONTENT ($coverage% coverage - must be >99%)${NC}"
         all_passed=false
         failed_pages+=("$page_display")
     fi
