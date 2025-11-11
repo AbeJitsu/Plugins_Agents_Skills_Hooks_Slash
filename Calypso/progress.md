@@ -88,10 +88,57 @@
 
 ---
 
+## CRITICAL: Nov 11 AI Hallucination Discovery
+
+**Date Identified:** November 11, 2025
+**Severity:** HIGH - Affects all pages with >100% coverage in Chapter 2
+**Root Cause:** AI (Claude) invents bridging text during HTML generation (Skill 3)
+**Impact:** Pages 15, 16, 19, 23, 26 failing validation due to hallucinated content
+
+### Summary
+- Pages are generating content that does NOT exist in the PDF or extraction JSON
+- Example: Page 16 HTML starts with "All land also includes..." but word "also" is completely fabricated
+- Extraction libraries (PyMuPDF, pdfplumber) confirmed both extract same content from PDF
+- Multiple extraction libraries tested - all extract identical text, proving JSON is accurate
+- Issue is NOT missing extraction - it's AI synthesis of bridge sentences
+
+### Affected Pages (Chapter 2)
+| Page | Coverage | Issue | Example |
+|------|----------|-------|---------|
+| 15 | 100.7% | Synthesized bridging | Words "also", "includes" invented |
+| 16 | 101.2% | Opening sentence fabricated | "All land also includes all" (4 words created) |
+| 19 | 100.6% | Transition phrase added | "earth." connection |
+| 23 | 100.2% | Connecting word | "functionality" in bridging context |
+| 26 | 102.0% | Table content synthesis | "description", "level", "type" |
+
+### Solution Required
+Update HTML generation (Skill 3) to enforce strict page boundary constraints:
+- ✋ Do NOT synthesize bridging text
+- ✋ Do NOT invent connecting words or phrases
+- ✋ Do NOT complete incomplete sentences with invented content
+- ✓ Start EXACTLY where PDF starts
+- ✓ End EXACTLY where PDF ends
+- ✓ Preserve all page boundaries, even if incomplete sentences
+
+### Full Documentation
+See: `NOV_11_FIX_AI_HALLUCINATION.md` (complete investigation + testing results)
+
+### Diagnostic Tools Created
+```bash
+# Compare extraction libraries
+python3 Calypso/tools/compare_extractors.py "PREP-AL 4th Ed 9-26-25.pdf" 15 --target-words "also"
+
+# Detailed word-by-word diff
+python3 Calypso/tools/detailed_extraction_diff.py 2 16
+```
+
+---
+
 ## Known Issues & Resolutions
 
 | Issue | Root Cause | Fix Applied | Status |
 |-------|-----------|------------|--------|
+| **CRITICAL: Ch2 pages >100% coverage** | **AI hallucination during HTML generation** | **Documented in NOV_11_FIX_AI_HALLUCINATION.md** | **⭕ PENDING FIX** |
 | Ch1 legacy format | Generated before standardization | Regenerated with standardized page_artifacts (9 ASCII + 9 HTML) | ✓ Complete |
 | Ch2 contained Ch3 opening | Extraction extracted 15-28 instead of 15-27 | Removed page 28 from JSON, updated metadata | ✓ Fixed |
 | Ch3 missing opening page | Extraction started at page 29 instead of 28 | Added page 28 from original extraction | ✓ Fixed |
